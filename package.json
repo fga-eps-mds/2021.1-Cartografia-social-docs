@@ -1,0 +1,19 @@
+{
+  "name": "Cartografia Social",
+  "version": "0.0.1",
+  "description": "Wiki do projeto Cartografia Social - 2021.1",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs/Cartografia Social",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
