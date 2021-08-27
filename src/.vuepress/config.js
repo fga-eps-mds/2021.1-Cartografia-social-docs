@@ -34,6 +34,10 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'Documentação',
+        link: '/docs/',
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
@@ -54,6 +58,15 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/docs/': [
+        {
+          title: 'Prototipação',
+          collapsable: false,
+          children: [
+            'prototipos/baixa_fidelidade.md',
           ]
         }
       ],
