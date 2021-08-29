@@ -53,6 +53,7 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
+            'contribuicao',
             '',
             'using-vue',
           ]
