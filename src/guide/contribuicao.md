@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Política de contribuição.
 
 Para contribuir com esse projeto:
@@ -49,5 +53,42 @@ Uma imagem com os principais comando disponíveis está descrito a seguir:
 
 ![git flow image]( ../images/git-flow-commands.png)
 
+Cada branch deve resolver uma única issue, depois de publicada deve ser aberto um pull request para a branch develop, aprovado o pull request e gerada uma nova release, a branch deve ser deletada.
 
-Cada branch deve resolver uma única issue, depois de aprovado o pull request e gerada uma nova release, a branch deve ser deletada.
+Para atualizar o ambiente de produção, deve ser aberto um pull request da develop para a main. 
+
+# Politica de commits
+Os commits do projeto devem icluir as seguintes especificações:
+
+- Devem ser escritos em inglês.
+- Devem começar com um verbo (added, refactored, etc ...)
+- Devem conter uma breve descrição do que foi feito.
+
+Exemplo: added readme
+
+Use o co-authored para adicionar mais de um contribuidor no corpo da menssagem do commit.
+Exemplo: 
+added login
+
+Co-authored-by: Fulano <funalo@outlook.com>
+
+# Politicas de Pull Request
+Para criar um pull request considere a seguinte situação hipotética. Criando um pr de uma branch feature/3-login para a develop.
+
+1) Clique em pull request
+2) Clique em novo pull request
+3) Selecione a base como develop
+4) Selecione a feature/3-login para comparar.
+5) Clique em criar pull request.
+6) Adicione o titulo
+7) Preencha a descrição com o template oficial.
+8) Adicione no mínimo 1 review.
+9) Assine a tarefa
+10) Adicione as labels
+11) Link a issue
+12) Crie o pull request
+13) Resolva os conflitos se necessário
+14) Aguarda a revisão
+15) Corrija se necessário
+16) Faça o merge quando aprovado
+17) Delete a branch.
