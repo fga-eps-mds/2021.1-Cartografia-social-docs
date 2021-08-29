@@ -26,6 +26,7 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+  base: '/2021.1-Cartografia-social-docs/',
   themeConfig: {
     repo: '',
     editLinks: false,
@@ -56,6 +57,7 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
+            'contribuicao',
             '',
             'using-vue',
           ]
