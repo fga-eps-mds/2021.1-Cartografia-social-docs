@@ -34,30 +34,25 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'O projeto',
+        link: '/projeto/',
+      },
+      {
         text: 'Documentação',
         link: '/docs/',
       },
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Lean inception',
+        link: '/lean/',
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      '/projeto/': [
         {
-          title: 'Guide',
+          title: 'Sobre o projeto',
           collapsable: false,
           children: [
             '',
-            'using-vue',
           ]
         }
       ],
@@ -66,7 +61,7 @@ module.exports = {
           title: 'Prototipação',
           collapsable: false,
           children: [
-            'prototipos/baixa_fidelidade.md',
+            'prototipos/baixa_fidelidade',
           ]
         }
       ],
