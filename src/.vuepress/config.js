@@ -35,6 +35,10 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'Contribuição',
+        link: '/contribution/',
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
@@ -53,6 +57,7 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
+            'contribuicao',
             '',
             'using-vue',
           ]
