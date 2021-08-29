@@ -53,7 +53,6 @@ module.exports = {
           title: 'Sobre o projeto',
           collapsable: false,
           children: [
-            'contribuicao',
             '',
           ]
         }
@@ -64,6 +63,14 @@ module.exports = {
           collapsable: false,
           children: [
             'prototipos/baixa_fidelidade',
+
+          ]
+        },
+        {
+          title: 'Contribuição',
+          collapsable: false,
+          children: [
+            'contribuicao',
           ]
         }
       ],
