@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Cartografia social - Wiki',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -35,48 +35,66 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Contribuição',
-        link: '/contribution/',
+        text: 'O projeto',
+        link: '/projeto/',
       },
       {
-        text: 'Product Backlog',
-        link: '/productBacklog/',
+        text: 'Documentação',
+        link: '/docs/',
       },
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Lean inception',
+        link: '/lean/',
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      '/projeto/': [
         {
-          title: 'Guide',
+          title: 'A equipe',
           collapsable: false,
           children: [
-            'contribuicao',
-            'product-backlog',
-            'using-vue',
+            '',
+          ]
+        },
+        {
+          title: 'Sobre o projeto',
+          collapsable: false,
+          children: [
+            'projeto',
           ]
         }
       ],
+      '/docs/': [
+        {
+          title: 'Product Backlog',
+          collapsable: false,
+          children: [
+            'product-backlog',
+          ]
+        },
+        {
+          title: 'Definições arquiteturais',
+          collapsable: false,
+          children: [
+            'arquitetura',
+          ]
+        },
+        {
+          title: 'Prototipação',
+          collapsable: false,
+          children: [
+            'prototipos/baixa_fidelidade',
 
-      // '/productBacklog/': [
-      //   {
-      //     title: 'Product Backlog',
-      //     collapsable: false,
-      //     children: [
-      //       'product-backlog',
-      //     ]
-      //   }
-      // ],
+          ]
+        },
+        {
+          title: 'Contribuição',
+          collapsable: false,
+          children: [
+            'contribuicao',
+          ]
+        }
+      ],
     }
   },
 
