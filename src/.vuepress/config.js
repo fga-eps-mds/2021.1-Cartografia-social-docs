@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Cartografia social - Wiki',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -50,14 +50,29 @@ module.exports = {
     sidebar: {
       '/projeto/': [
         {
-          title: 'Sobre o projeto',
+          title: 'A equipe',
           collapsable: false,
           children: [
             '',
           ]
+        },
+        {
+          title: 'Sobre o projeto',
+          collapsable: false,
+          children: [
+            'projeto',
+          ]
         }
       ],
       '/docs/': [
+        {
+          title: 'Definições arquiteturais',
+          collapsable: false,
+          children: [
+            'arquitetura',
+
+          ]
+        },
         {
           title: 'Prototipação',
           collapsable: false,
