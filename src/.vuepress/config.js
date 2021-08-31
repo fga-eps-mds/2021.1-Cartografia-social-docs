@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Cartografia social - Wiki',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -35,31 +35,57 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Contribuição',
-        link: '/contribution/',
+        text: 'O projeto',
+        link: '/projeto/',
       },
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Documentação',
+        link: '/docs/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Lean inception',
+        link: '/lean/',
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      '/projeto/': [
         {
-          title: 'Guide',
+          title: 'A equipe',
+          collapsable: false,
+          children: [
+            '',
+          ]
+        },
+        {
+          title: 'Sobre o projeto',
+          collapsable: false,
+          children: [
+            'projeto',
+          ]
+        }
+      ],
+      '/docs/': [
+        {
+          title: 'Definições arquiteturais',
+          collapsable: false,
+          children: [
+            'arquitetura',
+
+          ]
+        },
+        {
+          title: 'Prototipação',
+          collapsable: false,
+          children: [
+            'prototipos/baixa_fidelidade',
+
+          ]
+        },
+        {
+          title: 'Contribuição',
           collapsable: false,
           children: [
             'contribuicao',
-            '',
-            'using-vue',
           ]
         }
       ],
