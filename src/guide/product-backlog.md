@@ -526,6 +526,151 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
+<span id="US31"></span>
+### <a href="#US31">**[US31]**</a> Gravar áudio
+
+**Eu como:** Usuário.
+
+**Desejo:** Registrar áudio que contenha informações etnográficos sobre a minha comunidade e associar a uma determinada localização.
+
+**Para que eu possa:** Registrar a história da minha comunidade, enriquecendo com registros multimídia
+
+**Critérios de aceitação:**
+
+- Usar a api do sistema operacional para gerenciar a gravação de áudio
+- Excluir, visualizar e adicionar áudio
+- Associar um artefato a um ponto ou área, necessariamente
+- Adicionar, editar e remover uma descrição ao artefato
+- Ter um botão para iniciar o processo de captura de áudio
+
+</br>
+
+<span id="US32"></span>
+### <a href="#US32">**[US32]**</a> Ver quem demarcou o local
+
+**Eu como:** Usuário.
+
+**Desejo:** Conseguir identificar quem foi o autor de uma marcação de ponto ou área
+
+**Para que eu possa:** Tomar conhecimento sobre quem foi o responsável por uma marcação 
+
+**Critérios de aceitação:**
+
+- Exibir o nome de quem criou uma marcação
+
+</br>
+
+<span id="US33"></span>
+### <a href="#US33">**[US33]**</a> Compartilhamento conteúdo de mídia com meios externos
+
+**Eu como:** Usuário.
+
+**Desejo:** Compartilhar algum conteúdo multimídia disponibilizado na aplicação para meios externos
+
+**Para que eu possa:** Possa mais facilmente enviar um documento para disponibilização ou discussão em outros canais 
+
+**Critérios de aceitação:**
+
+- Apresentar botão de compartilhamento integrado a API do sistema operacional em elementos multimídia
+
+</br>
+
+<span id="US34"></span>
+### <a href="#US34">**[US34]**</a> Tutorial de Como Realizar a Marcação no Mapa
+
+**Eu como:** Usuário.
+
+**Desejo:** Ter um tutorial sobre como realizar a marcação de pontos e áreas no mapa
+
+**Para que eu possa:** Possa realizar a atividade de marcar pontos e áreas no Mapa com maior facilidade e autonomia após meu primeiro uso 
+
+**Critérios de aceitação:**
+
+- Apresentar passo a passo guiado sobre como realizar a marcação
+- Indicar, com informações escritas e setas, quais são as etapas necessárias para que o usuário possa realizar a marcação no mapa
+- Ser apresentado na primeira vez em que o usuário fizer uso da aplicação
+
+</br>
+
+<span id="US35"></span>
+### <a href="#US35">**[US35]**</a> Editar dados da Comunidade
+
+**Eu como:** Membro da comunidade.
+
+**Desejo:** Editar os dados da comunidade da qual faço parte.
+
+**Para que eu possa:** possa adicionar informações relevantes e corrigir informações incorretas que tenham sido adicionadas.
+
+**Critérios de aceitação:**
+
+- Permitir edição de dados como nome da comunidade, descrição, localização da região e imagem
+- Registrar log de edição dos dados, contendo o usuário que fez a modificação e qual foi a modificação em questão
+
+
+</br>
+
+<span id="US36"></span>
+### <a href="#US36">**[US36]**</a> Questionário para Cadastro de Pessoas da Comunidade
+
+**Eu como:** Usuário.
+
+**Desejo:** Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho
+
+**Para que eu possa:** Visualizar informações, realizar ações e fazer parte da comunidade 
+
+**Critérios de aceitação:**
+
+- Preencher dados do usuário a ser adicionado, como o nome, local de residência, documentos de identificação - se possuir, idade, ocupação, dentre outros
+- Validar se dados de cadastro já existem associados a outro membro da comunidade
+
+</br>
+
+<span id="US37"></span>
+### <a href="#US37">**[US37]**</a> Questionário para criação de uma nova comunidade
+
+**Eu como:** Usuário Administrador.
+
+**Desejo:** Preencher o questionário para poder criar uma nova comunidade no aplicativo.
+
+**Para que eu possa:** possa visualizar informações, realizar ações e gerenciar a comunidade criada.
+
+**Critérios de aceitação:**
+
+- Preencher dados da comunidade a ser adicionada, como nome, área de localização (latitude, longitude) e descrição
+- Validar se dados de cadastro já existem associados a outra comunidade
+
+</br>
+
+<span id="US38"></span>
+### <a href="#US38">**[US38]**</a> Adicionar membros a comunidade
+
+**Eu como:** Pesquisador
+
+**Desejo:** Adicionar um membro cadastrado a uma determinada comunidade
+
+**Para que eu possa:** Gerenciar o membro cadastrado dentro da comunidade.
+
+**Critérios de aceitação:**
+
+- Adicionar, remover membro da comunidade.
+
+</br>
+
+<span id="US39"></span>
+### <a href="#US39">**[US39]**</a> Questionário para criação de uma nova comunidade
+
+**Eu como:** Usuário.
+
+**Desejo:** Realizar download dos artefatos disponibilizados na aplicação.
+
+**Para que eu possa:** Visualizar os artefatos disponíveis.
+
+**Critérios de aceitação:**
+
+- Criar funcionalidade de realizar download
+- Disponibilizar na aplicação que possa realizar a ação de download
+
+</br>
 
 ## Referências
 ---
