@@ -39,6 +39,10 @@ module.exports = {
         link: '/contribution/',
       },
       {
+        text: 'Product Backlog',
+        link: '/productBacklog/',
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
@@ -58,11 +62,21 @@ module.exports = {
           collapsable: false,
           children: [
             'contribuicao',
-            '',
+            'product-backlog',
             'using-vue',
           ]
         }
       ],
+
+      // '/productBacklog/': [
+      //   {
+      //     title: 'Product Backlog',
+      //     collapsable: false,
+      //     children: [
+      //       'product-backlog',
+      //     ]
+      //   }
+      // ],
     }
   },
 
