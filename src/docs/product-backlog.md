@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Backlog do produto
 Este Backlog consiste em uma lista que descreve todas as funcionalidades desejadas para o Twitter. Com a finalidade de obtermos uma melhor especificação dessas funcionalidades, este Backlog apresenta a os seguintes itens de granularidade:
 
@@ -11,10 +7,22 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
     - **Eu como**...;
     - **Desejo**...;
     - **Para que eu possa**...;
-- **Tarefas** para o desenvolvimento de cada funcionalidade;
+<!-- - **Tarefas** para o desenvolvimento de cada funcionalidade; -->
 - **Critérios de aceitação** para a validação de cada História de usuário.
 
-## Tabela do backlog
+## Tabela de épicos
+
+| Épico | Descrição | Requisitos | US's relacionadas |
+|--|--|--|--|
+| Uso da aplicação offline |Engloba as funcionalidades relativas ao uso offline (sem internet) do aplicativo | <SimpleList data="Sincronizar informações obtidas offline com a API ;pré download do mapa ;Salvar informações de forma offline ;Exportar dados da cartografia social (na API)" /> | <SimpleLink data="US04, US08, US24"/> |
+| Permissionamento e controle de acesso | Engloba as funcionalidades relacionadas ao controle de dados e permissionamento de acesso quanto às funcionalidades | <SimpleList data="Dividir o controle dos dados entre membros da comunidade;Realizar controle de acesso aos dados de acordo com perfil de usuário;Controle de membros pela comunidade;Comunidade controlar acesso aos dados (ex.: pesquisadores);Verificar histórico de acesso/permissão;Excluir dados;Ver quem demarcou o local" /> |  <SimpleLink data="US03, US05, US28, US29, US30, US32, US13, US18, US19, US20"/> |
+| Cadastro e perfis/comunidades | Engloba as funcionalidades relacionadas à login, cadastro, perfis e comunidades | <SimpleList data="Crud de login (entrar, cadastrar, resetar senha, sair);Perfil para pesquisador e para comunidade;Solicitar apoio da equipe da cartografia social;Adicionar membros a comunidade;Editar dados da comunidade;Questionário para criação de uma nova comunidade;Questionário para cadastro de pessoas da comunidade" /> |  <SimpleLink data="US22,US13, US14, US15, US16, US17,US35,US36,US37"/> |
+| Delimitação de dados no mapa | Engloba as funcionalidades relacionadas à marcação de pontos, áreas e outros dados relativos aos mapas | <SimpleList data="Marcar um ponto no mapa;Delimitar uma área no mapa;Ver o mapa;Categorizar um ponto no mapa;Personalizar iconografia de locais do mapa;Adicionar informações sobre o local" /> | <SimpleLink data="US01,US02, US07, US11,US23.US25"/>|
+| Multimídia | Engloba as funcionalidades relacionadas aos dados de multimídia (fotos, audios, vídeos, arquivos e outros )| <SimpleList data="Adicionar elemento multimídia à marcação;Upload de documentos (áudio foto, vídeo, texto) já existentes;Personalizar iconografia de locais do mapa;Tirar foto e gravar vídeo;Gravar áudio;Permitir download dos dados;Compartilhar conteúdo de mídia com meios externos (telegram, wpp)" /> | <SimpleLink data="US21,US26,US27,US12,US31,US33,US38"/>  |
+| Rascunho de dados | Engloba as funcionalidades relacionadas à manter os dados como rascunho ou versão final | <SimpleList data="Permitir marcar dos dados como uma 'versão analisada' (ou validada);Permitir o 'rascunho' dos dados" />| <SimpleLink data="US06, US09"/> |
+| Tutorial e navegação experimental | Engloba as funcionalidades relacionadas ao ensino de utilização do aplicativo e navegação experimental (sem cadastro) | <SimpleList data="Modo de demonstração (utilizar sem cadastro);Tutorial de como realizar a marcação no mapa" /> | <SimpleLink data="US34, US10"/> |
+
+<!-- ## Tabela do backlog
 
 |Épico | ID |	Eu como |	Desejo |	Para que eu possa |	Critérios de aceitação |	Rastro |
 |------|----|---------|--------|--------------------|----------------------------------|---------|
@@ -35,7 +43,7 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 |Tweet|<a href="#US15">**[US15]**</a>|Usuário|Compartilhar tweets de outros usuários|divulgar/dividir com outras pessoas o conteúdo em questão|<a href="#US15">**Link para a [US15]**</a>|<a href="../../elicitacao/requisitos/#R023">**R023**</a> ; <a href="../use_cases_specifications/user_case_geral/#UC06">**UC06;**</a>||
 |Interagir Com Outro usuário|<a href="#US16">**[US16]**</a>|Usuário|Enviar mensagens diretas|comunicar no privado através de mensagens|<a href="#US16">**Link para a [US16]**</a>|<a href="../../elicitacao/requisitos/#R06">**R006**</a> ; <a href="../../elicitacao/requisitos/#R29">**R029**</a>||
 |Interagir Com Outro usuário|<a href="#US17">**[US17]**</a>|Usuário|Mencionar outros usuários|comunicar-se publicamente através de menções em tweets|<a href="#US17">**Link para a [US17]**</a>|<a href="../../elicitacao/requisitos/#R06">**R006**</a>||
-|Interagir Com Outro usuário|<a href="#US18">**[US18]**</a>|Usuário|curtir ou comentar o tweet de outro usuário|comunicar através de símbolos da plataforma|<a href="#US18">**Link para a [US18]**</a>|<a href="../../elicitacao/requisitos/#R06">**R006**</a> ; <a href="../../elicitacao/requisitos/#R08">**R008**</a>||
+|Interagir Com Outro usuário|<a href="#US18">**[US18]**</a>|Usuário|curtir ou comentar o tweet de outro usuário|comunicar através de símbolos da plataforma|<a href="#US18">**Link para a [US18]**</a>|<a href="../../elicitacao/requisitos/#R06">**R006**</a> ; <a href="../../elicitacao/requisitos/#R08">**R008**</a>|| -->
 
 ## Lista das Histórias de usuário
 ---
@@ -43,7 +51,11 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 <span id="US01"></span>
 ### <a href="#US01">**[US01]**</a> Marcar ponto no mapa
 
-**Eu como:** Usuário 
+__Epico:__ Delimitação de dados no mapa	
+
+__Prioridade__: 
+
+**Eu como:** Usuário
 
 **Desejo:** Que seja possível marcar no mapa da aplicação locais que sejam áreas de risco para a comunidade conforme eu me locomovo pelo terreno da minha comunidade.
 
@@ -51,25 +63,35 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 **Critérios de aceitação:**
 - Todos os membros participantes de uma comunidade devem poder marcar pontos no mapa
+- Deve permitir a marcação de forma offline
 </br>
 
 <span id="US02"></span>
 ### <a href="#US02">**[US02]**</a> Adicionar elemento multimídia à marcação
 
-**Eu como:** Usuário 
+__Epico:__ Delimitação de dados no mapa
+
+__Prioridade__: 
+
+**Eu como:** Usuário
 
 **Desejo:** Que seja possível adicionar informações multimídia conforme eu marco os pontos no mapa, essas informações são áudios, fotos e até mesmo descrições sobre o local demarcado
 
 **Para que eu possa:** Descrever as características de um determinado lugar.
 
 **Critérios de aceitação:**
--  A pessoa responsável pela demarcação de um ponto deve poder adicionar textos, áudios ou fotos sobre um determinado lugar que ela deseja marcar.
+- A pessoa responsável pela demarcação de um ponto deve poder adicionar textos, áudios ou fotos sobre um determinado lugar que ela deseja marcar.
+- Deve permitir adicionar elementos multimídia à um ponto/área de forma offline
 </br>
 
 <span id="US03"></span>
 ### <a href="#US03">**[US03]**</a> Dividir o controle dos dados entre membros da comunidade
 
-**Eu como:** Usuário 
+__Épico:__ Permissionamento e controle de acesso	
+
+__Prioridade__: 
+
+**Eu como:** Usuário
 
 **Desejo:** Que as alguns usuários tenham permissão para adicionar novas pessoas na comunidade, tirar pessoas da comunidade, deletar dados.
 
@@ -84,7 +106,11 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 <span id="US04"></span>
 ### <a href="#US04">**[US04]**</a> Sincronizar informações obtidas offline com a API
 
-**Eu como:** Usuário 
+__Épico:__ Uso da aplicação offline	
+
+__Prioridade__: 
+
+**Eu como:** Usuário
 
 **Desejo:** Que as as informações e dados multimídia que eu produzir offline sejam enviadas para o servidor remoto quando eu tiver acesso à internet.
 
@@ -100,6 +126,10 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 <span id="US05"></span>
 ### <a href="#US05">**[US05]**</a> Realizar controle de acesso aos dados de acordo com perfil de usuário
+
+__Épico:__ Permissionamento e controle de acesso
+
+__Prioridade__: 
 
 **Eu como:** Membro de uma comunidade tradicional (usuário)
 
@@ -117,19 +147,27 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 <span id="US06"></span>
 ### <a href="#US06">**[US06]**</a> Permitir que o pesquisador facilitador juntamente com a comunidade possam controlar o modo dos dados (rascunho ou versão final)
 
+__Épico:__ Rascunho de dados
+
+__Prioridade__: 
+
 **Eu como:** Membro de uma comunidade tradicional & pesquisador facilitador (Usuários)
 
 **Desejo:** Alterar o status dos dados
 
-**Para que eu possa:** Dizer se um dado é um rascunho ou versão fina
+**Para que eu possa:** Dizer se um dado é um rascunho ou versão final
 
 **Critérios de aceitação:**
 
-- Deve exigir que o pesquisador facilitador e um membro administrador da comunidade.  
+- Deve exigir que o pesquisador facilitador e um membro administrador da comunidade.
 </br>
 
 <span id="US07"></span>
 ### <a href="#US07">**[US07]**</a> Permitir que seja demarcada uma área no mapa pelos membros da comunidade
+
+__Épico:__ Delimitação de dados no mapa	
+
+__Prioridade__: 
 
 **Eu como:** Membro de uma comunidade tradicional (Usuário)
 
@@ -141,11 +179,16 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 - Deve permitir marcar uma área a partir de vários pontos ou formas pré-definidas.
 - Deve permitir inserir, no mínimo, descrição, tipo e nome.
-- O status inicial deve ser, obrigatoriamente, “rascunho”, somente podendo ser alterado por um membro administrador da comunidade.  
+- O status inicial deve ser, obrigatoriamente, “rascunho”, somente podendo ser alterado por um membro administrador da comunidade.
+- Deve permitir que uma área seja marcada de forma offline
 </br>
 
 <span id="US08"></span>
 ### <a href="#US08">**[US08]**</a> Fazer o pré-download dos dados do mapa em determinada região
+
+__Épico:__ Uso da aplicação offline
+
+__Prioridade__: 
 
 **Eu como:** Usuário
 
@@ -162,27 +205,11 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 </br>
 
 <span id="US09"></span>
-### <a href="#US09">**[US09]**</a> Aplicativo offline first
+### <a href="#US09">**[US09]**</a> Labels para as informações no app
 
-**Eu como:** Usuário
+__Épico:__ Rascunho de dados
 
-**Desejo:** Utilizar o aplicativo de forma offline
-
-**Para que eu possa:** Fazer uso das principais funcionalidades do app sem a necessidade da internet
-
-**Critérios de aceitação:**
-
-- Conseguir marcar um ponto de forma offline
-- Conseguir marcar uma área de forma offline
-- Conseguir adicionar informações à um ponto/área de forma offline
-- Conseguir adicionar elementos multimidia à um ponto/área de forma offline
-- Conseguir excluir dados locais de forma offline
-- Sincronizar dados locais com dados na nuvem após conexão com a internet
-
-</br>
-
-<span id="US10"></span>
-### <a href="#US10">**[US10]**</a> Labels para as informações no app
+__Prioridade__: 
 
 **Eu como:** Usuário
 
@@ -199,8 +226,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US11"></span>
-### <a href="#US11">**[US11]**</a> Modo de demonstração
+<span id="US10"></span>
+### <a href="#US10">**[US10]**</a> Modo de demonstração
+
+__Épico:__ Tutorial e navegação experimental
+
+__Prioridade__: 
 
 **Eu como:** Pesquisador e membro da comunidade.
 
@@ -212,13 +243,17 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - Conseguir marcar um ponto sem estar logado
 - Conseguir marcar uma área sem estar logado
 - Conseguir adicionar informações à um ponto/área sem estar logado
-- Conseguir adicionar elementos multimidia à um ponto/área sem estar logado
+- Conseguir adicionar elementos multimídia à um ponto/área sem estar logado
 - Conseguir excluir dados locais sem estar logado
 
 </br>
 
-<span id="US12"></span>
-### <a href="#US12">**[US12]**</a> Visualizar o mapa
+<span id="US11"></span>
+### <a href="#US11">**[US11]**</a> Visualizar o mapa
+
+__Épico:__ Delimitação de dados no mapa
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -233,8 +268,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US13"></span>
-### <a href="#US13">**[US13]**</a> Adicionar informações sobre o local
+<span id="US12"></span>
+### <a href="#US12">**[US12]**</a> Adicionar informações sobre o local
+
+__Épico:__ Delimitação de dados no mapa	
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -246,11 +285,16 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - Campo de texto(ou form) para preencher com informações
 - Integrar esse texto a um ponto ou área
 - Disponível apenas para a comunidade (?)
+- Deve permitir a inserção de informações de forma offline
 
 </br>
 
-<span id="US14"></span>
-### <a href="#US14">**[US14]**</a> CRUD login
+<span id="US13"></span>
+### <a href="#US13">**[US13]**</a> Autenticação e registro de usuário
+
+__Épico:__ Cadastro e perfis/comunidades	
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -263,15 +307,19 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - Botão resetar senha
 - Tela de reset com o campo de email
 - Enviar email para resetar senha
-- Tela de cadastro com campos (nome, email, senha, confirmar senha, cpf, membro comunidade ou pesquisador ...)
+<!-- - Tela de cadastro com campos (nome, email, senha, confirmar senha, cpf, membro comunidade ou pesquisador ...) -->
 - Botão sair (encerrar sessão)
 - Usuário deve ser registrado no banco de dados
 - Deve-se checar se nome e senha estão corretos no login
 
 </br>
 
-<span id="US15"></span>
-### <a href="#US15">**[US15]**</a> Perfil para pesquisador e para comunidade
+<span id="US14"></span>
+### <a href="#US14">**[US14]**</a> Perfil para pesquisador e para comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -287,8 +335,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US16"></span>
-### <a href="#US16">**[US16]**</a> Perfil para pesquisador e para comunidade
+<span id="US15"></span>
+### <a href="#US15">**[US15]**</a> Perfil para a comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Membro da comunidade.
 
@@ -304,8 +356,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US17"></span>
-### <a href="#US17">**[US17]**</a> Perfil para pesquisador e para comunidade
+<span id="US16"></span>
+### <a href="#US16">**[US16]**</a> Editar perfil de usuário
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -315,13 +371,18 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 **Critérios de aceitação:**
 - Botão de editar dados no perfil
+- Tela para edição de dados
 - Usar API para fazer atualizações no banco
 - Botão para salvar alterações
 
 </br>
 
-<span id="US18"></span>
-### <a href="#US18">**[US18]**</a> Perfil para pesquisador e para comunidade
+<span id="US17"></span>
+### <a href="#US17">**[US17]**</a> Fazer edição no perfil da comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário administrador.
 
@@ -332,14 +393,18 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 **Critérios de aceitação:**
 - Usuário deve estar cadastrado como membro de comunidade
 - Usuário deve ser o admin da comunidade
-- Botão de editar dados dados no perfil da comunidade
+- Botão de editar dados no perfil da comunidade
 - Usar API para fazer atualizações no banco
 - Botão para salvar alterações
 
 </br>
 
-<span id="US19"></span>
-### <a href="#US19">**[US19]**</a> Controle de membros pela comunidade
+<span id="US18"></span>
+### <a href="#US18">**[US18]**</a> Controle de membros pela comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário administrador.
 
@@ -350,11 +415,18 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 **Critérios de aceitação:**
 - Botão de adicionar e remover pessoas no perfil da comunidade
 - Botão para permitir ou negar solicitação de participação
+- Administrador seleciona permissão dos dados
+- Administrador adiciona permissão ao usuário que está na comunidade
+
 
 </br>
 
-<span id="US20"></span>
-### <a href="#US20">**[US20]**</a> Controle de permissoes de usuário na comunidade
+<span id="US19"></span>
+### <a href="#US19">**[US19]**</a> Definição de membros administradores das comunidades
+
+__Épico:__ Permissionamento e controle de acesso
+
+__Prioridade__: 
 
 **Eu como:** Usuário administrador.
 
@@ -364,11 +436,16 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 **Critérios de aceitação:**
 - Ser possível alterar permissões de usuários
+- Alterações de permissões devem gerar logs
 
 </br>
 
-<span id="US21"></span>
-### <a href="#US21">**[US21]**</a> Visualizar dados da comunidade
+<span id="US20"></span>
+### <a href="#US20">**[US20]**</a> Visualizar dados da comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -382,8 +459,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US22"></span>
-### <a href="#US22">**[US22]**</a> Upload de documentos já existentes
+<span id="US21"></span>
+### <a href="#US21">**[US21]**</a> Upload de documentos já existentes
+
+__Épico:__ Multimídia
+
+__Prioridade__: 
 
 **Eu como:** Membro da comunidade.
 
@@ -395,26 +476,16 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - Poder escolher arquivos existentes no dispositivo
 - Poder selecionar um ou mais arquivos
 - Excluir, pré visualizar e adicionar arquivo
+- Deve permitir a inserção de forma offline
 
 </br>
 
-<span id="US23"></span>
-### <a href="#US23">**[US23]**</a> Comunidade controlar acesso aos dados
+<span id="US22"></span>
+### <a href="#US22">**[US22]**</a> Solicitar apoio da equipe da cartografia social
 
-**Eu como:** Usuário administrador.
+__Épico:__ Cadastro e perfis/comunidades	
 
-**Desejo:** Controlar quem tem acesso aos dados da comunidade.
-
-**Para que eu possa:** Escolher quem vai ver determinado dado.
-
-**Critérios de aceitação:**
-- Administrador seleciona permissão dos dados
-- Administrador adiciona permissão ao usuário que está na comunidade
-
-</br>
-
-<span id="US24"></span>
-### <a href="#US24">**[US24]**</a> Solicitar apoio da equipe da cartografia social
+__Prioridade__: 
 
 **Eu como:** Membro da comunidade.
 
@@ -423,15 +494,19 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 **Para que eu possa:** Conseguir uma “validação” do rascunho que fiz.
 
 **Critérios de aceitação:**
-- Deverá ter um formulário a ser preenchido pelo membro
-- O formulário deverá chegar ao pesquisador via email ou wpp
+- Deverá ter um formulário a ser preenchido pelo membro.
+- O formulário deverá chegar ao pesquisador via E-mail ou Whatsapp.
 
 </br>
 
-<span id="US25"></span>
-### <a href="#US25">**[US25]**</a> Personalizar iconografia de locais do mapa
+<span id="US23"></span>
+### <a href="#US23">**[US23]**</a> Permitir a personalização da iconografia de locais do mapa.
 
-**Eu como:** Membro administrador.
+__Épico:__ Delimitação de dados no mapa	
+
+__Prioridade__: 
+
+**Eu como:** Membro administrador da comunidade.
 
 **Desejo:** Personalizar a iconografia dos locais.
 
@@ -440,25 +515,36 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 **Critérios de aceitação:**
 - Definir um ícone para uma certa categoria
 - Visualizar e alterar ícones já criados
+- Enviar imagem e definir como ícone
+
 
 </br>
 
-<span id="US26"></span>
-### <a href="#US26">**[US26]**</a> Exportar dados da cartografia social (na API)
+<span id="US24"></span>
+### <a href="#US24">**[US24]**</a> Permitir exportar os dados da cartografia social
+
+__Épico:__ Uso da aplicação offline	
+
+__Prioridade__: 
 
 **Eu como:** Colaborador.
 
-**Desejo:** Personalizar a iconografia dos locais.
+**Desejo:** Exportar dados preenchidos por um povo ou comunidade tradicional.
 
-**Para que eu possa:** Definir um ícone que irá representar um certo local ou área no mapa.
+**Para que eu possa:** Analisar os dados preenchidos pela comunidade, fazer a validação e  enviar de volta para a comunidade além de utilizá-los para auxiliar na criação do fascículo.
 
 **Critérios de aceitação:**
-- Os dados devem ser exportados no formato json
+- Os dados devem ser exportados no formato json e também no formato compatível com Arcgis (kml).
+- A exportação deve ser feita na api
 
 </br>
 
-<span id="US27"></span>
-### <a href="#US27">**[US27]**</a> Categorizar um ponto no mapa
+<span id="US25"></span>
+### <a href="#US25">**[US25]**</a> Permitir categorizar um ponto no mapa
+
+__Épico:__ Delimitação de dados no mapa	
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -472,15 +558,20 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - apagar categorias
 - visualizar, adicionar e remover ponto de uma categoria
 - editar categoria
+- deve permitir categorizar de forma offline
 
 </br>
 
-<span id="US28"></span>
-### <a href="#US28">**[US28]**</a> Tirar foto e gravar vídeo
+<span id="US26"></span>
+### <a href="#US26">**[US26]**</a> Permitir tirar fotos pelo aplicativo
+
+__Épico:__ Multimídia
+
+__Prioridade__: 
 
 **Eu como:** Membro da comunidade.
 
-**Desejo:** Registrar fotos e vídeos com dados etnográficos de interesse da minha comunidade e associar a uma determinada localização.
+**Desejo:** Registrar fotos com dados etnográficos de interesse da minha comunidade e associar a uma determinada localização.
 
 **Para que eu possa:** Registrar a história da minha comunidade e enriquecendo com registros multimídia local.
 
@@ -490,13 +581,41 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 - associar um artefato a um ponto ou área, necessariamente
 - adicionar, editar e remover uma descrição ao artefato
 - ter um botão para iniciar o processo de captura
+- deve permitir que as fotos sejam tiradas de forma offline
 
 </br>
 
-<span id="US29"></span>
-### <a href="#US29">**[US29]**</a> Exibir histórico de acesso/permissão
+<span id="US27"></span>
+### <a href="#US27">**[US27]**</a> Permitir gravar vídeos pelo aplicativo
 
-**Eu como:** Usuário administrador.
+__Épico:__ Multimídia
+
+__Prioridade__: 
+
+**Eu como:** Membro da comunidade.
+
+**Desejo:** Gravar vídeos com dados etnográficos de interesse da minha comunidade e associar a uma determinada localização.
+
+**Para que eu possa:** Registrar a história da minha comunidade e enriquecendo com registros multimídia local.
+
+**Critérios de aceitação:**
+- usar a api do sistema operacional para gerar os artefatos de multimídia
+- excluir, visualizar e adicionar artefato
+- associar um artefato a um ponto ou área, necessariamente
+- adicionar, editar e remover uma descrição ao artefato
+- ter um botão para iniciar o processo de captura
+- deve permitir que os vídeos sejam tiradas de forma offline
+
+</br>
+
+<span id="US28"></span>
+### <a href="#US28">**[US28]**</a> Exibir histórico de acesso e alterações de permissões
+
+__Épico:__ Permissionamento e controle de acesso
+
+__Prioridade__: 
+
+**Eu como:** Membro da comunidade.
 
 **Desejo:** Visualizar quem e quando, acessou determinado registro na aplicação e também quem e quando, realizou mudanças de permissão em algum aspecto.
 
@@ -509,10 +628,33 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
+<span id="US29"></span>
+### <a href="#US29">**[US29]**</a> Exibir permissões dos usuários
+
+__Épico:__ Permissionamento e controle de acesso	
+
+__Prioridade__: 
+
+**Eu como:** Usuário administrador.
+
+**Desejo:** Visualizar as permissões dos usuários.
+
+**Para que eu possa:** realizar a auditoria e o controle para gerenciar o acesso à informação.
+
+**Critérios de aceitação:**
+- exibir para o administrador, incluindo, mas não limitado à usuário, dados de permissões
+- poder clicar no usuário ou objeto e abrir a tela correspondente
+
+</br>
+
 <span id="US30"></span>
 ### <a href="#US30">**[US30]**</a> Excluir dados
 
-**Eu como:** Usuário administrador.
+__Épico:__ Permissionamento e controle de acesso
+
+__Prioridade__: 
+
+**Eu como:** Usuário administrador (comunidade).
 
 **Desejo:** Poder iniciar um processo de remoção de todos os meus dados e os dados da comunidade da aplicação.
 
@@ -529,11 +671,15 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 <span id="US31"></span>
 ### <a href="#US31">**[US31]**</a> Gravar áudio
 
-**Eu como:** Usuário.
+__Épico:__ Multimídia
+
+__Prioridade__: 
+
+**Eu como:** Membro da comunidade.
 
 **Desejo:** Registrar áudio que contenha informações etnográficos sobre a minha comunidade e associar a uma determinada localização.
 
-**Para que eu possa:** Registrar a história da minha comunidade, enriquecendo com registros multimídia
+**Para que eu possa:** Registrar a história da minha comunidade, enriquecendo com registros multimídia.
 
 **Critérios de aceitação:**
 
@@ -546,13 +692,17 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 </br>
 
 <span id="US32"></span>
-### <a href="#US32">**[US32]**</a> Ver quem demarcou o local
+### <a href="#US32">**[US32]**</a> Permitir visualizar quem demarcou o local
+
+__Épico:__ Permissionamento e controle de acesso
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
 **Desejo:** Conseguir identificar quem foi o autor de uma marcação de ponto ou área
 
-**Para que eu possa:** Tomar conhecimento sobre quem foi o responsável por uma marcação 
+**Para que eu possa:** Tomar conhecimento sobre quem foi o responsável por uma marcação
 
 **Critérios de aceitação:**
 
@@ -561,13 +711,17 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 </br>
 
 <span id="US33"></span>
-### <a href="#US33">**[US33]**</a> Compartilhamento conteúdo de mídia com meios externos
+### <a href="#US33">**[US33]**</a> Compartilhamento conteúdo de mídia com meios externos (Telegram, Whatsapp)
+
+__Épico:__ Multimídia
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
 **Desejo:** Compartilhar algum conteúdo multimídia disponibilizado na aplicação para meios externos
 
-**Para que eu possa:** Possa mais facilmente enviar um documento para disponibilização ou discussão em outros canais 
+**Para que eu possa:** Possa mais facilmente enviar um documento para disponibilização ou discussão em outros canais
 
 **Critérios de aceitação:**
 
@@ -578,11 +732,15 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 <span id="US34"></span>
 ### <a href="#US34">**[US34]**</a> Tutorial de Como Realizar a Marcação no Mapa
 
+__Épico:__ Tutorial e navegação experimental
+
+__Prioridade__: 
+
 **Eu como:** Usuário.
 
-**Desejo:** Ter um tutorial sobre como realizar a marcação de pontos e áreas no mapa
+**Desejo:** Realizar um tutorial sobre como realizar a marcação de pontos e áreas no mapa
 
-**Para que eu possa:** Possa realizar a atividade de marcar pontos e áreas no Mapa com maior facilidade e autonomia após meu primeiro uso 
+**Para que eu possa:** Possa realizar a atividade de marcar pontos e áreas no Mapa com maior facilidade e autonomia após meu primeiro uso
 
 **Critérios de aceitação:**
 
@@ -592,31 +750,19 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
+
 <span id="US35"></span>
-### <a href="#US35">**[US35]**</a> Editar dados da Comunidade
+### <a href="#US35">**[US35]**</a> Questionário para Cadastro de Pessoas da Comunidade
 
-**Eu como:** Membro da comunidade.
+__Épico:__ Cadastro e perfis/comunidades
 
-**Desejo:** Editar os dados da comunidade da qual faço parte.
-
-**Para que eu possa:** possa adicionar informações relevantes e corrigir informações incorretas que tenham sido adicionadas.
-
-**Critérios de aceitação:**
-
-- Permitir edição de dados como nome da comunidade, descrição, localização da região e imagem
-- Registrar log de edição dos dados, contendo o usuário que fez a modificação e qual foi a modificação em questão
-
-
-</br>
-
-<span id="US36"></span>
-### <a href="#US36">**[US36]**</a> Questionário para Cadastro de Pessoas da Comunidade
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
 **Desejo:** Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho
 
-**Para que eu possa:** Visualizar informações, realizar ações e fazer parte da comunidade 
+**Para que eu possa:** Visualizar informações, realizar ações e fazer parte da comunidade
 
 **Critérios de aceitação:**
 
@@ -625,8 +771,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US37"></span>
-### <a href="#US37">**[US37]**</a> Questionário para criação de uma nova comunidade
+<span id="US36"></span>
+### <a href="#US36">**[US36]**</a> Questionário para criação de uma nova comunidade
+
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
 
 **Eu como:** Usuário Administrador.
 
@@ -641,10 +791,14 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US38"></span>
-### <a href="#US38">**[US38]**</a> Adicionar membros a comunidade
+<span id="US37"></span>
+### <a href="#US37">**[US37]**</a> Adicionar membros a comunidade
 
-**Eu como:** Pesquisador
+__Épico:__ Cadastro e perfis/comunidades
+
+__Prioridade__: 
+
+**Eu como:** Pesquisador, Membro administrador da comunidade 
 
 **Desejo:** Adicionar um membro cadastrado a uma determinada comunidade
 
@@ -656,8 +810,12 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 
 </br>
 
-<span id="US39"></span>
-### <a href="#US39">**[US39]**</a> Questionário para criação de uma nova comunidade
+<span id="US38"></span>
+### <a href="#US38">**[US38]**</a> Permitir download dos dados
+
+__Épico:__ Multimídia
+
+__Prioridade__: 
 
 **Eu como:** Usuário.
 
@@ -688,3 +846,4 @@ Requisitos. <a href="http://livrodeengenhariaderequisitos.blogspot.com.br/">**ht
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 30/08/2021 | Lorrany e Leonardo | Criação da página e dos textos descritivos, adição de algumas referências & inserção das US's | 0.1 |
+| 01/08/2021 | Lorrany, Leonardo, Elias | Organização das US's e da Tabela do Product Backlog | 0.2 |
