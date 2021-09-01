@@ -60,6 +60,9 @@ O [React Native](https://reactnative.dev/) é um framework para o desenvolviment
 
 Foi escolhido por permitir um compartilhamento de código para a execução das diferentes plataformas mobile presentes no mercado. Dentre os pacotes que serão utilizados para o desenvolvimento do aplicativo, será utilizada uma biblioteca de para gerenciamento de estado global, o Redux, fazendo o papel de armazenar o estado da aplicação, contendo dados do usuário, áreas demarcadas e demais informações inseridas.
 
+### Diagrama de Arquitetura do React native
+![](../../src/assets/arquitetura/react-native-archteture.png)
+
 
 __Referências:__
 
