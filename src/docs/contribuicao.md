@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Política de contribuição.
 
 Para contribuir com esse projeto:

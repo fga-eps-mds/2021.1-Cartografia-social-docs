@@ -66,11 +66,17 @@ module.exports = {
       ],
       '/docs/': [
         {
+          title: 'Product Backlog',
+          collapsable: false,
+          children: [
+            'product-backlog',
+          ]
+        },
+        {
           title: 'Definições arquiteturais',
           collapsable: false,
           children: [
-            'arquitetura',
-
+            '',
           ]
         },
         {
