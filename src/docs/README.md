@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autor(es)|
 |:---:|:---:|:---:|:---:|
 |31/08/2021|1.0| Adição da introdução e Representação da arquitetura |[Elias Bernardo](https://github.com/ebmm01), [Guilherme Guy](https://github.com/guilherme1guy)|
+|31/08/2021|1.1| Adição das especificações arquiteturais do frontend |[Guilherme Deusdará](https://github.com/gdeusdara), [Alexandre Miguel](https://github.com/aleronupe)|
 
 ## Introdução
 
@@ -29,10 +30,6 @@ Este Documento de Arquitetura de Software se aplica ao Sistema __Cartografia Soc
 
 ### Componentes Importantes
 
-__React Native__
-
-...
-
 __NestJs:__
 
 O NestJS é uma framework que permite construir aplicações de servidor de forma escalável e eficiente, utilizando o Node.js. Por causa do TypeScript a framework consegue lidar com uma combinação elementos dos paradigmas de programação orientado a objetos e também do paradigma funcional.  Foi escolhido por ser fortemente tipado e incluir uma série de implementações e ferramentas para auxiliar o desenvolvimento.
@@ -40,6 +37,12 @@ O NestJS é uma framework que permite construir aplicações de servidor de form
 __RabbitMQ:__
 
 RabbitMQ é um message broker de código aberto escrito em earlang. Foi escolhido como Provider para a comunicação entre a API Gateway e os microsserviços, de forma a garantir a independência e desacoplamento entre eles.
+
+__React Native__
+
+O [React Native](https://reactnative.dev/) é um framework para o desenvolvimento de aplicativos mobile tanto em iOS quanto em Android, utilizando componentes nativos. Esse framework é baseado em [React](https://pt-br.reactjs.org/docs/getting-started.html), uma biblioteca consolidada para desenvolvimento de interfaces de usuário web (EISENMAN, 2015).
+
+Foi escolhido por permitir um compartilhamento de código para a execução das diferentes plataformas mobile presentes no mercado. Dentre os pacotes que serão utilizados para o desenvolvimento do aplicativo, será utilizada uma biblioteca de para gerenciamento de estado global, o Redux, fazendo o papel de armazenar o estado da aplicação, contendo dados do usuário, áreas demarcadas e demais informações inseridas.
 
 __Microserviços:__
 
@@ -55,5 +58,14 @@ __Comunicação entre serviços:__
 A comunicação entre os serviços será realizada através da API Gateway, responsável por utilizar o protocolo HTTP para intermediar a comunicação com o front end (aplicação mobile React Native) e um message broker com RabbitMQ para comunicação com os microsserviços.
 
 ### Diagrama de Arquitetura
-
 ![](../../src/assets/arquitetura/diagrama.png)
+
+### Diagrama de Arquitetura do React native
+![](../../src/assets/arquitetura/react-native-archteture.png)
+
+__Referências:__
+
+* **EISENMAN**, Bonnie. Learning react native: Building native mobile apps with JavaScript. " O'Reilly Media, Inc.", 2015.
+* Documentação do **React Native** - https://reactnative.dev/docs/tutorial
+* Documentação do **NestJS** - https://docs.nestjs.com/
+* Definição de Funcionamento do **RabbitMQ** - https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html

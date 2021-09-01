@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autor|
 |:---:|:---:|:---:|:---:|
 |27/08/2021|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+|27/08/2021|2.0|Adição de protótipo |[Marco Antônio](https://github.com/markinlimac)|
 
 
 
@@ -26,3 +27,13 @@ Aproveitando esse trabalho inicial de fidelidade baixa, que foi feito no figma, 
 Abaixo uma imagem do protótipo gerado. A versão interativa pode ser acessada [neste link](https://www.figma.com/proto/FAQeDMukc2kF31Nsz61vb0/Protótipo-Média-Fidelidade?node-id=1%3A7&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A7&show-proto-sidebar=1).
 
 ![Estrutura Protótipo de Média Fidelidade](../../images/prototipos/baixa/media_fidelidade.png)
+
+## Protótipo 2
+|Autor|Versão|
+:------:|:------:|
+|[Marco Antônio](https://github.com/markinlimac)| 1.0 |
+
+
+Abaixo segue o protótipo
+
+![Protótipo de baixa](../../images/prototipos/baixa/baixa_fidelidade.jpeg)
