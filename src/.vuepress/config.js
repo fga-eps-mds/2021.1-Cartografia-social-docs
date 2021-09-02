@@ -80,6 +80,13 @@ module.exports = {
           ]
         },
         {
+          title: 'Métricas',
+          collapsable: false,
+          children: [
+            'metricas/quadro-de-conhecimentos',
+          ]
+        },
+        {
           title: 'Prototipação',
           collapsable: false,
           children: [
