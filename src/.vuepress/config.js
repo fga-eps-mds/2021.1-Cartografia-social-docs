@@ -66,6 +66,13 @@ module.exports = {
       ],
       '/docs/': [
         {
+          title: 'Documento de Visão',
+          collapsable: false,
+          children: [
+            'visao/document',
+          ]
+        },
+        {
           title: 'Product Backlog',
           collapsable: false,
           children: [
