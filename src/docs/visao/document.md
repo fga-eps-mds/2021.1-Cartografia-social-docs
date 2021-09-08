@@ -7,6 +7,7 @@
 |06/09/2021|0.1| Iniciando documento de visão | [Leonardo Barreiros](https://github.com/leossb36) |
 |07/09/2021|0.2| Inserindo artefatos e definições | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.3| Inserindo o Tópico Posicionando | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
+|08/09/2021|0.4| Inserindo o Tópico Descrição das partes interessadas | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 
 <span id="introducao"></span>
 ## <a href="#introducao">[1]</a><l>&nbsp;-&nbsp;</l>Introdução
@@ -47,18 +48,55 @@
 ## <a href="#parte-interessada">[3]</a><l>&nbsp;-&nbsp;</l>Descrições da Parte Interessada e do Usuário
 
 ### [3.1] - Demográficos de Mercado
+
+XX
+
 ### [3.2] - Resumo da Parte Interessada
+
+|Nome|Representa|Função|
+|:---:|:---:|:---:|
+|Alunos da disciplina EPS FGA/UnB|Equipe de Desenvolvimento e Gestão do Projeto| Desenvolver e documentar a solução proposta|
+|Cliente do projeto| Membro pesquisador do projeto da Nova Cartografia Social|Atuam como cliente fornecendo as suas ideias para a criação do aplicativo|
+|Professor da disciplina EPS|Orientador da equipe|Auxiliar a equipe de desenvolvimento tirando dúvidas, além de avaliar o trabalho na entrega das releases|
+
+
 ### [3.3] - Resumo do Usuário
+
+|Nome|Descrição|Parte Interessada|
+|:---:|:---:|:---:|
+|Membros de um povo ou comunidade tradicional|Os principais stakeholders. São pessoas que fazem parte de povos ou comunidades|Cliente do projeto|
+|Professores/Pesquisadores| Pessoas que tem o objetivo de auxiliar no processo da Nova Cartografia Social coletando os dados enviados pela comunidade através do aplicativo. |Cliente do projeto|
+|Pessoas mal intencionadas| Pessoas que irão utilizar o aplicativo com outros propósitos a fim de tirar proveito das informações ali contidas e tentar atrapalhar o processo |Cliente do projeto|
+
 ### [3.4] - Ambiente do Usuário
+
+- Acerca da quantidade dos envolvidos irá depender da quantidade de pesquisadores e da comunidade tradicional, portanto, não se tem uma quantidade estimada.
+
+- Também irá depender do fator de quantidade de associados ao serviço (Pesquisadores e comunidades), além de que depende de outros fatores relacionados a tecnologia e ao ambiente em que se encontram.
+
+- Das restrições de ambiente temos como principal alvo a necessidade de um meio flexível e prático para os usuários, pois os mesmos relatam ter dificuldades em realizar as delimitações com os aparelhos destinados para esse tipo de serviço. Além de que é necessário ter uma espécie de sincronização dos dados delimitados, sendo assim necessário o uso de internet.
+
+- A plataforma mais utilizada pelos membros é o ArcGis, que é utilizado para documentar, armazenar os dados relacionados às delimitações.
+
+- O cliente não faz uso de nenhuma plataforma destinada para as necessidades apresentadas, fazendo somente o uso do ArcGis e trabalho manual.
+
+
 ### [3.5] - Perfis das Partes Interessadas
-### [3.6] - Perfis do Usuário
-### [3.7] - Principais Necessidades da Parte Interessada ou do Usuário
-### [3.8] - Alternativas e Concorrência
+
+|Representante|Descrição|Tipo|Responsabilidades|Envolvimento|Entregas|
+|:---:|:---:|:---:||:---:|:---:|:---:|
+|Comunidade|Membros de uma comunidade que irão realizar a delimitação das terras|Usuário|Delimitação das terras e adição de seus documentos e multimídia |Diretamente envolvido|Demarcação e produção de dados|
+|Pesquisador|Usuário quem auxilia no processo de validação das delimitações|Usuário Pesquisador|Avaliar as delimitações demandadas pela comunidade|Diretamente envolvido|Validação e coleta dos dados|
+|Administrador da comunidade|Membro com a função de gerenciar a comunidade dentro da Nova Cartografia Social|Administrador|Gerenciar os membros e a comunidade|Diretamente envolvido|Demarcação, produção de dados e gerenciamento|
+
 
 <span id="visao-geral"></span>
 ## <a href="#visao-geral">[4]</a><l>&nbsp;-&nbsp;</l>Visão Geral do Produto
 
 ### [4.1] - Perspectiva do Produto
+
+
+
 ### [4.2] - Resumo das Capacidades
 ### [4.3] - Suposições e Dependências
 ### [4.4] - Custo e Precificação
