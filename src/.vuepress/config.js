@@ -64,6 +64,15 @@ module.exports = {
           ]
         }
       ],
+      '/lean/': [
+        {
+          title: 'Documentação',
+          collapsable: false,
+          children: [
+            'lean-inception',
+          ]
+        },
+      ],
       '/docs/': [
         {
           title: 'Product Backlog',
