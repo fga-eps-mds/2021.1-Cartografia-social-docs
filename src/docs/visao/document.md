@@ -8,6 +8,7 @@
 |07/09/2021|0.2| Inserindo artefatos e definições | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.3| Inserindo o Tópico Posicionando | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.4| Inserindo o Tópico Descrição das partes interessadas | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
+|08/09/2021|0.5| Inserindo restante dos tópicos e ajuste de estrutura textual | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 
 <span id="introducao"></span>
 ## <a href="#introducao">[1]</a><l>&nbsp;-&nbsp;</l>Introdução
@@ -47,11 +48,8 @@
 <span id="parte-interessada"></span>
 ## <a href="#parte-interessada">[3]</a><l>&nbsp;-&nbsp;</l>Descrições da Parte Interessada e do Usuário
 
-### [3.1] - Demográficos de Mercado
 
-XX
-
-### [3.2] - Resumo da Parte Interessada
+### [3.1] - Resumo da Parte Interessada
 
 |Nome|Representa|Função|
 |:---:|:---:|:---:|
@@ -60,7 +58,7 @@ XX
 |Professor da disciplina EPS|Orientador da equipe|Auxiliar a equipe de desenvolvimento tirando dúvidas, além de avaliar o trabalho na entrega das releases|
 
 
-### [3.3] - Resumo do Usuário
+### [3.2] - Resumo do Usuário
 
 |Nome|Descrição|Parte Interessada|
 |:---:|:---:|:---:|
@@ -68,7 +66,9 @@ XX
 |Professores/Pesquisadores| Pessoas que tem o objetivo de auxiliar no processo da Nova Cartografia Social coletando os dados enviados pela comunidade através do aplicativo. |Cliente do projeto|
 |Pessoas mal intencionadas| Pessoas que irão utilizar o aplicativo com outros propósitos a fim de tirar proveito das informações ali contidas e tentar atrapalhar o processo |Cliente do projeto|
 
-### [3.4] - Ambiente do Usuário
+### [3.3] - Ambiente do Usuário
+
+<p align="justify">
 
 - Acerca da quantidade dos envolvidos irá depender da quantidade de pesquisadores e da comunidade tradicional, portanto, não se tem uma quantidade estimada.
 
@@ -81,10 +81,10 @@ XX
 - O cliente não faz uso de nenhuma plataforma destinada para as necessidades apresentadas, fazendo somente o uso do ArcGis e trabalho manual.
 
 
-### [3.5] - Perfis das Partes Interessadas
+### [3.4] - Perfis das Partes Interessadas
 
 |Representante|Descrição|Tipo|Responsabilidades|Envolvimento|Entregas|
-|:---:|:---:|:---:||:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |Comunidade|Membros de uma comunidade que irão realizar a delimitação das terras|Usuário|Delimitação das terras e adição de seus documentos e multimídia |Diretamente envolvido|Demarcação e produção de dados|
 |Pesquisador|Usuário quem auxilia no processo de validação das delimitações|Usuário Pesquisador|Avaliar as delimitações demandadas pela comunidade|Diretamente envolvido|Validação e coleta dos dados|
 |Administrador da comunidade|Membro com a função de gerenciar a comunidade dentro da Nova Cartografia Social|Administrador|Gerenciar os membros e a comunidade|Diretamente envolvido|Demarcação, produção de dados e gerenciamento|
@@ -94,27 +94,52 @@ XX
 ## <a href="#visao-geral">[4]</a><l>&nbsp;-&nbsp;</l>Visão Geral do Produto
 
 ### [4.1] - Perspectiva do Produto
-
-
+<p align="justify">
+O produto vem para atender as comunidades tradicionais e pesquisadores de forma que seja independente, colaborativo, pragmático, acessível e transparente todo o processo da Cartografia Social.
 
 ### [4.2] - Resumo das Capacidades
-### [4.3] - Suposições e Dependências
-### [4.4] - Custo e Precificação
-### [4.4] - Licenciamento e Instalação
+
+|Benefício para o Cliente|Recursos de Suporte|
+|:---:|:---:|
+|Centralizar e facilitar o processo de delimitação, além de enriquecimento cultural|O usuário pode delimitar de forma offline e sincronizar assim que obter acesso a internet|
+|Comodidade para os usuários| Comunicação acessível entre as partes interessadas|
+|Agilidade no processo de delimitação|Vários membros de uma comunidade podem delimitar pontos tornando o processo colaborativo|
+
 
 <span id="recurso-produto"></span>
 ## <a href="#recurso-produto">[5]</a><l>&nbsp;-&nbsp;</l>Recursos do Produto
 
-### [5.1] - Recurso 1
+### [5.1] - Visualização do mapa
+<p align="justify">
+Permitir que o usuário explore a área ao redor e ver os pontos/áreas delimitados por outros usuários da mesma comunidade
 
+### [5.2] - Modo de visualização em demonstração
+<p align="justify">
+Permitir que o usuário, sem conta, possa explorar as principais funcionalidades do aplicativo com o intuito de experimentá-lo.
 
-<span id="restricoes"></span>
-## <a href="#restricoes">[6]</a><l>&nbsp;-&nbsp;</l>Restrições
+### [5.3] - Cadastro de membros/comunidades
+<p align="justify">
+Permitir que o usuário preencha um formulário respectivo para a criação de um membro/comunidade.
 
-### [6.1] - Restrição 1
+### [5.4] - Delimitar um ponto/área
+<p align="justify">
+Permitir que o usuário insira um ponto/área ao mapa da comunidade.
+
+### [5.5] - Inserção de multimídia
+<p align="justify">
+Permitir que o usuário insira, nos pontos delimitados, documentos, fotos, áudios, vídeos e descrições.
+
+### [5.6] - Download de mapa
+<p align="justify">
+Permitir que o usuário possa fazer o download do mapa para continuar delimitando pontos e áreas sem a necessidade de uma conexão com a internet.
+
+### [5.7] - Exportar dados
+<p align="justify">
+Permitir que o usuário exporte seus dados com total controle, de forma confiável e segura, para os pesquisadores em um formato compatível com o ArcGis.
+
 
 <span id="referencia"></span>
-## <a href="#referencia">[7]</a><l>&nbsp;-&nbsp;</l>Referências Bibliográficas
+## <a href="#referencia">[6]</a><l>&nbsp;-&nbsp;</l>Referências Bibliográficas
 
 __IBM__. Engineering Lifecycle Management 6.0.5. __Documento de Visão__. Disponível em: <a href="https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document">https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document</a>
 
