@@ -100,7 +100,14 @@ module.exports = {
           children: [
             'contribuicao',
           ]
-        }
+        },
+        {
+          title: 'Organização',
+          collapsable: false,
+          children: [
+            'plano-comunicacao',
+          ]
+        },
       ],
     }
   },
