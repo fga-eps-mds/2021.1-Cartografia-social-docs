@@ -31,13 +31,16 @@
 
 ### [2.1] - Oportunidade de Negócios
 
-<p align="justify"> 
+<p align="justify"> O produto tem por objetivo falicitar e tornar mais ágil uma etapa da execução da cartografia social, que é a autodelimitação, pois reúne, em um único aparelho eletrônico, várias tecnologias necessárias para o processo, além de integrar todas as informações em um servidor, o que da mais velocidade no acesso aos dados por parte do pesquisador para validação dos dados e desenvolvimento do artefato final (fascículo) e ainda mantém um controle sobre os dados por parte dos povos e comunidades tradicionais, assim, fortalecendo o trabalho social.
+
 ### [2.2] - Instrução do Problema
 
-<p align="justify"> 
+<p align="justify"> O processo da cartografia social é não é trivial, pois envolve a delimitação de terras, a coleta de dados sejam eles documentos ou multimídias, e esse trabalho todo é feito de forma manual, ou seja, os pesquisadores ministram oficinas, tanto para ensinar o uso de tecnologias para demarcação quanto para coletar os mapas, documentos e fotos, para posteriormente fazer a junção desses dados no laboratório e produzir o fascículo. Tendo em vista os desafios citados acima, a solução que estamos propondo seria um aplicativo de celular que disponibilizasse um mapa, onde seria possível marcar pontos ou áreas, até mesmo de forma offline, e associar os documentos e/ou multimídias àquela marcação, seria também possível enviar os dados para os pesquisadores para a realização de validações ou correções mais rápidas, dando agilidade ao processo de produção dos artefatos.
 
 
 ### [2.3] - Instrução de Posição do Produto
+
+<p align="justify"> Indicado para pesquisadores e membros de povos ou comunidades tradicionais, que desejam utilizar uma ferramenta capaz de auxiliar no processo da cartografia social. O produto Nova Cartografia Social é um aplicativo móvel que permitirá que o membro de uma comunidade delimite no mapa: pontos, áreas e associe documentos e mídia a essas marcações até mesmo sem conexão com a internet, e após encontrar alguma conexão, os dados são sincronizados e salvos. No aplicativo existirá um modo de demonstração, em que o usuário poderá experimentar as principais funcionalidades do mesmo.
 
 <span id="parte-interessada"></span>
 ## <a href="#parte-interessada">[3]</a><l>&nbsp;-&nbsp;</l>Descrições da Parte Interessada e do Usuário
@@ -76,3 +79,4 @@
 
 __IBM__. Engineering Lifecycle Management 6.0.5. __Documento de Visão__. Disponível em: <a href="https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document">https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document</a>
 
+__Nova Cartografia Social da Amazônia__. Apresentação do Projeto Nova Cartografia Social em português do Brasil. Disponível em: http://novacartografiasocial.com.br/apresentacao/. Acesso em 07/09/2021.
