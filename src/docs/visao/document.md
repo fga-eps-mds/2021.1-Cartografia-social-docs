@@ -6,6 +6,7 @@
 |:---:|:---:|:---:|:---:|
 |06/09/2021|0.1| Iniciando documento de visão | [Leonardo Barreiros](https://github.com/leossb36) |
 |07/09/2021|0.2| Inserindo artefatos e definições | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
+|08/09/2021|0.3| Inserindo o Tópico Posicionando | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 
 <span id="introducao"></span>
 ## <a href="#introducao">[1]</a><l>&nbsp;-&nbsp;</l>Introdução
