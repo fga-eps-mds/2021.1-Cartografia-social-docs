@@ -1,5 +1,5 @@
 # Lean Inception
-A Lean Inception é um método cridao por Paulo Caroli para que a equipe de desenvolvimento, em uma semana, obtenha o produto mínimo viável (MVP), que por sua vez, significa obter a versão mais simples de um produto que pode ser lançada com uma quantidade mínima de esforço e desenvolvimento.
+A Lean Inception é um método cridao por Paulo Caroli para que a equipe de desenvolvimento, em uma semana, obtenha o produto mínimo viável (MVP), que por sua vez, significa obter o mapeamento do que seria a versão mais simples de um produto que pode ser lançada com uma quantidade mínima de esforço e desenvolvimento.
 Uma Lean Inception é um workshop coletivo que visa alinhar o entendimento das áreas de negócio e técnicas sobre um produto em seus aspectos mais fundamentais. Ela acontece bem no começo de projetos, quando tanto as áreas de negócio quanto as áreas técnicas ainda têm apenas um esboço de produto em mente: quem serão seus usuários e sua jornada até o produto, quais serão as funcionalidades do produto ou o escopo e agenda das entregas.
 Portanto este documento tem por finalidade mostrar o que foi feito, pelo time, durante a Lean Inception.
 
@@ -55,7 +55,7 @@ Para a realização dessa tarefa, foi definido um tempo para que todos que estav
 ## Atividade 6: Jornada do usuário
 Esta atividade serve para compreender todas as fases de interação que o cliente final tem com um produto quando se deseja cumprir uma determinada atividade. Ou seja, realiza-se o mapeamento detalhado de todo contato e experiência possível que o usuário poderá ter durante a utilização do que está sendo proposto.
 
-Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos que desenvolveu as personas e cada grupo ficou responsável por sua respectiva persona. A ideia aqui era que cada persona tivesse um objetivo a ser cumprido dentro do produto (card verde) e o grupo teria que pensar como seria o fluxo dentro da aplicação que esse usuário seguiria para cumprir esse objetivo (card rosa). Depois foi definido um tempo para que o grupo colocasse todas funcionalidades, que foram levantadas no brainstorming, que tivesse a ver com aquele fluxo de trabalho (card amarelo). O resultado se encontra nas tabelas abaixo.
+Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos que desenvolveram as personas e cada grupo ficou responsável por sua respectiva persona. A ideia aqui era que cada persona tivesse um objetivo a ser cumprido dentro do produto (card verde) e o grupo teria que pensar como seria o fluxo dentro da aplicação que esse usuário seguiria para cumprir esse objetivo (card rosa). Depois foi definido um tempo para que o grupo colocasse todas funcionalidades, que foram levantadas no brainstorming, que tivesse a ver com aquele fluxo de trabalho (card amarelo). O resultado se encontra nas tabelas abaixo.
 ### Grupo 1
 ![jornada 1](../images/lean/jornada1.png)
 ### Grupo 2
@@ -70,7 +70,7 @@ Segue o mapa abaixo:
 
 ![mapa](../images/lean/mapa.png)
 
-Para a realização dessa tarefa, o grupo se reuniu em discussão em forma de uma mesa redonda, onde o lider lia a funcionalidade e um membro falava qual a classificação que aquela funcionalidade tinha e ai o time dizia se concordava ou não, dando seu ponto de vista. Depois de ter todas funcionalidades classificadas com as respectivas cores, o time classificou cada uma de acordo com o valor de esforço, négocio e UX. O resultado dessa classificação se encontra na imagem abaixo.
+Para a realização dessa tarefa, o grupo se reuniu em discussão em forma de uma mesa redonda virtual, com os microfones abertos para facilitar as discussões. Nessa mesa, o lider lia a funcionalidade e um membro falava qual a classificação que aquela funcionalidade tinha e ai o time dizia se concordava ou não, dando seu ponto de vista. Depois de ter todas funcionalidades classificadas com as respectivas cores, o time classificou cada uma de acordo com o valor de esforço, négocio e UX. O resultado dessa classificação se encontra na imagem abaixo.
 
 ![revisão técnica](../images/lean/revisao-tecnica.png)
 
