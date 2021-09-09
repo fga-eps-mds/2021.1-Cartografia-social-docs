@@ -46,6 +46,8 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 |Interagir Com Outro usuário|<a href="#US18">**[US18]**</a>|Usuário|curtir ou comentar o tweet de outro usuário|comunicar através de símbolos da plataforma|<a href="#US18">**Link para a [US18]**</a>|<a href="../../elicitacao/requisitos/#R06">**R006**</a> ; <a href="../../elicitacao/requisitos/#R08">**R008**</a>|| -->
 
 ## Lista das Histórias de usuário
+
+A priorização e refinamento dos requisitos é um dos passos que damos na fase de Iniciação nos métodos tradicionais (Scrum/PMBOOK), para realizarmos essa priorização além da etapa de revisão técnica de negócio e de UX, que foi realizada no Lean Inception nós utilizamos também o framework moscow para priorizarmos nossas histórias de usuário.
 ---
 
 <span id="US01"></span>
