@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         text: 'Lean inception',
-        link: '/lean/',
+        link: '/lean/lean-inception',
       },
     ],
     sidebar: {
@@ -100,7 +100,6 @@ module.exports = {
           collapsable: false,
           children: [
             'prototipos/baixa_fidelidade',
-
           ]
         },
         {
