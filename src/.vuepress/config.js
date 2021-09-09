@@ -87,6 +87,13 @@ module.exports = {
           ]
         },
         {
+          title: 'Planejamento de Qualidade',
+          collapsable: false,
+          children: [
+            'qualidade',
+          ]
+        },
+        {
           title: 'Prototipação',
           collapsable: false,
           children: [
@@ -100,7 +107,14 @@ module.exports = {
           children: [
             'contribuicao',
           ]
-        }
+        },
+        {
+          title: 'Organização',
+          collapsable: false,
+          children: [
+            'plano-comunicacao',
+          ]
+        },
       ],
     }
   },
