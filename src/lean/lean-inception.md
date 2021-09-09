@@ -91,7 +91,8 @@ Para a realização dessa tarefa, o time se reuniu em discussão para fazer a mo
 ## Atividade 9: MVP canvas
 O MVP é a versão mais básica pela qual um produto pode ser utilizado pelos seus usuários. Ele tem as features fundamentais, o core do produto, bem menos desenvolvido do que sua versão completa. 
 
-Para a definição do produto mínimo viável
+Para a definição do produto mínimo viável, o nosso time se reuniu na atividade anterior (sequenciador) e chegou a conclusão de que até a onda 4 é essencialmente o que o produto deverá ter para que fosse representado o MVP. Então para a realizaão dessa atividade foi necessário apenas trazer aquelas funcionalidaes e coloca-las na tabela abaixo:
+
 ![mvp](../images/lean/mvp.png)
 
 ## Referências:
