@@ -1,12 +1,12 @@
 # Lean Inception
-A Lean Inception é um método cridao por Paulo Caroli para que a equipe de desenvolvimento, em uma semana, obtenha o produto mínimo viável (MVP), que por sua vez, significa obter a versão mais simples de um produto que pode ser lançada com uma quantidade mínima de esforço e desenvolvimento.  
-Uma Lean Inception é um workshop coletivo que visa alinhar o entendimento das áreas de negócio e técnicas sobre um produto em seus aspectos mais fundamentais. Ela acontece bem no começo de projetos, quando tanto as áreas de negócio quanto as áreas técnicas ainda têm apenas um esboço de produto em mente: quem serão seus usuários e sua jornada até o produto, quais serão as funcionalidades do produto ou o escopo e agenda das entregas.    
+A Lean Inception é um método cridao por Paulo Caroli para que a equipe de desenvolvimento, em uma semana, obtenha o produto mínimo viável (MVP), que por sua vez, significa obter a versão mais simples de um produto que pode ser lançada com uma quantidade mínima de esforço e desenvolvimento.
+Uma Lean Inception é um workshop coletivo que visa alinhar o entendimento das áreas de negócio e técnicas sobre um produto em seus aspectos mais fundamentais. Ela acontece bem no começo de projetos, quando tanto as áreas de negócio quanto as áreas técnicas ainda têm apenas um esboço de produto em mente: quem serão seus usuários e sua jornada até o produto, quais serão as funcionalidades do produto ou o escopo e agenda das entregas.
 Portanto este documento tem por finalidade mostrar o que foi feito, pelo time, durante a Lean Inception.
 
 ## Atividade 1: Visão do produto
-Esta atividade tem por objetivo nortear todas as decisões em relação ao produto com base no entendimento dos objetivos do dono do produto e os problemas e necessidades do usuário do produto.  
+Esta atividade tem por objetivo nortear todas as decisões em relação ao produto com base no entendimento dos objetivos do dono do produto e os problemas e necessidades do usuário do produto.
 
-Para a realização dessa tarefa, o nosso time se dividiu em 3 grupos, onde cada grupo iria fazer sua própria visão respondendo determinadas questões definidas anteriormente. Logo após o time se reuniu por completo para discutir e juntar as principais idéias para formar a visão de produto geral.  
+Para a realização dessa tarefa, o nosso time se dividiu em 3 grupos, onde cada grupo iria fazer sua própria visão respondendo determinadas questões definidas anteriormente. Logo após o time se reuniu por completo para discutir e juntar as principais ideias para formar a visão de produto geral.
 Abaixo segue o que foi desenvolvido por cada grupo e também a visão de produto geral definida após a discussão.
 ### Grupo 1
 ![visao do produto 1](../images/lean/visao-do-produto1.png)
@@ -18,9 +18,9 @@ Abaixo segue o que foi desenvolvido por cada grupo e também a visão de produto
 ![visao do produto geral](../images/lean/visao-do-produto-geral.png)
 
 ## Atividade 2: O produto É - NÃO É - FAZ - NÃO FAZ
-Esta atividade ajuda a definir o produto de forma que, por vezes é mais fácil descrever algo pelo que tal coisa não é ou deixa de fazer. É perceptivel que depois dessa atividade os participantes passam a ter uma visão mais alinhada tanto sobre o que o produto faz, tanto quanto o que o produto não faz.  
+Esta atividade ajuda a definir o produto de forma que, por vezes é mais fácil descrever algo pelo que tal coisa não é ou deixa de fazer. É perceptivel que depois dessa atividade os participantes passam a ter uma visão mais alinhada tanto sobre o que o produto faz, tanto quanto o que o produto não faz.
 
-Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar, pelo menos, uma idéia do que o produto é, do que o produto não é, do que o produto faz e do que o produto não faz. Ao final do tempo o grupo se juntou em uma discussão para ver se o que foi colocado fazia sentido e corrigir possiveis idéias que estavam desalinhada com o escopo.  
+Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar, pelo menos, uma ideia do que o produto é, do que o produto não é, do que o produto faz e do que o produto não faz. Ao final do tempo o grupo se juntou em uma discussão para ver se o que foi colocado fazia sentido e corrigir possiveis ideias que estavam desalinhada com o escopo.
 No fim foi gerado a tabela abaixo contendo os itens após a discussão.
 
 ![é não é faz não faz](../images/lean/e-naoe-faz-naofaz.png)
@@ -28,7 +28,7 @@ No fim foi gerado a tabela abaixo contendo os itens após a discussão.
 ## Atividade 3: Objetivos do negócio
 Esta atividade serve para auxiliar no levantamento e esclarecimento dos objetivos do produto.
 
-Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar idéias do que pensavam ser os objetivos do produto. Ao final do tempo o grupo se juntou em discussão para agrupar, em clusters, as idéias que tinham similaridade e para remover as duplicadas, além de abrir uma votação para definir qual dos objetivos seria o mais importante de cada cluster.
+Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar ideias do que pensavam ser os objetivos do produto. Ao final do tempo o grupo se juntou em discussão para agrupar, em clusters, as ideias que tinham similaridade e para remover as duplicadas, além de abrir uma votação para definir qual dos objetivos seria o mais importante de cada cluster.
 
 A tabela abaixo representa esta discussão, onde os cards rosas são os clusters e as bolinhas em cima de alguns cards representam o numero de votos. O card Icebox serve para funcionalidades que foram levantadas mas ficarão "congeladas" no escopo.
  
@@ -46,16 +46,16 @@ Para a realização dessa tarefa, o nosso time se dividiu em 3 grupos, onde cada
 ![persona 3](../images/lean/persona3.png)
 
 ## Atividade 5: Brainstorming de funcionalidades
-Esta atividade é uma técnica utilizada para propor soluções a um problema específico. Consiste em uma reunião também chamada de tempestade de ideias, na qual os participantes devem ter liberdade de expor suas sugestões e debater sobre as contribuições dos colegas. No âmbito de software o brainstorming serve para que os participantes deem idéias de funconalidades do produto.
+Esta atividade é uma técnica utilizada para propor soluções a um problema específico. Consiste em uma reunião também chamada de tempestade de ideias, na qual os participantes devem ter liberdade de expor suas sugestões e debater sobre as contribuições dos colegas. No âmbito de software o brainstorming serve para que os participantes deem ideias de funcionalidades do produto.
 
-Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar idéias de funcionalidades da aplicação. Ao final do tempo o grupo se juntou em discussão para agrupar as idéias que tinham similaridade e para remover as duplicadas.
+Para a realização dessa tarefa, foi definido um tempo para que todos que estavam presentes pudessem colocar ideias de funcionalidades da aplicação. Ao final do tempo o grupo se juntou em discussão para agrupar as ideias que tinham similaridade e para remover as duplicadas.
 
 ![brainstorming](../images/lean/brainstorming.png)
 
 ## Atividade 6: Jornada do usuário
-Esta atividade serve para compreender todas as fases de interação que o cliente final tem com um produto quando se dejesa cumprir uma determinada atividade. Ou seja, realiza-se o mapeamento detalhado de todo contato e experiência possível que o usuário poderá ter durante a utilização do que está sendo proposto.
+Esta atividade serve para compreender todas as fases de interação que o cliente final tem com um produto quando se defesa cumprir uma determinada atividade. Ou seja, realiza-se o mapeamento detalhado de todo contato e experiência possível que o usuário poderá ter durante a utilização do que está sendo proposto.
 
-Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos que desenvolveu as personas e cada grupo ficou responsável por sua respectiva persona. A idéia aqui era que cada persona tivesse um objetivo a ser cumprido dentro do produto (card verde) e o grupo teria que pensar como seria o fluxo dentro da aplicação que esse usuário seguiria para cumprir esse objetivo (card rosa). Depois foi definido um tempo para que o grupo colocasse todas funcionalidades, que foram levantadas no brainstorming, que tivesse a ver com aquele fluxo de trabalho (card amarelo). O resultado se encontra nas tabelas abaixo. 
+Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos que desenvolveu as personas e cada grupo ficou responsável por sua respectiva persona. A ideia aqui era que cada persona tivesse um objetivo a ser cumprido dentro do produto (card verde) e o grupo teria que pensar como seria o fluxo dentro da aplicação que esse usuário seguiria para cumprir esse objetivo (card rosa). Depois foi definido um tempo para que o grupo colocasse todas funcionalidades, que foram levantadas no brainstorming, que tivesse a ver com aquele fluxo de trabalho (card amarelo). O resultado se encontra nas tabelas abaixo.
 ### Grupo 1
 ![jornada 1](../images/lean/jornada1.png)
 ### Grupo 2
@@ -64,9 +64,9 @@ Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos qu
 ![jornada 3](../images/lean/jornada3.png)
 
 ## Atividade 7: Revisão técnica, de negócio e de UX
-Nesta atividade os participantes representam as funcionalidades do produto com suas cores e marcações indicando nível de incerteza, esforço e percepção de valor para o negócio e para os usuários, para que assim fique mais fácil de priorizar posteriormente. A marcação de cada funcionalidade é dada a partir de um mapa de 2 eixos, onde o eixo y representa qual a clareza daquela funcionalidade no ponto de vista de négocios e o eixo x representa o congecimento de como fazer aquela funcionalidade no ponto de vista de desenvolvimento.
+Nesta atividade os participantes representam as funcionalidades do produto com suas cores e marcações indicando nível de incerteza, esforço e percepção de valor para o negócio e para os usuários, para que assim fique mais fácil de priorizar posteriormente. A marcação de cada funcionalidade é dada a partir de um mapa de 2 eixos, onde o eixo y representa qual a clareza daquela funcionalidade no ponto de vista de négocios e o eixo x representa o conhecimento de como fazer aquela funcionalidade no ponto de vista de desenvolvimento.
 
-Segue o mapa abaixo:  
+Segue o mapa abaixo:
 
 ![mapa](../images/lean/mapa.png)
 
@@ -89,9 +89,9 @@ Para a realização dessa tarefa, o time se reuniu em discussão para fazer a mo
 ![sequenciador](../images/lean/sequenciador.png)
 
 ## Atividade 9: MVP canvas
-O MVP é a versão mais básica pela qual um produto pode ser utilizado pelos seus usuários. Ele tem as features fundamentais, o core do produto, bem menos desenvolvido do que sua versão completa. 
+O MVP é a versão mais básica pela qual um produto pode ser utilizado pelos seus usuários. Ele tem as features fundamentais, o core do produto, bem menos desenvolvido do que sua versão completa.
 
-Para a definição do produto mínimo viável, o nosso time se reuniu na atividade anterior (sequenciador) e chegou a conclusão de que até a onda 4 é essencialmente o que o produto deverá ter para que fosse representado o MVP. Então para a realizaão dessa atividade foi necessário apenas trazer aquelas funcionalidaes e coloca-las na tabela abaixo:
+Para a definição do produto mínimo viável, o nosso time se reuniu na atividade anterior (sequenciador) e chegou a conclusão de que até a onda 4 é essencialmente o que o produto deverá ter para que fosse representado o MVP. Então para a realização dessa atividade foi necessário apenas trazer aquelas funcionalidades e coloca-las na tabela abaixo:
 
 ![mvp](../images/lean/mvp.png)
 
@@ -109,6 +109,6 @@ Para a definição do produto mínimo viável, o nosso time se reuniu na ativida
 ## Versionamento de edições desta página
 ---
 
-| Data | Autor | Descrição | Versão |
-|------|-------|-----------|--------|
-| 05/09/2021 | Marco Antônio | Criação da página e adição de conteúdo | 1.0 |
+| Data       | Autor         | Descrição                              | Versão |
+| ---------- | ------------- | -------------------------------------- | ------ |
+| 05/09/2021 | Marco Antônio | Criação da página e adição de conteúdo | 1.0    |
