@@ -66,10 +66,11 @@ module.exports = {
       ],
       '/docs/': [
         {
-          title: 'Product Backlog',
+          title: 'Backlog & Sprints',
           collapsable: false,
           children: [
             'product-backlog',
+            'sprint-1',
           ]
         },
         {
