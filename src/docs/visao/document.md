@@ -10,6 +10,7 @@
 |08/09/2021|0.4| Inserindo o Tópico Descrição das partes interessadas | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.5| Inserindo restante dos tópicos e ajuste de estrutura textual | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 
+
 <span id="introducao"></span>
 ## <a href="#introducao">[1]</a><l>&nbsp;-&nbsp;</l>Introdução
 
@@ -23,11 +24,9 @@
 
 <p align="justify"> O escopo deste projeto está associado as necessidades dos pesquisadores, povos e comunidades tradicionais em demarcarem terras terras. além de possuir outras propriedades que afetam na cultura destes povos. Também é visto como um auxiliador, no momento em quem facilita a demarcação das áreas e pontos com o intuito de extender o processo de demarcação a outras plataformas, por meio do uso de aparelhos telefônicos.
 
-### [1.3] - Definições, acrônimos e abreviações
+### [1.3] - Visão Geral
 
-### [1.4] - Visão Geral
-
-<p align="justify"> Tendo um panorama geral deste documento, ele é subdivido em sete seções. No qual temos um introdutório para apresentar a Nova Cartografia Social e também apontar para qual é o seu objetivo. Desta forma seguimos para uma camada seguinte abordando aspectos de posicionamento deste produto, definindo o cenário em que a Nova Cartografia Social irá atuar. Tendo em vista este cenário avançamos para o terceiro tópico em que fala a respeito dos stakeholders, abordando seus perfis, necessidades e ambientes em que se encontram. É na quarta camada em que é abordado uma visualização de alto nivel das capacidades deste produto. Assim dando sequência para a quinta seção que lista e descreve brevemente os recursos deste produto. Na sexta seção apresenta-se as restrições para este produto, sejam elas de design, externas, regulamentações e outras dependências. E por ultimo, não menos importante, as referências bibliográficas, no qual este documento se baseia.
+<p align="justify"> Tendo um panorama geral deste documento, ele é subdivido em sete seções. No qual temos um introdutório para apresentar a Nova Cartografia Social e também apontar para qual é o seu objetivo. Desta forma seguimos para uma camada seguinte abordando aspectos de posicionamento deste produto, definindo o cenário em que a Nova Cartografia Social irá atuar. Tendo em vista este cenário avançamos para o terceiro tópico em que fala a respeito dast partes interessadas, abordando seus perfis, necessidades e ambientes em que se encontram. É na quarta camada em que é abordado uma visualização de alto nivel das capacidades deste produto. Assim dando sequência para a quinta seção que lista e descreve brevemente os recursos deste produto. Na sexta seção apresenta-se as restrições para este produto, sejam elas de design, externas, regulamentações e outras dependências. E por ultimo, não menos importante, as referências bibliográficas, no qual este documento se baseia.
 
 <span id="posicionamento"></span>
 ## <a href="#posicionamento">[2]</a><l>&nbsp;-&nbsp;</l>Posicionamento
@@ -38,7 +37,7 @@
 
 ### [2.2] - Instrução do Problema
 
-<p align="justify"> O processo da cartografia social é não é trivial, pois envolve a delimitação de terras, a coleta de dados sejam eles documentos ou multimídias, e esse trabalho todo é feito de forma manual, ou seja, os pesquisadores ministram oficinas, tanto para ensinar o uso de tecnologias para demarcação quanto para coletar os mapas, documentos e fotos, para posteriormente fazer a junção desses dados no laboratório e produzir o fascículo. Tendo em vista os desafios citados acima, a solução que estamos propondo seria um aplicativo de celular que disponibilizasse um mapa, onde seria possível marcar pontos ou áreas, até mesmo de forma offline, e associar os documentos e/ou multimídias àquela marcação, seria também possível enviar os dados para os pesquisadores para a realização de validações ou correções mais rápidas, dando agilidade ao processo de produção dos artefatos.
+<p align="justify"> O processo da cartografia social não é trivial, pois envolve a delimitação de terras, a coleta de dados sejam eles documentos ou multimídias, e esse trabalho todo é feito de forma manual, ou seja, os pesquisadores ministram oficinas, tanto para ensinar o uso de tecnologias para demarcação quanto para coletar os mapas, documentos e fotos, para posteriormente fazer a junção desses dados no laboratório e produzir o fascículo. Tendo em vista os desafios citados acima, a solução que estamos propondo seria um aplicativo de celular que disponibilizasse um mapa, onde seria possível marcar pontos ou áreas, até mesmo de forma offline, e associar os documentos e/ou multimídias àquela marcação, seria também possível enviar os dados para os pesquisadores para a realização de validações ou correções mais rápidas, dando agilidade ao processo de produção dos artefatos.
 
 
 ### [2.3] - Instrução de Posição do Produto
@@ -62,7 +61,7 @@
 
 |Nome|Descrição|Parte Interessada|
 |:---:|:---:|:---:|
-|Membros de um povo ou comunidade tradicional|Os principais stakeholders. São pessoas que fazem parte de povos ou comunidades|Cliente do projeto|
+|Membros de um povo ou comunidade tradicional|Os principais da parte interessada. São pessoas que fazem parte de povos ou comunidades|Cliente do projeto|
 |Professores/Pesquisadores| Pessoas que tem o objetivo de auxiliar no processo da Nova Cartografia Social coletando os dados enviados pela comunidade através do aplicativo. |Cliente do projeto|
 |Pessoas mal intencionadas| Pessoas que irão utilizar o aplicativo com outros propósitos a fim de tirar proveito das informações ali contidas e tentar atrapalhar o processo |Cliente do projeto|
 
