@@ -53,7 +53,7 @@ Para a realização dessa tarefa, foi definido um tempo para que todos que estav
 ![brainstorming](../images/lean/brainstorming.png)
 
 ## Atividade 6: Jornada do usuário
-Esta atividade serve para compreender todas as fases de interação que o cliente final tem com um produto quando se defesa cumprir uma determinada atividade. Ou seja, realiza-se o mapeamento detalhado de todo contato e experiência possível que o usuário poderá ter durante a utilização do que está sendo proposto.
+Esta atividade serve para compreender todas as fases de interação que o cliente final tem com um produto quando se deseja cumprir uma determinada atividade. Ou seja, realiza-se o mapeamento detalhado de todo contato e experiência possível que o usuário poderá ter durante a utilização do que está sendo proposto.
 
 Para a realização dessa tarefa, o nosso time se dividiu nos mesmos 3 grupos que desenvolveu as personas e cada grupo ficou responsável por sua respectiva persona. A ideia aqui era que cada persona tivesse um objetivo a ser cumprido dentro do produto (card verde) e o grupo teria que pensar como seria o fluxo dentro da aplicação que esse usuário seguiria para cumprir esse objetivo (card rosa). Depois foi definido um tempo para que o grupo colocasse todas funcionalidades, que foram levantadas no brainstorming, que tivesse a ver com aquele fluxo de trabalho (card amarelo). O resultado se encontra nas tabelas abaixo.
 ### Grupo 1
