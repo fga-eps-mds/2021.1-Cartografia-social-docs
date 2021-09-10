@@ -14,6 +14,11 @@
     - [4.2. Impacto](#42-impacto)
     - [4.3. Prioridade](#43-prioridade)
       - [4.3.1 Nível de prioridade](#431-nível-de-prioridade)
+  - [Planejamento de resposta dos riscos](#planejamento-de-resposta-dos-riscos)
+    - [Prevenir](#prevenir)
+    - [Transferir](#transferir)
+    - [Mitigar](#mitigar)
+    - [Aceitar](#aceitar)
   - [5. Documentação dos riscos](#5-documentação-dos-riscos)
   - [## 6. Versionamento de edições desta página](#-6-versionamento-de-edições-desta-página)
 
@@ -89,11 +94,26 @@ A prioridade é o que determina a urgência que medidas devem ser tomadas para r
 | Alta | 16 a 20 |
 | Muito alta | 21 a 25 |
 
+## Planejamento de resposta dos riscos
+A resposta aos riscos consiste em aumentar as oportunidades e reduzir as ameaças aos objetivos do projeto, permitindo assim a abordagem dos riscos por prioridades. Os tipos de abordagem que devem ser aplicadas a cada risco são prevenir, transferir, mitigar ou aceitar.
+
+### Prevenir
+Na estratégia de prevenir o risco, a equipe deve agir para eliminar a ameaça ou proteger o projeto contra o impacto deste risco. Extensão do cronograma, alteração da estratégia ou redução do escopo são exemplos de ações com o objetivo de prevenir.
+
+### Transferir
+A estratégia de transferência de riscos consiste em realocar o impacto e responsabilidade da ameaça para terceiros, transferindo o esforço gerencial para outra área, equipe ou software.
+
+### Mitigar
+Na estratégia de mitigar o risco, a equipe age para reduzir a probabilidade ou impacto do risco. Diminuir a possibilidade da ocorrência do risco é melhor do que reparar o impacto produzido pelo mesmo. Quando reduzir a probabilidade do risco não é possível, deve-se abordar fatores determinantes para a gravidade do impacto.
+
+### Aceitar
+A aceitação é a resposta ao risco que a equipe do projeto decide não agir para diminuir sua ocorrência. Essa postura é aplicada quando é inviável evitar, diminuir ou transferir o risco.
+
 ## 5. Documentação dos riscos
 
-| ID  |  Risco  | Categoria | Causa | Consequência |
-| ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| R01 |  Arquitetura do software mal desenvolvida | Técnico | Falta de conhecimento da equipe sobre o assunto | Baixo desempenho do software |
+| ID  |  Risco  | Categoria | Causa | Consequência | Probabilidade | Impacto | Prioridade | Resposta
+| ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------- | -------| -----| ------|
+| R01 |  Arquitetura do software mal desenvolvida | Técnico | Falta de conhecimento da equipe sobre o assunto | Baixo desempenho do software | 20 | 4 |
 | R02 |  Dificuldade no desenvolvimento do software | Técnico | Tema complexo ou falta de experiência dos membros da equipe | Atraso no cronograma |
 | R03 |  O software não funciona corretamente | Técnico | Presença de falhas no sistema | Insatisfação do cliente com o produto |
 | R04 |  Projeto não atende a expectativa do cliente | Técnico | Falta de comunicação com o cliente ou incompreenção do escopo | Insatisfação do cliente com o produto |
