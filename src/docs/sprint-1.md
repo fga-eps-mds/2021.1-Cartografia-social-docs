@@ -29,6 +29,13 @@ O foco do planejamento da sprint 01 se deu em atualizar a wiki com toda a docume
 | [#2](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/2) | DEVOPS | Sonar Cloud & Coleta de métricas (configurar) (Para o back está incluso nas issues acima) | Deusdará, Guilherme Guy |
 |[#8](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/8) [#3](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/3), [#2](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/2), [#3](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/3), [#3](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-mapas/issues/3), [#2](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-users/issues/2) | Documentação | Melhorar o readme de cada repositório | Elias, Alexandre, Deusdará |
 
+
+
+### Quadro de pareamentos
+<br>
+
+<iframe width="800" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLHE3O8zIRwIz41POb4DXlbyhoVHY9R9vC0wSL-60NMeFVH0Fk0wqUV2v8AgRGTokYaZmwunInbF3m/pubhtml?gid=1619415756&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 ### Papéis
 
 A equipe não definiu papéis específicos, com exceção do Scrum Master. O scrum master irá rotacionar por sprint/semana, sendo que o SM anterior irá ajudar o novo, pareando e distribuindo o conhecimento dessa forma.
@@ -49,3 +56,4 @@ Outros pontos também foram abordados durante a reunião de planejamento, dentre
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 08/09/2021 | Elias | Criação do documento | 0.1 |
+| 09/09/2021 | [Arthur Rodrigues](https://github.com/arthurarp) | Adição do quadro de pareamentos | 0.2 |
