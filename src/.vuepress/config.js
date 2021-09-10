@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         text: 'Lean inception',
-        link: '/lean/',
+        link: '/lean/lean-inception',
       },
     ],
     sidebar: {
@@ -64,6 +64,15 @@ module.exports = {
           ]
         }
       ],
+      '/lean/': [
+        {
+          title: 'Documentação',
+          collapsable: false,
+          children: [
+            'lean-inception',
+          ]
+        },
+      ],
       '/docs/': [
         {
           title: 'Documento de Visão',
@@ -73,10 +82,11 @@ module.exports = {
           ]
         },
         {
-          title: 'Product Backlog',
+          title: 'Backlog & Sprints',
           collapsable: false,
           children: [
             'product-backlog',
+            'sprint-1',
           ]
         },
         {
@@ -94,11 +104,17 @@ module.exports = {
           ]
         },
         {
+          title: 'Planejamento de Qualidade',
+          collapsable: false,
+          children: [
+            'qualidade',
+          ]
+        },
+        {
           title: 'Prototipação',
           collapsable: false,
           children: [
             'prototipos/baixa_fidelidade',
-
           ]
         },
         {
@@ -107,7 +123,14 @@ module.exports = {
           children: [
             'contribuicao',
           ]
-        }
+        },
+        {
+          title: 'Organização',
+          collapsable: false,
+          children: [
+            'plano-comunicacao',
+          ]
+        },
       ],
     }
   },
