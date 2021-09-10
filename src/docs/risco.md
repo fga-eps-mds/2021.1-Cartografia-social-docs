@@ -1,27 +1,3 @@
-- [Plano de Gerenciamento de Riscos](#plano-de-gerenciamento-de-riscos)
-  - [1. Introdução](#1-introdução)
-  - [2. Processo de gerenciamento de risco](#2-processo-de-gerenciamento-de-risco)
-    - [2.1. Metodologia](#21-metodologia)
-    - [2.2. Responsabilidade](#22-responsabilidade)
-  - [3. Categoria dos riscos](#3-categoria-dos-riscos)
-    - [3.1. Técnico](#31-técnico)
-    - [3.2. Externo](#32-externo)
-    - [3.3. Organizacional](#33-organizacional)
-    - [3.4. Gerenciamento de projetos](#34-gerenciamento-de-projetos)
-  - [4. Análise quantitativa](#4-análise-quantitativa)
-    - [4.1. Probabilidade](#41-probabilidade)
-    - [4.2. Impacto](#42-impacto)
-    - [4.3. Prioridade](#43-prioridade)
-      - [4.3.1 Nível de prioridade](#431-nível-de-prioridade)
-  - [5. Planejamento de resposta dos riscos](#5-planejamento-de-resposta-dos-riscos)
-    - [5.1. Prevenir](#51-prevenir)
-    - [5.2. Transferir](#52-transferir)
-    - [5.3. Mitigar](#53-mitigar)
-    - [5.4. Aceitar](#54-aceitar)
-  - [6. Documentação dos riscos](#6-documentação-dos-riscos)
-  - [7. Versionamento de edições desta página](#7-versionamento-de-edições-desta-página)
-  
-
 # Plano de Gerenciamento de Riscos
 
 ## 1. Introdução
