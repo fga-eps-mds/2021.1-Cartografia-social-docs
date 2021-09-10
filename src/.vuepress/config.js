@@ -125,6 +125,13 @@ module.exports = {
           ]
         },
         {
+          title: 'Plano de gerenciamento de risco',
+          collapsable: false,
+          children: [
+            'risco',
+          ]
+        },
+        {
           title: 'Organização',
           collapsable: false,
           children: [
