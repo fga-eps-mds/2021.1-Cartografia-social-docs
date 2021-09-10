@@ -115,6 +115,8 @@ module.exports = {
           collapsable: false,
           children: [
             'prototipos/baixa_fidelidade',
+            'prototipos/alta_fidelidade',
+
           ]
         },
         {
