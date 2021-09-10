@@ -9,6 +9,7 @@
 |08/09/2021|0.3| Inserindo o Tópico Posicionando | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.4| Inserindo o Tópico Descrição das partes interessadas | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 |08/09/2021|0.5| Inserindo restante dos tópicos e ajuste de estrutura textual | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
+|09/09/2021|1.0| Inserindo Definições, acrônimos e abreviações | [Leonardo Barreiros](https://github.com/leossb36), [Arthur Rodrigues](https://github.com/arthurarp) |
 
 
 <span id="introducao"></span>
@@ -24,7 +25,17 @@
 
 <p align="justify"> O escopo deste projeto está associado as necessidades dos pesquisadores, povos e comunidades tradicionais em demarcarem terras terras. além de possuir outras propriedades que afetam na cultura destes povos. Também é visto como um auxiliador, no momento em quem facilita a demarcação das áreas e pontos com o intuito de extender o processo de demarcação a outras plataformas, por meio do uso de aparelhos telefônicos.
 
-### [1.3] - Visão Geral
+### [1.3] Definições, acrônimos e abreviações
+
+<p align="justify">
+
+- FGA - Faculdade do Gama.
+- UnB - Universidade de Brasília.
+- EPS - Engenharia de Projeto de Software.
+- Comunidades/povos tradicionais - principais usuários da Nova Cartografia social, visto que são povos indigenas, ribeirinhas e etc.
+- Pesquisadores - membros importantes que estão presentes nas comunidades e que trabalham juntamente da comunidade, fazendo parte ou não da comunidade, além de realizar o suporte, validação e coleta de dados.
+
+### [1.4] - Visão Geral
 
 <p align="justify"> Tendo um panorama geral deste documento, ele é subdivido em sete seções. No qual temos um introdutório para apresentar a Nova Cartografia Social e também apontar para qual é o seu objetivo. Desta forma seguimos para uma camada seguinte abordando aspectos de posicionamento deste produto, definindo o cenário em que a Nova Cartografia Social irá atuar. Tendo em vista este cenário avançamos para o terceiro tópico em que fala a respeito dast partes interessadas, abordando seus perfis, necessidades e ambientes em que se encontram. É na quarta camada em que é abordado uma visualização de alto nivel das capacidades deste produto. Assim dando sequência para a quinta seção que lista e descreve brevemente os recursos deste produto. Na sexta seção apresenta-se as restrições para este produto, sejam elas de design, externas, regulamentações e outras dependências. E por ultimo, não menos importante, as referências bibliográficas, no qual este documento se baseia.
 
