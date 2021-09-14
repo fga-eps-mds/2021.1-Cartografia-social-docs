@@ -120,6 +120,13 @@ module.exports = {
           ]
         },
         {
+          title: 'Identidade Visual',
+          collapsable: false,
+          children: [
+            'identidade-visual',
+          ]
+        },
+        {
           title: 'Contribuição',
           collapsable: false,
           children: [
