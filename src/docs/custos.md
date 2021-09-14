@@ -12,6 +12,9 @@
 
 Para o planejamento de custos do Projeto, foi realizada uma análise de diversos fatores mercadológicos para a construção da seguinte tabela, sumarizando os diversos aspectos que geram custos para o projeto como um todo.
 
+![custos-totais](../images/custos.jpg)
+
+## Custos Por Categoria
 ### Desenvolvimento
 
 Para o custo médio de desenvolvimento foi estimado a quantidade de horas de trabalho total por membro do projeto, por sprint, para um custeio embasado na obtenção dos [dados de um salário médio de um desenvolvedor](https://www.payscale.com/research/BR/Job=Software_Developer/Salary) em nível de experiência médio, adequado às experiências dos membros, permitindo dispor os dados conforme a seguinte tabela:
@@ -50,7 +53,7 @@ Seguindo esses aspectos, foi realizada uma [análise dos preços e dos modelos](
 | --- | --- | --- | --- | --- |
 | Notebook | Desenvolvimento, testes e contribuições gerais em documentação e gerência | 9 | 4.278,80 | 38.509,20 |
 
-## Gasto Energético
+### Gasto Energético
 
 Tendo que, para o desenvolvimento, seria necessário o gasto energético associado ao uso contínudo dos equipamentos adquiridos e especificados no item anterior, foi necessário identificar o preço do [***KWh*** da região de Brasília](https://www.neoenergiabrasilia.com.br/residencial-e-rural/Paginas/tarifas.aspx) para a execução do seguinte cálculo:
 
@@ -62,28 +65,25 @@ Tendo que, para o desenvolvimento, seria necessário o gasto energético associa
 
 Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no total, além de que o preço do KWh na região é de **0,7941717 R$/KWh**, possível montar a seguinte tabela
 
-| Sprint | Total de Horas | Potência Total da Sprint (KW) | Gasto da Sprint |
+| Sprint | Total de Horas | Potência Total da Sprint (KW) | Gasto da Sprint (R$) |
 | --- | --- | --- | --- |
-| 00 | 90 | 5,4 | |
-| 01 | 108 | 6,48 | |
-| 02 | 108 | 6,48 | |
-| 03 | 90 | 5,4 | |
-| 04 | 90 | 5,4 | |
-| 05 | 90 | 5,4 | |
-| 06 | 90 | 5,4 | |
-| 07 | 90 | 5,4 | |
-| 08 | 90 | 5,4 | |
-| 09 | 90 | 5,4 | |
-| 10 | 90 | 5,4 | |
-| 11 | 90 | 5,4 | |
-| 12 | 108 | | | 
-| 13 | 108 | | | 
-| 14 | 126 | | | 
-| 15 | 108 | | | 
-| **Total** | **1566** | **39,38** | **61.669,08** |
-
-
-0,7941717
+| 00 | 90 | 5,4 | 4,29 |
+| 01 | 108 | 6,48 | 5,14 |
+| 02 | 108 | 6,48 | 5,14 |
+| 03 | 90 | 5,4 | 4,29 |
+| 04 | 90 | 5,4 | 4,29 |
+| 05 | 90 | 5,4 | 4,29 |
+| 06 | 90 | 5,4 | 4,29 |
+| 07 | 90 | 5,4 | 4,29 |
+| 08 | 90 | 5,4 | 4,29 |
+| 09 | 90 | 5,4 | 4,29 |
+| 10 | 90 | 5,4 | 4,29 |
+| 11 | 90 | 5,4 | 4,29 |
+| 12 | 108 | 6,48 | 5,14 | 
+| 13 | 108 | 6,48 | 5,14 | 
+| 14 | 126 | 7,56 | 6,00 | 
+| 15 | 108 | 6,48 | 5,14 | 
+| **Total** | **1566** | **93,96** | **74,22** |
 
 
 ## Referências
