@@ -85,6 +85,42 @@ Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no t
 | 15 | 108 | 6,48 | 5,14 | 
 | **Total** | **1566** | **93,96** | **74,22** |
 
+### Planejamento de Custos por Sprint
+
+Com os dados anteriores, foi possível mapear os gastos por Sprint conforme a seguinte tabela:
+
+| Sprint | Gastos de Aquisições (R$) | Gasto por Desenvolvimento (R$) | Gasto de Custeio (R$) | Gasto Total (R$) |
+| --- | --- | --- | --- | --- |
+| 00 | 38.509,20 | 3.544,20 | 4,29 | 42.057,69 |
+| 01 | - | 4.253,04 | 5,14 | 4.258,18 |
+| 02 | - | 4.253,04 | 5,14 | 4.258,18 |
+| 03 | - | 3.544,20 | 394,29 | 3.938,49 |
+| 04 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 05 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 06 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 07 | - | 3.544,20 | 394,29 | 3.938,49 |
+| 08 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 09 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 10 | - | 3.544,20 | 4,29 | 3.558,49 |
+| 11 | - | 3.544,20 | 394,29 | 3.938,49 |
+| 12 | - | 4.253,04 | 5,14 | 4.258,18 |
+| 13 | - | 4.253,04 | 5,14 | 4.258,18 |
+| 14 | - | 4.961,88 | 6,00 | 4.967,88 |
+| 15 | - | 4.253,04 | 395,14 | 4.648,18 |
+| **Total** | **38.509,20** | **61.669,08** | **74,22** | **103.446,72** |
+
+## EVM (*Earned value management*)
+
+Gerenciamento de valor agregado, do Inglês, *Earned value management * (EVM) é uma metodologia de gerenciamento de projeto que integra cronograma, custos e escopo para medir o desempenho do projeto com base em valores planejados e reais, prevendo o futuro ao permiir que os gerentes de projeto se ajustem de acordo.
+
+O EVM se concentra no uso de dados em análises de tendências e previsões, sendo uma função de gerenciamento de projeto, ou seja, buscando lidar tanto com os dados em si quanto com as ações tomadas com base nesses dados.
+
+Para controle dos dados de planejamento de gastos foram utilizados elementos do EVM tradicional bem como influências do Agile EVM.
+## Agile EVM
+
+O Agile EVM é uma adaptação do modelo tradicional, cujo foco está em mapear por pontos relevantes da estrutura de desenvolvimento ágil, principalmente quanto à *Release*, proporcionando um panorama geral de como cada gasto é destinado e mapeado por Sprint, permitindo até mesmo compreender o impacto do valor agregado das pontuações de histórias de usuário.
+
+Para o mapeamento dos custos do projeto atual, foram utilizadas estruturas de divisão dos gastos por Sprint, com recorrentes atualizações para se adaptar à realidade de custos do projeto em continuidade, como a adição dos gastos por Release.
 
 ## Referências
 
@@ -94,3 +130,6 @@ Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no t
 
 * [**Dados Tarifários da NeoEnergia (Brasília)**](https://www.neoenergiabrasilia.com.br/residencial-e-rural/Paginas/tarifas.aspx)
 
+* [**Definições do EVM Tradicional**](https://www.ecosys.net/knowledge/earned-value-management-basics/#:~:text=Earned%20value%20management%20(EVM)%20is,project%20managers%20to%20adjust%20accordingly.)
+
+* [**EVM em Projetos de Desenvolvimento Ágil**](https://files.mtstatic.com/site_8189/60/0?Expires=1631658634&Signature=mo21Tk8w4GT2Chm5Am8JT-z~Jcj5gQVpX3h-p~j~JEFg1IbyRnqh3fRZq~jyD5u4-rfAhRp8p7r3lNLK6rav~tky4eZrvQZMsF8CWlpCR8DLAhzshZJ3Yq-TyQhZoqXJGxCywR-9OEOiLTG7O8xr-DmEwWcZtZqNsxXOCdtMLxA_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
