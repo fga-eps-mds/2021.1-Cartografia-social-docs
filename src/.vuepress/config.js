@@ -147,6 +147,13 @@ module.exports = {
             'plano-comunicacao',
           ]
         },
+        {
+          title: 'Gerenciamento de Custos',
+          collapsable: false,
+          children: [
+            'custos',
+          ]
+        },
       ],
     }
   },
