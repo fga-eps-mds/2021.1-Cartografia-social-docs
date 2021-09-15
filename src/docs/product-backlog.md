@@ -48,7 +48,7 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 ## Lista das Histórias de usuário
 
 A priorização e refinamento dos requisitos é um dos passos que damos na fase de Iniciação nos métodos tradicionais (Scrum/PMBOOK), para realizarmos essa priorização além da etapa de revisão técnica de negócio e de UX, que foi realizada no Lean Inception nós utilizamos também o framework moscow para priorizarmos nossas histórias de usuário.
----
+
 
 <span id="US01"></span>
 ### <a href="#US01">**[US01]**</a> Marcar ponto no mapa
