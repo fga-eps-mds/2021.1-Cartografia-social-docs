@@ -17,7 +17,16 @@ O foco do planejamento da sprint 02 foi criar o CI/CD do front, setar o sonar cl
 | [#11](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/11) | Feature | [US13] Login integrado com Firebase| Mikhaelle, Marco |
 | [#17](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/11) | Feature | [US13] Autenticação e registro de usuário| Elias, Lorrany, Leonardo |
 | [#21](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/21) | Feature | [US36] Integrar gateway com os novos formularios no banco| Guy, Arthur |
+| [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-users/issues/6) | Feature | [US13] Autenticação e registro de usuário| Leonardo, Elias, Lorrany |
 
+### Dívidas técnicas
+
+Apesar do esforço da equipe em finalizar tudo até o dia 15 de setembro, ainda verificou-se a necessidade (e de comum acordo entre a equipe) de transferir algumas issues para a sprint 03. Dessa forma as seguintes issues viraram dívidas técnicas:
+
+| Issue | Tipo | Descrição | Responsáveis |
+|--|--|----|--|
+| [#9](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/9) | Documentação | [US36] Definir as questões de criação de comunidade e criar no banco | Guy, Arthur  |
+| [#6s](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/6) | Documentação | [US21] Persistir os dados de arquivos | Guy, Elias, Leonardo  |
 
 ## Versionamento de edições desta página
 ---
@@ -25,3 +34,4 @@ O foco do planejamento da sprint 02 foi criar o CI/CD do front, setar o sonar cl
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 15/09/2021 | Mikhaelle | Criação do documento | 0.1 |
+| 15/09/2021 | Mikhaelle | Adicionando dividas e issues finalizadas | 0.2 |
