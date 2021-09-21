@@ -19,6 +19,44 @@ O foco do planejamento da sprint 02 foi criar o CI/CD do front, setar o sonar cl
 | [#21](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/21) | Feature | [US36] Integrar gateway com os novos formularios no banco| Guy, Arthur |
 | [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-users/issues/6) | Feature | [US13] Autenticação e registro de usuário| Leonardo, Elias, Lorrany |
 
+### Papéis
+
+A equipe não definiu papéis específicos, com exceção do Scrum Master. O scrum master irá rotacionar por sprint/semana, sendo que o SM anterior irá ajudar o novo, pareando e distribuindo o conhecimento dessa forma.
+
+__Scrum master:__ Mikhaelle
+
+### Outros pontos abordados
+
+Outros pontos também foram abordados durante a reunião de planejamento, dentre eles:
+
+- Planejar e gravar o vídeo da R1
+- Pegar as questões do questionário com a professora Sheila
+- Atualização do protótipo
+- Criação e setup inicial do firebase
+
+### Burndown
+
+![](../assets/sprints/sprint_02_burndown.png)
+
+### Velocity
+
+![](../assets/sprints/sprint_02_velocity.png)
+
+> Obs.: Ignorar o Sprint: Sep 15 & Sprint Sep 22
+
+### Quadro de pareamentos
+<br>
+
+<iframe width="800" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLHE3O8zIRwIz41POb4DXlbyhoVHY9R9vC0wSL-60NMeFVH0Fk0wqUV2v8AgRGTokYaZmwunInbF3m/pubhtml?gid=1619415756&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+### Quadro de conhecimentos
+
+Conforme documento de [métricas de conhecimento](./metricas/quadro-de-conhecimentos)
+
+### Observações, comentários e melhorias possíveis
+
+A sprint 02 pode ser vista como uma etapa de desenvolvimento, onde a equipe fechou a etapa de planijamento e focou bastante no desenvolvimento. Isso fez com que a sprint 02 tivesse maior foco em CI/CD e mais features implementadas. Além disso, também houve o planejamento e gravação do vídeo da R1 da disciplina. Houveram algumas inconsistências e falhas que resultaram em dívidas técnicas, devido a dificuldade das features.
+
 ### Dívidas técnicas
 
 Apesar do esforço da equipe em finalizar tudo até o dia 15 de setembro, ainda verificou-se a necessidade (e de comum acordo entre a equipe) de transferir algumas issues para a sprint 03. Dessa forma as seguintes issues viraram dívidas técnicas:
