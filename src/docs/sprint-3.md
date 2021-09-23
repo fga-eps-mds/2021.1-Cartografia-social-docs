@@ -4,7 +4,7 @@
 
 __Início da sprint:__ 15/09/2021
 
-__Término da sprint:__ 22/09/2021
+__Término da sprint:__ 24/09/2021
 
 A sprint 03 continua o trabalho na histórias de usuário. Com as seguintes issues planejadas:
 
@@ -38,6 +38,8 @@ Da Sprint 02 ficaram as seguintes issues como divida técnica para a sprint 03.
 | [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/6)       | Doc  | [US21] Persistir os dados de arquivos                                | Guy, Leo, Elias     |
 | [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/6)       | Doc  | [US36] Formulário criação da comunidade dinâmico                     | Deusdará, Alexandre |
 
+As dividas técnicas da Sprint 02 foram concluídas.
+
 
 ### Papéis
 
@@ -54,7 +56,7 @@ Outros pontos também foram abordados durante a reunião de planejamento, dentre
 
 ## Fechamento
 
-
+Durante a reunião de fechamento foi visto que o momento de fechamento da sprint não condiz com o período produtivo da equipe, resultando na terceira sprint com dívidas técnicas. Foi feita a proposta de troca do fechamento/abertura de nova sprint para as sextas-feiras, de forma que a Sprint 03 será acrescentada de dois dias e a Sprint 04 começará sexta-feira dia 24/09 e irá até 01/10.
 
 ### Burndown
 
@@ -68,7 +70,11 @@ Outros pontos também foram abordados durante a reunião de planejamento, dentre
 
 ### Quadro de pareamentos
 
+<iframe width="800" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLHE3O8zIRwIz41POb4DXlbyhoVHY9R9vC0wSL-60NMeFVH0Fk0wqUV2v8AgRGTokYaZmwunInbF3m/pubhtml?gid=816613624&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 ### Quadro de conhecimentos
+
+Conforme documento de [métricas de conhecimento](./metricas/quadro-de-conhecimentos)
 
 ### Observações, comentários e melhorias possíveis
 
