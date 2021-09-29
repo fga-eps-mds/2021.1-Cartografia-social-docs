@@ -86,6 +86,7 @@ De forma que o elemento **PREFIXO** siga o seguinte padrão
 | DOCS | Documentação | `[DOCS] Melhorar README`|
 | DEVOPS | Integração, DevOps | `[DEVOPS] Implementar CI/CD`|
 | USXX | História de Usuário, em que *XX* se refera ao número da história de usuário | `[US12] Questionário para criação de uma nova comunidade`|
+| IMPROVE | Melhoria ou adição de funcionalidades não correlacionadas a uma História de Usuário | `[IMPROVE] Adiciona regras de navegação ao frontend`|
 
 
 
@@ -235,7 +236,26 @@ Indica a reverão de um commit anterior.
 
 ### [**Pull Requests**](#Sumário)
 
-Deve seguir o mesmo padrão de nomenclatura da issue.
+Deve seguir o mesmo padrão de nomenclatura da issue, e os usuŕios devem se atentar a linkar a respectiva issue a ser fechada pelo pull request.
+
+#### **Nomenclatura**
+
+A Nomenclatura de Pull Requests deve seguir o padrão:
+
+```
+[PREFIXO] Breve descrição do Pull Request em português
+```
+
+De forma que o elemento **PREFIXO** siga o seguinte padrão
+
+| Prefixo | Tema | Exemplo |
+| --- | --- | --- |
+| DOCS | Documentação | `[DOCS] Melhorar README`|
+| DEVOPS | Integração, DevOps | `[DEVOPS] Implementar CI/CD`|
+| USXX | História de Usuário, em que *XX* se refera ao número da história de usuário | `[US12] Questionário para criação de uma nova comunidade`|
+| IMPROVE | Melhoria ou adição de funcionalidades não correlacionadas a uma História de Usuário | `[IMPROVE] Adiciona regras de navegação ao frontend`|
+
+
 
 ## [**Licença**](#Sumário)
 
