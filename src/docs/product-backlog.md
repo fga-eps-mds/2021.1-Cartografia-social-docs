@@ -752,22 +752,26 @@ __Prioridade__: Would
 
 
 <span id="US35"></span>
-### <a href="#US35">**[US35]**</a> Questionário para Cadastro de Pessoas da Comunidade
+### <a href="#US35">**[US35]**</a> ~~Questionário para Cadastro de Pessoas da Comunidade~~
 
-__Épico:__ Cadastro e perfis/comunidades
+__Épico:__ ~~Cadastro e perfis/comunidades~~
 
-__Prioridade__: Must
+__Prioridade__: Won't Have
 
-**Eu como:** Usuário.
+**Eu como:** ~~Usuário.~~
 
-**Desejo:** Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho
+**Desejo:** ~~Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho~~
 
-**Para que eu possa:** Visualizar informações, realizar ações e fazer parte da comunidade
+**Para que eu possa:** ~~Visualizar informações, realizar ações e fazer parte da comunidade~~
 
 **Critérios de aceitação:**
 
-- Preencher dados do usuário a ser adicionado, como o nome, local de residência, documentos de identificação - se possuir, idade, ocupação, dentre outros
-- Validar se dados de cadastro já existem associados a outro membro da comunidade
+- ~~Preencher dados do usuário a ser adicionado, como o nome, local de residência, documentos de identificação - se possuir, idade, ocupação, dentre outros~~
+- ~~Validar se dados de cadastro já existem associados a outro membro da comunidade~~
+
+**Atualização**
+
+- Após reuniões de alinhamento com o cliente, foi decidido que o fluxo contemplado por essa História de Usuário não seria mais implementado, por conta da especificação dos usuários serem adicionados por administradores, sem a necessidade de um formulário de cadastro. Portanto, essa História de Usuário não será mais implementada, mas permanecerá documentada para critérios de registro e justificativa da numeração.
 
 </br>
 
