@@ -147,6 +147,31 @@ Os dados da tabela acima são utilizados para calcular as métricas do agile evm
 
 Esse documento está em constante evolução já que nossas sprint tem tempo de duração de 7 dias, e ao longo desta vários pr's são fechados e vários pontos são completados, a adição ou subtração no meio da sprint é algo que não ocorre muito, porém estas devem ser levadas em conta.
 
+## Definições do agileEVM
+
+| Nome | Definição | 
+| --- | --- |
+| PRP | Pontos planejados para a release | 
+| RPC | Pontos completados por release | 
+| APC | Porcentagem atual de completude da release - Essa é a proporção de pontos planejados para pontos completados | 
+| PPC | Porcentagem de planejamento finalizada |
+
+
+## Padrões do EVM e definições de equações
+
+| Equação | Definição | 
+| --- | --- |
+| BAC | Custo orçado na conclusão - Este é o orçamento inicial para o lançamento | 
+| AC | Custo Atual - custos orçado em PV para a release | 
+| PV = PPC * BAC | Valor Planejado | 1 | 
+| EV = APC * BAC | Valor Ganho | 2 |
+| CV = EV - AC | Variação de Custo | 3 |
+| SV = EV - PV | Variação de Cronograma | 4 |
+| CPI = EV / AC | Indice de desempenho de custo | 5 |
+| SPI = EV / PV | Indice do cronograma de desempenho | 6 |
+| ETC = 1/CPI * (BAC - EV) | Estimativa para completar | 7 |
+| EAC = AC + ETC | Estimativa ao Commpletar | 8 |
+
 
 ## Referências
 
