@@ -122,6 +122,19 @@ O Agile EVM é uma adaptação do modelo tradicional, cujo foco está em mapear 
 
 Para o mapeamento dos custos do projeto atual, foram utilizadas estruturas de divisão dos gastos por Sprint, com recorrentes atualizações para se adaptar à realidade de custos do projeto em continuidade, como a adição dos gastos por Release.
 
+No agile evm temos algumas definições cruciais necessárias para o cálculo dos custos:
+
+## Parâmetros iniciais das releases
+
+| Nome | Definição | 
+| --- | --- |
+| BAC | O valor de orçado para ser gasto a cada release | 
+| L | A duração de cada Sprint | 
+| PS | Número total de sprints planejado para o lançamento da release | 
+| SD | Data de inicio da release | 
+| PRP | Total de pontos planejados por release | 
+
+
 ## Referências
 
 * [**Informações técnicas de** ***Notebooks Check***](https://www.notebookcheck.net/The-best-laptops-for-Q2-2021-80-laptops-in-review.549940.0.html)
