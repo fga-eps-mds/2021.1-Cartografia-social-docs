@@ -134,6 +134,19 @@ No agile evm temos algumas definições cruciais necessárias para o cálculo do
 | SD | Data de inicio da release | 
 | PRP | Total de pontos planejados por release | 
 
+Os dados da tabela acima são utilizados para calcular as métricas do agile evm.
+
+## Pontos de dados das Sprints
+
+| Nome | Definição | 
+| --- | --- |
+| n | Número de sprints comeando a partir da 1 | 
+| PC | Pontos completados - Os pontos de trabalho completados do backlog durante a sprint | 
+| PA | Pontos Adicionados -  Os pontos adicionados ou subtraidos do backlog durante a sprint | 
+| SC | Custo da sprint - quanto foi gasto | 
+
+Esse documento está em constante evolução já que nossas sprint tem tempo de duração de 7 dias, e ao longo desta vários pr's são fechados e vários pontos são completados, a adição ou subtração no meio da sprint é algo que não ocorre muito, porém estas devem ser levadas em conta.
+
 
 ## Referências
 
