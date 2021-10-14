@@ -172,6 +172,36 @@ Esse documento está em constante evolução já que nossas sprint tem tempo de 
 | ETC = 1/CPI * (BAC - EV) | Estimativa para completar | 7 |
 | EAC = AC + ETC | Estimativa ao Commpletar | 8 |
 
+# Equação geral da Data da Release
+
+No artigo que usamos como referência para a elaboração do agileEVM temos uma explicação bem detalhada da correlação das métricas do scrum com as métricas do EVM assim como temo também a explicação da seguinte equção que é usada para calcular a data da release:
+
+- RD = Data da Release  
+- SD = Data de Inicio
+- N = Número de Sprints (Assumindo que todas as sprints tem o mesmo tamanho) 
+- L = Tamanho da Sprint
+
+**RDm = SD + N . L**
+**RDm = f(N)**
+
+Logo RDm é uma função linear de N.
+
+Levando em conta a equação acima podemos agora definir uma equação de RD a partir da velocidade média de pontos que fechamos por sprint, seja v a média de trabalho concluído por sprint, e W o total de pontos planejados para serem feitos na release para v>0 temos:
+
+N = W / v
+
+Para a sprint n, onde n >= 1 
+
+N = n + n'
+
+onde n' são as sprints estimadas após n, alem disso W' é o trabalho a ser feito em n' sprints, então:
+
+n' = W' / v
+
+Combinando as equações acima temos>
+
+RDv = SD + L . (n + W'/v)
+
 
 ## Referências
 
