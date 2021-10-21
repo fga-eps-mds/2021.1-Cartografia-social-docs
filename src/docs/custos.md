@@ -203,7 +203,9 @@ Combinando as equações acima temos>
 
 RDv = SD + L . (n + W'/v)
 
+Dados todos estes conceitos que também pode ser encontrado [neste](https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS/blob/master/Agil_material/AgileEVM_-_Earned_Value_Management_in_Scrum_Projects.pdf) artigo que também está disponível no repositório da disciplina, refizemos os cálculos do agileEVM usando como base as releases majors do nosso produto. Nós também geramos os gráficos de PV x EV afim de compararmos as diferenças entre valor agregado x valor planejado, os gráficos podem ser vistos na tabela abaixo e temos um gráfico por release major. Para uma melhor visualização da tabela e dos gráficos basta clicar [aqui](https://docs.google.com/spreadsheets/d/1Oju43xFm7xHWWqyWjFO0Ff0pJ15AsrFh4_NmgdKmLr0/edit?usp=sharing).
 
+<iframe src="https://docs.google.com/spreadsheets/d/1Oju43xFm7xHWWqyWjFO0Ff0pJ15AsrFh4_NmgdKmLr0/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Referências
 
