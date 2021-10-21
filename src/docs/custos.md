@@ -156,6 +156,10 @@ Esse documento está em constante evolução já que nossas sprint tem tempo de 
 | RPC | Pontos completados por release | 
 | APC | Porcentagem atual de completude da release - Essa é a proporção de pontos planejados para pontos completados | 
 | PPC | Porcentagem de planejamento finalizada |
+| SC | Custo de Sprint |
+| PA| Pontos Adicionados |
+| PC | Pontos finalizados |
+
 
 
 ## Padrões do EVM e definições de equações
@@ -206,6 +210,14 @@ RDv = SD + L . (n + W'/v)
 Dados todos estes conceitos que também pode ser encontrado [neste](https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS/blob/master/Agil_material/AgileEVM_-_Earned_Value_Management_in_Scrum_Projects.pdf) artigo que também está disponível no repositório da disciplina, refizemos os cálculos do agileEVM usando como base as releases majors do nosso produto. Nós também geramos os gráficos de PV x EV afim de compararmos as diferenças entre valor agregado x valor planejado, os gráficos podem ser vistos na tabela abaixo e temos um gráfico por release major. Para uma melhor visualização da tabela e dos gráficos basta clicar [aqui](https://docs.google.com/spreadsheets/d/1Oju43xFm7xHWWqyWjFO0Ff0pJ15AsrFh4_NmgdKmLr0/edit?usp=sharing).
 
 <iframe src="https://docs.google.com/spreadsheets/d/1Oju43xFm7xHWWqyWjFO0Ff0pJ15AsrFh4_NmgdKmLr0/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+Através dos gráficos é possível notar as diferenças e os picos que ocorrem do PV para o EV, na primeira tabela deste documento podemos ver o cálculo do BAC baseado nos custos de horas trabalhadas, consumo de energia, máquinas para deploy, equipamento para os desenvolvedores e número de sprints. Ao todo o nosso BAC = R$ 62.058,68. 
+
+A partir deste calcúlos podemos realizar todos os outros como o PV que é o valor planejado do projeto e dado pela formúla PV = PPC * BAC, já legendada anteriormente. 
+
+Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC, PA, PC e todos os outros citados nas tabelas e legendas acima.
+
+É possível ver que os cálculos se aproxima bastante da realidade do projeto e nos dão até mesmo a data que deve ocorrer o lançamento das releases.
 
 ## Referências
 
