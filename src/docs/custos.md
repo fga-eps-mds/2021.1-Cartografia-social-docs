@@ -211,13 +211,25 @@ Dados todos estes conceitos que também pode ser encontrado [neste](https://gith
 
 <iframe src="https://docs.google.com/spreadsheets/d/1Oju43xFm7xHWWqyWjFO0Ff0pJ15AsrFh4_NmgdKmLr0/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Através dos gráficos é possível notar as diferenças e os picos que ocorrem do PV para o EV, na primeira tabela deste documento podemos ver o cálculo do BAC baseado nos custos de horas trabalhadas, consumo de energia, máquinas para deploy, equipamento para os desenvolvedores e número de sprints. Ao todo o nosso BAC = R$ 62.058,68. 
+Através dos gráficos (que se encontram na segunda página da tabela acima) é possível notar as diferenças e os picos que ocorrem do PV para o EV, na primeira tabela deste documento podemos ver o cálculo do BAC baseado nos custos de horas trabalhadas, consumo de energia, máquinas para deploy, equipamento para os desenvolvedores e número de sprints. Ao todo o nosso BAC = R$ 62.058,68. Nesta página podemos ver também os gráficos de SPI x CPI que nos mostra a relação entre os indices de Desempenho X Custo.  
 
 A partir deste calcúlos podemos realizar todos os outros como o PV que é o valor planejado do projeto e dado pela formúla PV = PPC * BAC, já legendada anteriormente. 
 
 Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC, PA, PC e todos os outros citados nas tabelas e legendas acima.
 
 É possível ver que os cálculos se aproxima bastante da realidade do projeto e nos dão até mesmo a data que deve ocorrer o lançamento das releases.
+
+**SPI (Indice de perfomace por cronograma):** O cálculo do SPI é dado por SPI = EV / PV e ele nos mostra o progresso do projeto em relação ao que foi estabelecido no cronograma (Pontuação de issue, definições de histórias etc). Para analisarmos temos as seguintes definições
+
+Maior que 1: O projeto está adiantado ao cronograma.
+Menor que 1 : O projeto está atrasado.
+Igual a 1: O andamento do projeto está alinhado ao cronograma.
+
+**CPI (Indice de perfomace por custo):** O cálculo do CPI é dado por CPI = EV / AC e ele nos mostra a relação entre valor agregado e custo atual do projeto, sua interpretção se parece com o SPI:
+
+Maior que 1: O projeto está acima do orçamento.
+Menor que 1 : O projeto está abaixo do orçamento.
+Igual a 1: O andamento do projeto dentro do orçamento. 
 
 ## Referências
 
@@ -230,3 +242,5 @@ Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC,
 * [**Definições do EVM Tradicional**](https://www.ecosys.net/knowledge/earned-value-management-basics/#:~:text=Earned%20value%20management%20(EVM)%20is,project%20managers%20to%20adjust%20accordingly.)
 
 * [**EVM em Projetos de Desenvolvimento Ágil**](https://files.mtstatic.com/site_8189/60/0?Expires=1631658634&Signature=mo21Tk8w4GT2Chm5Am8JT-z~Jcj5gQVpX3h-p~j~JEFg1IbyRnqh3fRZq~jyD5u4-rfAhRp8p7r3lNLK6rav~tky4eZrvQZMsF8CWlpCR8DLAhzshZJ3Yq-TyQhZoqXJGxCywR-9OEOiLTG7O8xr-DmEwWcZtZqNsxXOCdtMLxA_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
+More
+* [**AgileEVM - Earnerd Value Management in Scrum Projects**](https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS/blob/master/Agil_material/AgileEVM_-_Earned_Value_Management_in_Scrum_Projects.pdf)
