@@ -10,9 +10,9 @@
 
 ## Tabela Geral de Custos do Projeto
 
-Para o planejamento de custos do Projeto, foi realizada uma análise de diversos fatores mercadológicos para a construção da seguinte tabela, sumarizando os diversos aspectos que geram custos para o projeto como um todo.
+Para o planejamento de custos do Projeto, foi realizada uma análise de diversos fatores mercadológicos para a construção da seguinte tabela, sumarizando os diversos aspectos que geram custos para o projeto como um todo. A seguinte tabela se encontra [aqui](https://docs.google.com/spreadsheets/d/1tsxEeGRkSujDorQhbVZn12We2zhT1jF9ugV597QH_uk/edit?usp=sharing). Este planejamento foi o nosso planejamento e estimativas iniciais, uma tabela de evm mais detalhada será mostrada abaixo.
 
-![custos-totais](../images/custos.jpg)
+<iframe src="https://docs.google.com/spreadsheets/d/1tsxEeGRkSujDorQhbVZn12We2zhT1jF9ugV597QH_uk/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Custos Por Categoria
 ### Desenvolvimento
@@ -116,6 +116,7 @@ Gerenciamento de valor agregado, do Inglês, *Earned value management * (EVM) é
 O EVM se concentra no uso de dados em análises de tendências e previsões, sendo uma função de gerenciamento de projeto, ou seja, buscando lidar tanto com os dados em si quanto com as ações tomadas com base nesses dados.
 
 Para controle dos dados de planejamento de gastos foram utilizados elementos do EVM tradicional bem como influências do Agile EVM.
+
 ## Agile EVM
 
 O Agile EVM é uma adaptação do modelo tradicional, cujo foco está em mapear por pontos relevantes da estrutura de desenvolvimento ágil, principalmente quanto à *Release*, proporcionando um panorama geral de como cada gasto é destinado e mapeado por Sprint, permitindo até mesmo compreender o impacto do valor agregado das pontuações de histórias de usuário.
@@ -201,6 +202,7 @@ n' = W' / v
 Combinando as equações acima temos>
 
 RDv = SD + L . (n + W'/v)
+
 
 
 ## Referências
