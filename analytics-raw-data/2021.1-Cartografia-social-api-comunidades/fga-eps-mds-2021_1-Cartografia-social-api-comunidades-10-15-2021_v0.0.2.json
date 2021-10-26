@@ -1,0 +1,37 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 0
+    },
+    "baseComponent": {
+        "id": "AXyGE9REujezI92cC2sG",
+        "key": "fga-eps-mds_2021.1-Cartografia-social-api-comunidades",
+        "name": "2021.1-Cartografia-social-api-comunidades",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "duplicated_lines_density",
+                "value": "0.0",
+                "bestValue": true
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "coverage",
+                "value": "68.0",
+                "bestValue": false
+            },
+            {
+                "metric": "reliability_rating",
+                "value": "1.0",
+                "bestValue": true
+            }
+        ],
+        "branch": "refs/tags/v0.0.2"
+    },
+    "components": []
+}
