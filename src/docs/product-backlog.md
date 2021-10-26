@@ -18,8 +18,8 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 | Permissionamento e controle de acesso | Engloba as funcionalidades relacionadas ao controle de dados e permissionamento de acesso quanto às funcionalidades | <SimpleList data="Dividir o controle dos dados entre membros da comunidade;Realizar controle de acesso aos dados de acordo com perfil de usuário;Controle de membros pela comunidade;Comunidade controlar acesso aos dados (ex.: pesquisadores);Verificar histórico de acesso/permissão;Excluir dados;Ver quem demarcou o local" /> |  <SimpleLink data="US03, US05, US28, US29, US30, US32, US13, US18, US19, US20"/> |
 | Cadastro e perfis/comunidades | Engloba as funcionalidades relacionadas à login, cadastro, perfis e comunidades | <SimpleList data="Crud de login (entrar, cadastrar, resetar senha, sair);Perfil para pesquisador e para comunidade;Solicitar apoio da equipe da cartografia social;Adicionar membros a comunidade;Editar dados da comunidade;Questionário para criação de uma nova comunidade;Questionário para cadastro de pessoas da comunidade" /> |  <SimpleLink data="US22,US13, US14, US15, US16, US17,US35,US36,US37"/> |
 | Delimitação de dados no mapa | Engloba as funcionalidades relacionadas à marcação de pontos, áreas e outros dados relativos aos mapas | <SimpleList data="Marcar um ponto no mapa;Delimitar uma área no mapa;Ver o mapa;Categorizar um ponto no mapa;Personalizar iconografia de locais do mapa;Adicionar informações sobre o local" /> | <SimpleLink data="US01,US02, US07, US11,US23.US25"/>|
-| Multimídia | Engloba as funcionalidades relacionadas aos dados de multimídia (fotos, audios, vídeos, arquivos e outros )| <SimpleList data="Adicionar elemento multimídia à marcação;Upload de documentos (áudio foto, vídeo, texto) já existentes;Personalizar iconografia de locais do mapa;Tirar foto e gravar vídeo;Gravar áudio;Permitir download dos dados;Compartilhar conteúdo de mídia com meios externos (telegram, wpp)" /> | <SimpleLink data="US21,US26,US27,US12,US31,US33,US38"/>  |
-| Rascunho de dados | Engloba as funcionalidades relacionadas à manter os dados como rascunho ou versão final | <SimpleList data="Permitir marcar dos dados como uma 'versão analisada' (ou validada);Permitir o 'rascunho' dos dados" />| <SimpleLink data="US06, US09"/> |
+| Multimídia | Engloba as funcionalidades relacionadas aos dados de multimídia (fotos, audios, vídeos, arquivos e outros )| <SimpleList data="Adicionar elemento multimídia à marcação;Upload de documentos (áudio foto, vídeo, texto) já existentes;Personalizar iconografia de locais do mapa;Tirar foto e gravar vídeo;Gravar áudio;Permitir download dos dados;Compartilhar conteúdo de mídia com meios externos (telegram, wpp)" /> | <SimpleLink data="US21,US26,US27,US12,US31,US33,US38,US09"/>  |
+| Rascunho de dados | Engloba as funcionalidades relacionadas à manter os dados como rascunho ou versão final | <SimpleList data="Permitir marcar dos dados como uma 'versão analisada' (ou validada);Permitir o 'rascunho' dos dados" />| <SimpleLink data="US06"/> |
 | Tutorial e navegação experimental | Engloba as funcionalidades relacionadas ao ensino de utilização do aplicativo e navegação experimental (sem cadastro) | <SimpleList data="Modo de demonstração (utilizar sem cadastro);Tutorial de como realizar a marcação no mapa" /> | <SimpleLink data="US34, US10"/> |
 
 <!-- ## Tabela do backlog
@@ -48,14 +48,14 @@ Este Backlog consiste em uma lista que descreve todas as funcionalidades desejad
 ## Lista das Histórias de usuário
 
 A priorização e refinamento dos requisitos é um dos passos que damos na fase de Iniciação nos métodos tradicionais (Scrum/PMBOOK), para realizarmos essa priorização além da etapa de revisão técnica de negócio e de UX, que foi realizada no Lean Inception nós utilizamos também o framework moscow para priorizarmos nossas histórias de usuário.
----
+
 
 <span id="US01"></span>
 ### <a href="#US01">**[US01]**</a> Marcar ponto no mapa
 
 __Epico:__ Delimitação de dados no mapa	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário
 
@@ -73,7 +73,7 @@ __Prioridade__:
 
 __Epico:__ Delimitação de dados no mapa
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário
 
@@ -91,7 +91,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário
 
@@ -110,7 +110,7 @@ __Prioridade__:
 
 __Épico:__ Uso da aplicação offline	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário
 
@@ -131,7 +131,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Membro de uma comunidade tradicional (usuário)
 
@@ -151,7 +151,7 @@ __Prioridade__:
 
 __Épico:__ Rascunho de dados
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Membro de uma comunidade tradicional & pesquisador facilitador (Usuários)
 
@@ -169,7 +169,7 @@ __Prioridade__:
 
 __Épico:__ Delimitação de dados no mapa	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Membro de uma comunidade tradicional (Usuário)
 
@@ -190,7 +190,7 @@ __Prioridade__:
 
 __Épico:__ Uso da aplicação offline
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário
 
@@ -207,24 +207,22 @@ __Prioridade__:
 </br>
 
 <span id="US09"></span>
-### <a href="#US09">**[US09]**</a> Labels para as informações no app
+### <a href="#US09">**[US09]**</a> Labels para as multimídias no app
 
-__Épico:__ Rascunho de dados
+__Épico:__ Multimidia
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Usuário
 
-**Desejo:** Marcar informações de um ponto/área como rascunho ou como validada
+**Desejo:** Adicionar labels à um dado multimídia
 
 **Para que eu possa:** Fazer a diferenciação das informações válidas e das que são rascunho
 
 **Critérios de aceitação:**
 
-- Poder marcar informações no app como "rascunho"
-- Poder marcar informações no app como "validado"
-- Poder editar as informações marcadas como "rascunho" ou "validado"
-- As informações adicionadas precisam ter uma dessas labels, ou "rascunho" ou "validado", não podendo estar sem essa marcação
+- Poder categorizar as informações no app
+- As informações adicionadas precisam ter uma dessas labels (categorias)
 
 </br>
 
@@ -233,7 +231,7 @@ __Prioridade__:
 
 __Épico:__ Tutorial e navegação experimental
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Pesquisador e membro da comunidade.
 
@@ -255,7 +253,7 @@ __Prioridade__:
 
 __Épico:__ Delimitação de dados no mapa
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário.
 
@@ -275,7 +273,7 @@ __Prioridade__:
 
 __Épico:__ Delimitação de dados no mapa	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário.
 
@@ -296,7 +294,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário.
 
@@ -317,11 +315,11 @@ __Prioridade__:
 </br>
 
 <span id="US14"></span>
-### <a href="#US14">**[US14]**</a> Perfil para pesquisador e para comunidade
+### <a href="#US14">**[US14]**</a> Perfil para pesquisador
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário.
 
@@ -342,7 +340,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Membro da comunidade.
 
@@ -363,7 +361,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Usuário.
 
@@ -384,7 +382,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Usuário administrador.
 
@@ -406,9 +404,9 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Must
 
-**Eu como:** Usuário administrador.
+**Eu como:** Usuário administrador da comunidade.
 
 **Desejo:** Controlar quem tem acesso a comunidade.
 
@@ -428,11 +426,11 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso
 
-__Prioridade__: 
+__Prioridade__: Must
 
-**Eu como:** Usuário administrador.
+**Eu como:** Pesquisador facilitador de uma comunidade.
 
-**Desejo:** Controlar permissões de usuário na comunidade.
+**Desejo:** Definir os membros administradores da comunidade.
 
 **Para que eu possa:** Adicionar e remover permissões de administrador para outros usuários.
 
@@ -443,17 +441,17 @@ __Prioridade__:
 </br>
 
 <span id="US20"></span>
-### <a href="#US20">**[US20]**</a> Visualizar dados da comunidade
+### <a href="#US20">**[US20]**</a> Visualizar dados do perfil da comunidade
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Usuário.
 
-**Desejo:** Pertencer a uma comunidade.
+**Desejo:** Visualizar os dados do perfil da comunidade.
 
-**Para que eu possa:** Visualizar os dados da comunidade.
+**Para que eu possa:** Conhecê-la melhor
 
 **Critérios de aceitação:**
 - Visualizar comunidades
@@ -462,11 +460,11 @@ __Prioridade__:
 </br>
 
 <span id="US21"></span>
-### <a href="#US21">**[US21]**</a> Upload de documentos já existentes
+### <a href="#US21">**[US21]**</a> Upload de multimídias já existentes no dispositivo do usuário
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Membro da comunidade.
 
@@ -487,13 +485,13 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Membro da comunidade.
 
 **Desejo:** Solicitar apoio de pesquisadores.
 
-**Para que eu possa:** Conseguir uma “validação” do rascunho que fiz.
+**Para que eu possa:** Receber apoio dos pesquisadores.
 
 **Critérios de aceitação:**
 - Deverá ter um formulário a ser preenchido pelo membro.
@@ -506,7 +504,7 @@ __Prioridade__:
 
 __Épico:__ Delimitação de dados no mapa	
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Membro administrador da comunidade.
 
@@ -527,7 +525,7 @@ __Prioridade__:
 
 __Épico:__ Uso da aplicação offline	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Colaborador.
 
@@ -546,7 +544,7 @@ __Prioridade__:
 
 __Épico:__ Delimitação de dados no mapa	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário.
 
@@ -569,7 +567,7 @@ __Prioridade__:
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Membro da comunidade.
 
@@ -592,7 +590,7 @@ __Prioridade__:
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Membro da comunidade.
 
@@ -615,7 +613,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso
 
-__Prioridade__: 
+__Prioridade__: Would
 
 **Eu como:** Membro da comunidade.
 
@@ -635,7 +633,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso	
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário administrador.
 
@@ -654,7 +652,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Usuário administrador (comunidade).
 
@@ -675,7 +673,7 @@ __Prioridade__:
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Could
 
 **Eu como:** Membro da comunidade.
 
@@ -698,7 +696,7 @@ __Prioridade__:
 
 __Épico:__ Permissionamento e controle de acesso
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Usuário.
 
@@ -717,7 +715,7 @@ __Prioridade__:
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Would
 
 **Eu como:** Usuário.
 
@@ -736,7 +734,7 @@ __Prioridade__:
 
 __Épico:__ Tutorial e navegação experimental
 
-__Prioridade__: 
+__Prioridade__: Would
 
 **Eu como:** Usuário.
 
@@ -754,22 +752,26 @@ __Prioridade__:
 
 
 <span id="US35"></span>
-### <a href="#US35">**[US35]**</a> Questionário para Cadastro de Pessoas da Comunidade
+### <a href="#US35">**[US35]**</a> ~~Questionário para Cadastro de Pessoas da Comunidade~~
 
-__Épico:__ Cadastro e perfis/comunidades
+__Épico:__ ~~Cadastro e perfis/comunidades~~
 
-__Prioridade__: 
+__Prioridade__: Won't Have
 
-**Eu como:** Usuário.
+**Eu como:** ~~Usuário.~~
 
-**Desejo:** Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho
+**Desejo:** ~~Preencher o questionário para fazer parte da comunidade referente ao povo original do qual pertenço ou acompanho~~
 
-**Para que eu possa:** Visualizar informações, realizar ações e fazer parte da comunidade
+**Para que eu possa:** ~~Visualizar informações, realizar ações e fazer parte da comunidade~~
 
 **Critérios de aceitação:**
 
-- Preencher dados do usuário a ser adicionado, como o nome, local de residência, documentos de identificação - se possuir, idade, ocupação, dentre outros
-- Validar se dados de cadastro já existem associados a outro membro da comunidade
+- ~~Preencher dados do usuário a ser adicionado, como o nome, local de residência, documentos de identificação - se possuir, idade, ocupação, dentre outros~~
+- ~~Validar se dados de cadastro já existem associados a outro membro da comunidade~~
+
+**Atualização**
+
+- Após reuniões de alinhamento com o cliente, foi decidido que o fluxo contemplado por essa História de Usuário não seria mais implementado, por conta da especificação dos usuários serem adicionados por administradores, sem a necessidade de um formulário de cadastro. Portanto, essa História de Usuário não será mais implementada, mas permanecerá documentada para critérios de registro e justificativa da numeração.
 
 </br>
 
@@ -778,7 +780,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Usuário Administrador.
 
@@ -798,7 +800,7 @@ __Prioridade__:
 
 __Épico:__ Cadastro e perfis/comunidades
 
-__Prioridade__: 
+__Prioridade__: Must
 
 **Eu como:** Pesquisador, Membro administrador da comunidade 
 
@@ -817,7 +819,7 @@ __Prioridade__:
 
 __Épico:__ Multimídia
 
-__Prioridade__: 
+__Prioridade__: Should
 
 **Eu como:** Usuário.
 
