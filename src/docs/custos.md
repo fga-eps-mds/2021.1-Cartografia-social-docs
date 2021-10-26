@@ -232,7 +232,7 @@ Menor que 1 : O projeto está abaixo do orçamento.
 Igual a 1: O andamento do projeto dentro do orçamento.
 
 
-# Intepretando os gráficos Valor planejado X Valor Agregado
+# Intepretando os gráficos Valor planejado X Valor Agregado (Dast Tabelas Apresentadas Acima)
 
 **Release Major 0.0.1**
 
@@ -240,7 +240,17 @@ Sprint 0 - Esta sprint não houve desenvolvimento, entretanto já estavamos trab
 Sprint 1 - Primeira sprint de desenvolvimento com pontos planejados, é possível notar um grande salto do PV para o EV nesta Sprint já que planejamos uma quantidade pontos muito grande e muitas funcionalidades foram implementadas, cada funcionalidade tem seu custo e seu tempo de trabalho, sendo assim o tempo trabalhado foi maior que o estimado, também houveram reuniões de treinamento e curva de aprendizagem nesa etapa do projeto, o que também agrega valor já que o tempo e o escopo aumentaram.
 Sprint 2 -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justamente porque conseguimos equilibrar melhor a quantidade de pontos a serem entregues (PRP) com o (PCP), entretanto ainda houve valor agreado deivido a tempo.
 Sprint 3 - Já na sprint 3 temos um comportamento contrário ao que ocorreu nas sprints passadas, ou seja o EV foi menor que o Valor planejado, isto ocorre pois as entregas que foram feitas e planejadas para o escopo dessa sprint teve uma queda, e muitos pontos foram adicionados devido a dividas técnicas, ocorreu também nessa sprint um problema relacionado a tempo já que essa sprint foi maior devido a uma adpatação que o time fez para que pudessemos render mais no nosso trabalho, essa adaptação foi a mudança no dia do fechamento e planning da sprint.
-Sprint 4 - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e 
+Sprint 4 - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados.
+
+**Release Major MVP**
+
+Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
+
+**Release Major 1.0**
+
+Sprint 6 - Na sprint 6 houve um salto do PV para o EV devido a complexidade das features que foram entregadas, apesar de APC ter sido de 85%.gráficos
+Sprint 7 - Na sprint 7 todo o escopo planejado foi entregado e não houveram custos adicionais apesar da divida técnica, essa foi contabilizada na Sprint passada.gráficos
+
 
 ## Referências
 
