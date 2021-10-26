@@ -242,6 +242,8 @@ Sprint 2 -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justam
 Sprint 3 - Já na sprint 3 temos um comportamento contrário ao que ocorreu nas sprints passadas, ou seja o EV foi menor que o Valor planejado, isto ocorre pois as entregas que foram feitas e planejadas para o escopo dessa sprint teve uma queda, e muitos pontos foram adicionados devido a dividas técnicas, ocorreu também nessa sprint um problema relacionado a tempo já que essa sprint foi maior devido a uma adpatação que o time fez para que pudessemos render mais no nosso trabalho, essa adaptação foi a mudança no dia do fechamento e planning da sprint.
 Sprint 4 - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados.
 
+CPI e SPI:
+
 **Release Major MVP**
 
 Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
@@ -251,6 +253,9 @@ Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado fo
 Sprint 6 - Na sprint 6 houve um salto do PV para o EV devido a complexidade das features que foram entregadas, apesar de APC ter sido de 85%.gráficos
 Sprint 7 - Na sprint 7 todo o escopo planejado foi entregado e não houveram custos adicionais apesar da divida técnica, essa foi contabilizada na Sprint passada.gráficos
 
+**Release Major 2.0**
+
+Sprint 8 e 9 - Na sprint 8 e 9 nós basicamente temos o mesmo comportamento do gráfico PV x EV em ambos houve uma subida justamente pq precisamos adicionar pontos para melhorar e arredondar o produto, apesar do planejamento ser maior que o nosso escópo houveram problemas com a cliente por conta da definição do escopo e do MVP.
 
 ## Referências
 
