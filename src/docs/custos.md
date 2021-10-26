@@ -229,7 +229,16 @@ Igual a 1: O andamento do projeto está alinhado ao cronograma.
 
 Maior que 1: O projeto está acima do orçamento.
 Menor que 1 : O projeto está abaixo do orçamento.
-Igual a 1: O andamento do projeto dentro do orçamento. 
+Igual a 1: O andamento do projeto dentro do orçamento.
+
+
+# Intepretando os gráficos Valor planejado X Valor Agregado
+
+**Release Major 0.0.1**
+
+Sprint 0 - Esta sprint não houve desenvolvimento, entretanto já estavamos trabalhando na elicitação de requisitos e no lean incepction, como não houve desenvolvimento o valor dessa sprint foi apenas o valor das horas trabalhadas.gráficos
+Sprint 1 - Primeira sprint de desenvolvimento com pontos planejados, é possível notar um grande salto do PV para o EV nesta Sprint já que planejamos uma quantidade pontos muito grande e muitas funcionalidades foram implementadas, cada funcionalidade tem seu custo e seu tempo de trabalho, sendo assim o tempo trabalhado foi maior que o estimado, também houveram reuniões de treinamento e curva de aprendizagem nesa etapa do projeto, o que também agrega valor já que o tempo e o escopo aumentaram.
+Sprint 2 -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justamente porque conseguimos equilibrar melhor a quantidade de pontos a serem entregues (PRP) com o (PCP), entretanto ainda houve valor agreado deivido a tempo.
 
 ## Referências
 
