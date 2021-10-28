@@ -16,9 +16,25 @@
                 "bestValue": true
             },
             {
+                "metric": "functions",
+                "value": "16"
+            },
+            {
                 "metric": "security_rating",
                 "value": "1.0",
                 "bestValue": true
+            },
+            {
+                "metric": "files",
+                "value": "8"
+            },
+            {
+                "metric": "complexity",
+                "value": "20"
+            },
+            {
+                "metric": "ncloc",
+                "value": "161"
             },
             {
                 "metric": "coverage",
@@ -29,6 +45,11 @@
                 "metric": "reliability_rating",
                 "value": "1.0",
                 "bestValue": true
+            },
+            {
+                "metric": "comment_lines_density",
+                "value": "0.0",
+                "bestValue": false
             }
         ],
         "branch": "refs/tags/v0.0.2"
