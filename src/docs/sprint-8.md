@@ -32,9 +32,9 @@ Da Sprint 07 ficaram as seguintes issues como divida técnica para a sprint 08.
 | ----- | ---- | --------- | ------- | ------------ |
 | [#57](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/57) | Feat   | [US01] Editar ponto/area    | Frontend  | Marco Antônio e Mikhaelle       |
 | [#47](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/47) | Feat   | [US26] exportar dados para o formato KML para os pontos/área    | Gateway   | Guilherme Guy, Leonardo e Alexandre       |
-| []() | Feat   | []                              | Frontend | Arthur e Guilherme Deusdará       |
+| [#56](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/56) | Feat   | [US37] Tela de criação de comunidade | Frontend | Arthur e Guilherme Deusdará       |
 
-Das dividas técnicas da Sprint 07, apenas a [[US26] exportar dados para o formato KML para os pontos/área foram concluídas]() foi concluída.
+Das dividas técnicas da Sprint 07, apenas a [[US37] Tela de criação de comunidade](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/56) foi concluída.
 
 
 
