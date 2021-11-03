@@ -211,25 +211,37 @@ Igual a 1: O andamento do projeto dentro do orçamento.
 
 ### Valor Agregado X Valor Planejado
 
- **Sprint 1** - Primeira sprint de desenvolvimento com pontos planejados, é possível notar um grande salto do PV para o EV nesta Sprint já que planejamos uma quantidade pontos muito grande e muitas funcionalidades foram implementadas, cada funcionalidade tem seu custo e seu tempo de trabalho, sendo assim o tempo trabalhado foi maior que o estimado, também houveram reuniões de treinamento e curva de aprendizagem nesa etapa do projeto, o que também agrega valor já que o tempo e o escopo aumentaram.
+ **Sprint 1** - Primeira sprint de desenvolvimento com pontos planejados, é possível notar um grande salto do PV para o EV nesta Sprint já que planejamos uma quantidade pontos muito grande e muitas funcionalidades foram implementadas, cada funcionalidade tem seu custo e seu tempo de trabalho, sendo assim o tempo trabalhado foi maior que o estimado, também houveram reuniões de treinamento e curva de aprendizagem nesa etapa do projeto, o que também agrega valor já que o tempo e o escopo aumentaram. Além das features relacionadas as US's tivemos também features de documentação, devops e outras que podem ser vistas na lisra de features.
 
  **Requisitos Relacionados as alterações ocorridas na Sprint 1**
  
 - **US's relacionadas:**  [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34),[US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44), [US36](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/69)
 
-- **Lista de issues feitas na sprint 1:** [Sprint1](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7136302&entity=milestones)
+- **Lista de features feitas na sprint 1:** [Sprint1](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7136302&entity=milestones)
 
-**Sprint 2** -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justamente porque conseguimos equilibrar melhor a quantidade de pontos a serem entregues (PRP) com o (PCP), entretanto ainda houve valor agreado deivido a tempo.
+**Sprint 2** -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justamente porque conseguimos equilibrar melhor a quantidade de pontos a serem entregues (PRP) com o (PCP), entretanto ainda houve valor agreado deivido a quantidade de pontos finalizados, que está acima da nossa média do velocity. Além das features relacionadas as US's tivemos também features de documentação podem ser vistas na lista de features da sprint 2.
 
  **Requisitos Relacionados as alterações ocorridas na Sprint 2**
  
-- **US's relacionadas:**  [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34),[US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44), [US36](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/69)
+- **US's relacionadas:**  [US13](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/46),[US21](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/54)
 
-- **Lista de issues feitas na sprint 1:** [Sprint1](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7136302&entity=milestones)
+- **Lista de issues feitas na sprint 2:** [Sprint2](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7138650&entity=milestones)
 
-**Sprint 3** - Já na sprint 3 temos um comportamento contrário ao que ocorreu nas sprints passadas, ou seja o EV foi menor que o Valor planejado, isto ocorre pois as entregas que foram feitas e planejadas para o escopo dessa sprint teve uma queda, e muitos pontos foram adicionados devido a dividas técnicas, ocorreu também nessa sprint um problema relacionado a tempo já que essa sprint foi maior devido a uma adpatação que o time fez para que pudessemos render mais no nosso trabalho, essa adaptação foi a mudança no dia do fechamento e planning da sprint.
+**Sprint 3** - Já na sprint 3 temos um comportamento contrário ao que ocorreu nas sprints passadas, ou seja o EV foi menor que o Valor planejado, isto ocorre pois as entregas que foram feitas e planejadas para o escopo dessa sprint teve uma queda, e muitos pontos foram adicionados devido a dividas técnicas, ocorreu também nessa sprint um problema relacionado a tempo já que essa sprint foi maior devido a uma adpatação que o time fez para que pudessemos render mais no nosso trabalho, essa adaptação foi a mudança no dia do fechamento e planning da sprint que antes ocorria nas quartas e passou a ser feito nas sextas. Além das features relacionadas as US's tivemos também features de documentação, analytics, devops e outras que podem ser vistas na lista de features da sprint 3.
 
-**Sprint 4** - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados.
+ **Requisitos Relacionados as alterações ocorridas na Sprint 3**
+ 
+- **US's relacionadas:**  [US15](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/48), [US31](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/64), [US37](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/70),
+
+- **Lista de issues feitas na sprint 3:** [Sprint3](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7138650&entity=milestones)
+
+**Sprint 4** - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados. Entretanto muitos pontos foram entregues mesmo com os atrasos. Além das features relacionadas a US's 
+
+ **Requisitos Relacionados as alterações ocorridas na Sprint 4**
+ 
+- **US's relacionadas:**  [US26](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/59) , [US07](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/40), [US13](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/46), [US31](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/64)
+
+- **Lista de issues feitas na sprint 4:** [Sprint4](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7180707&entity=milestones)
 
 ### CPI X SPI 
 
