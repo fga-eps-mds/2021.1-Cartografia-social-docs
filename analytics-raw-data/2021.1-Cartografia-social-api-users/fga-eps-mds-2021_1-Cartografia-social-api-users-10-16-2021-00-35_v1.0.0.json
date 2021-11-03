@@ -1,0 +1,37 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 0
+    },
+    "baseComponent": {
+        "id": "AXyGiU7JUYM9He6GeRGn",
+        "key": "fga-eps-mds_2021.1-Cartografia-social-api-users",
+        "name": "2021.1-Cartografia-social-api-users",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "duplicated_lines_density",
+                "value": "0.0",
+                "bestValue": true
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "coverage",
+                "value": "90.8",
+                "bestValue": false
+            },
+            {
+                "metric": "reliability_rating",
+                "value": "1.0",
+                "bestValue": true
+            }
+        ],
+        "branch": "refs/tags/v1.0.0"
+    },
+    "components": []
+}

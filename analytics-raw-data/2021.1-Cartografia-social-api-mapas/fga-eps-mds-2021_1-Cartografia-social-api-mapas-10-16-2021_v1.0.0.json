@@ -1,0 +1,1152 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 22
+    },
+    "baseComponent": {
+        "id": "AXyGeviZujezI92cC3E3",
+        "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas",
+        "name": "2021.1-Cartografia-social-api-mapas",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "duplicated_lines_density",
+                "value": "0.0",
+                "bestValue": true
+            },
+            {
+                "metric": "functions",
+                "value": "43"
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "files",
+                "value": "13"
+            },
+            {
+                "metric": "complexity",
+                "value": "54"
+            },
+            {
+                "metric": "ncloc",
+                "value": "419"
+            },
+            {
+                "metric": "coverage",
+                "value": "88.4",
+                "bestValue": false
+            },
+            {
+                "metric": "reliability_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "comment_lines_density",
+                "value": "0.9",
+                "bestValue": false
+            }
+        ],
+        "branch": "refs/tags/v1.0.0"
+    },
+    "components": [
+        {
+            "id": "AXyGevl4PCo5dkwaTrRU",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/area.dto.ts",
+            "name": "area.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/area.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "17"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "10.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRZ",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/entities/area.schema.ts",
+            "name": "area.schema.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/entities/area.schema.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "25"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "75.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRj",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/commons/exceptions",
+            "name": "commons/exceptions",
+            "qualifier": "DIR",
+            "path": "src/commons/exceptions",
+            "measures": [
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "10"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRS",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/create-area.dto.ts",
+            "name": "create-area.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/create-area.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "9"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRY",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto",
+            "name": "dto",
+            "qualifier": "DIR",
+            "path": "src/mapas/dto",
+            "measures": [
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "6"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "56"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "6.7",
+                    "bestValue": false
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRc",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/entities",
+            "name": "entities",
+            "qualifier": "DIR",
+            "path": "src/mapas/entities",
+            "measures": [
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "functions",
+                    "value": "7"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "3"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "74"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "72.2",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRg",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas",
+            "name": "mapas",
+            "qualifier": "DIR",
+            "path": "src/mapas",
+            "measures": [
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "functions",
+                    "value": "42"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "12"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "53"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "409"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "88.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "1.0",
+                    "bestValue": false
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRr",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:test/mapas",
+            "name": "mapas",
+            "qualifier": "DIR",
+            "path": "test/mapas",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRp",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:test/mapas/mapas.controller.spec.ts",
+            "name": "mapas.controller.spec.ts",
+            "qualifier": "UTS",
+            "path": "test/mapas/mapas.controller.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRe",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/mapas.controller.ts",
+            "name": "mapas.controller.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/mapas.controller.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "13"
+                },
+                {
+                    "metric": "functions",
+                    "value": "13"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "70"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "90.9",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRd",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/mapas.module.ts",
+            "name": "mapas.module.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/mapas.module.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "22"
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRq",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:test/mapas/mapas.service.spec.ts",
+            "name": "mapas.service.spec.ts",
+            "qualifier": "UTS",
+            "path": "test/mapas/mapas.service.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRf",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/mapas.service.ts",
+            "name": "mapas.service.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/mapas.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "functions",
+                    "value": "20"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "31"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "187"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "90.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRW",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/media-relation.dto.ts",
+            "name": "media-relation.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/media-relation.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "4"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRa",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/entities/mediaRelation.schema.ts",
+            "name": "mediaRelation.schema.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/entities/mediaRelation.schema.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "24"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "66.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRi",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/commons/exceptions/MicrosserviceException.ts",
+            "name": "MicrosserviceException.ts",
+            "qualifier": "FIL",
+            "path": "src/commons/exceptions/MicrosserviceException.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "10"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRV",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/point.dto.ts",
+            "name": "point.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/point.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "16"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "11.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRb",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/entities/point.schema.ts",
+            "name": "point.schema.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/entities/point.schema.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "25"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "75.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRn",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src",
+            "name": "src",
+            "qualifier": "DIR",
+            "path": "src",
+            "measures": [
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "functions",
+                    "value": "43"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "13"
+                },
+                {
+                    "metric": "complexity",
+                    "value": "54"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "419"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "88.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.9",
+                    "bestValue": false
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRt",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:test",
+            "name": "test",
+            "qualifier": "DIR",
+            "path": "test",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRX",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/update-area.dto.ts",
+            "name": "update-area.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/update-area.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        },
+        {
+            "id": "AXyGevl4PCo5dkwaTrRR",
+            "key": "fga-eps-mds_2021.1-Cartografia-social-api-mapas:src/mapas/dto/update-point.dto.ts",
+            "name": "update-point.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/mapas/dto/update-point.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "reliability_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_success_density",
+                    "value": "100.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "refs/tags/v1.0.0"
+        }
+    ]
+}
