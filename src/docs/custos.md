@@ -31,6 +31,7 @@ Seguindo esses aspectos, foi realizada uma [análise dos preços e dos modelos](
 | --- | --- | --- | --- | --- |
 | Notebook | Desenvolvimento, testes e contribuições gerais em documentação e gerência | 9 | 4.278,80 | 38.509,20 |
 
+
 ### Gasto Energético
 
 Tendo que, para o desenvolvimento, seria necessário o gasto energético associado ao uso contínudo dos equipamentos adquiridos e especificados no item anterior, foi necessário identificar o preço do [***KWh*** da região de Brasília](https://www.neoenergiabrasilia.com.br/residencial-e-rural/Paginas/tarifas.aspx) para a execução do seguinte cálculo:
@@ -45,13 +46,13 @@ Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no t
 
 | Sprint | Total de Horas | Potência Total da Sprint (KW) | Gasto da Sprint (R$) |
 | --- | --- | --- | --- |
-| Semana 1 - Pré desenvolvimento | 90 | 5,4 | 4,29 |
-| Semana 2 - pré desenvolvimento | 90 | 5,4 | 4,29 |
-| Semana 3 - pré desenvolvimento | 108 | 6,48 | 5,14 | 
-| Semana 4 - pré desenvolvimento | 108 | 6,48 | 5,14 | 
-| Semana 5 - pré desenvolvimento | 126 | 7,56 | 6,00 | 
-| Semana 6 - pré desenvolvimento | 108 | 6,48 | 5,14 |
-| Sprint 01 | 108 | 6,48 | 5,14 |
+| Semana 1 - Pré desenvolvimento | 30| 5,4 | 4,29 |
+| Semana 2 - pré desenvolvimento | 30 | 5,4 | 4,29 |
+| Semana 3 - pré desenvolvimento | 30 | 6,48 | 5,14 | 
+| Semana 4 - pré desenvolvimento | 30 | 6,48 | 5,14 | 
+| Semana 5 - pré desenvolvimento | 30 | 7,56 | 6,00 | 
+| Semana 6 - pré desenvolvimento | 30 | 6,48 | 5,14 |
+| Sprint 01 |  | 6,48 | 5,14 |
 | Sprint 02 | 108 | 6,48 | 5,14 |
 | Sprint 03 | 90 | 5,4 | 4,29 |
 | Sprint 04 | 90 | 5,4 | 4,29 |
@@ -60,22 +61,14 @@ Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no t
 | Sprint 07 | 90 | 5,4 | 4,29 |
 | Sprint 08 | 90 | 5,4 | 4,29 |
 | Sprint 09 | 90 | 5,4 | 4,29 |
+-| **Total** | **1566** | **93,96** | **74,22** |
 
 
 ### Planejamento de Custos do périodo pré-sprints
 
-Com os dados anteriores, foi possível mapear os gastos por Sprint conforme a seguinte tabela:
+**Este planejadmento do périodo pré-sprints que foi de 20/07 a 01/09, foi feito com base no EVM, a partir do dia 01/09 que começamos a desenvolver e ter sprints no GitHub com issues e histórias de usuário o cálculo dos gastos foi feito utilizando o agile EVM que se encontra detalhado mais abaixo.** 
 
-| Sprint | Gastos de Aquisições (R$) | Gasto por Desenvolvimento (R$) | Gasto de Custeio (R$) | Gasto Total (R$) |
-| --- | --- | --- | --- | --- |
-| Semana 1 | 38.509,20 | 3.544,20 | 4,29 | 42.057,69 |
-| Semana 2 | - | 4.253,04 | 5,14 | 4.258,18 |
-| Semana 3 | - | 4.253,04 | 5,14 | 4.258,18 |
-| Semana 4 | - | 3.544,20 | 394,29 | 3.938,49 |
-| Semana 5 | - | 3.544,20 | 4,29 | 3.558,49 |
-| Semana 6 | - | 3.544,20 | 4,29 | 3.558,49 |
-
-## EVM (*Earned value management*)
+### EVM (*Earned value management*)**
 
 Gerenciamento de valor agregado, do Inglês, *Earned value management * (EVM) é uma metodologia de gerenciamento de projeto que integra cronograma, custos e escopo para medir o desempenho do projeto com base em valores planejados e reais, prevendo o futuro ao permiir que os gerentes de projeto se ajustem de acordo.
 
@@ -83,7 +76,19 @@ O EVM se concentra no uso de dados em análises de tendências e previsões, sen
 
 Para controle dos dados de planejamento de gastos foram utilizados elementos do EVM tradicional bem como influências do Agile EVM.
 
-## Agile EVM
+
+| Semanas | Horas Por Membro | Total de Membros | Total de Horas | Custo Por Hora (R$) | Custo Total périodo 20/07 a 01/09 (R$) |
+| --- | --- | --- | --- | --- | --- |
+| Semana 01 | 5 | 9 | 30 | 18,75 | 5062.5 |
+| Semana 02 | 5 | 9 | 30 | 18,75 | 5062.5 |
+| Semana 03 | 5 | 9 | 30 | 18,75 | 5062.5 |
+| Semana 04 | 5 | 9 | 30 | 18,75 | 5062.5 |
+| Semana 05| 5 | 9 | 30 | 18,75 | 5062.5 |
+| Semana 06 | 5 | 9 | 30 | 18,75 | 5062.5 |
+| **Total** | **180** | **9** | **1620** | **18,75** | **30375** |
+
+
+## Agile EVM 
 
 O Agile EVM é uma adaptação do modelo tradicional, cujo foco está em mapear por pontos relevantes da estrutura de desenvolvimento ágil, principalmente quanto à *Release*, proporcionando um panorama geral de como cada gasto é destinado e mapeado por Sprint, permitindo até mesmo compreender o impacto do valor agregado das pontuações de histórias de usuário.
 
