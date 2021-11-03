@@ -192,15 +192,15 @@ Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC,
 
 **SPI (Indice de perfomace por cronograma):** O cálculo do SPI é dado por SPI = EV / PV e ele nos mostra o progresso do projeto em relação ao que foi estabelecido no cronograma (Pontuação de issue, definições de histórias etc). Para analisarmos temos as seguintes definições
 
-Maior que 1: O projeto está adiantado ao cronograma.
-Menor que 1 : O projeto está atrasado.
-Igual a 1: O andamento do projeto está alinhado ao cronograma.
+- Maior que 1: O projeto está adiantado ao cronograma.
+- Menor que 1 : O projeto está atrasado.
+- Igual a 1: O andamento do projeto está alinhado ao cronograma.
 
 **CPI (Indice de perfomace por custo):** O cálculo do CPI é dado por CPI = EV / AC e ele nos mostra a relação entre valor agregado e custo atual do projeto, sua interpretção se parece com o SPI:
 
-Maior que 1: O projeto está acima do orçamento.
-Menor que 1 : O projeto está abaixo do orçamento.
-Igual a 1: O andamento do projeto dentro do orçamento.
+- Maior que 1: O projeto está acima do orçamento.
+- Menor que 1 : O projeto está abaixo do orçamento.
+- Igual a 1: O andamento do projeto dentro do orçamento.
 
 
 # Intepretando os gráficos 
@@ -245,7 +245,13 @@ Igual a 1: O andamento do projeto dentro do orçamento.
 
 ### CPI X SPI 
 
-Na primeira release é possível notar através do CPI e do SPI que houveram atrasos no cronograma de custo e de escopo e não foram entregues todas as funcionalidades previstas.
+**sprint 1**: Na sprint 1 tanto o CPI e quanto o SPI são maiores que 1, isso se deve ao fato de estrmos adiantados no cronograma mesmo se tendo dividas técnicas nessa sprint, muita coisa foi implementada e é uma das sprints mais produtivas do projeto, isso também acarretou em um EV mais alto logo essa sprint fugiu do orçamento devido a quantidade de pontos entregues. 
+
+**Sprint 2**: Já na sprint 2 temos um CPI > 1, e um SPI < 1, o que é algo bem negativo já que houve atraso no cronograma e aumento de custo do orçamento, isso se deve as dividas técnicas que foram tratadas como sprint features.
+
+**Sprint 3**: Na sprint 3 temos ambas as métricas < 1, entretanto a métrica de CPI foi a que mais se aproximou de 1 até o momento desta sprint, já o SPI caiu justamente porque houve queda no EV e também ocorreu devido a queda no cronograma.
+
+**Sprint 4**: Na sprint quatro novamente ambas as métricas são menores que um e isso é um forte indicador da nossa mudança de cronograma que ocorreu na sprint 3 e que foi listada anteriormente na interpretação do gráfico de valor agregado dessa release.
 
 ### CV X SV
 
