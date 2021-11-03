@@ -203,29 +203,48 @@ Menor que 1 : O projeto está abaixo do orçamento.
 Igual a 1: O andamento do projeto dentro do orçamento.
 
 
-# Intepretando os gráficos Valor planejado X Valor Agregado (Dast Tabelas Apresentadas Acima)
-
-## **Release Major 0.0.1**
+# Intepretando os gráficos 
 
 **Periodo pré-desenvolvimento** - Esta sprint não houve desenvolvimento, entretanto já estavamos trabalhando na elicitação de requisitos e no lean incepction, desenvolvento os artefatos necessários como documento de visão, documento de arquitetura, backlog do produto, etc. Nesse período o cálculo de custo foi feito a partir das horas trabalhadas.
 
+## Release Major 0.0.1
+
+### Valor Agregado X Valor Planejado
+
  **Sprint 1** - Primeira sprint de desenvolvimento com pontos planejados, é possível notar um grande salto do PV para o EV nesta Sprint já que planejamos uma quantidade pontos muito grande e muitas funcionalidades foram implementadas, cada funcionalidade tem seu custo e seu tempo de trabalho, sendo assim o tempo trabalhado foi maior que o estimado, também houveram reuniões de treinamento e curva de aprendizagem nesa etapa do projeto, o que também agrega valor já que o tempo e o escopo aumentaram.
 
+ **Requisitos Relacionados as alterações ocorridas na Sprint 1**
+ 
+- **US's relacionadas:**  [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34),[US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44), [US36](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/69)
+
+- **Lista de issues feitas na sprint 1:** [Sprint1](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7136302&entity=milestones)
+
 **Sprint 2** -  Na sprint dois já conseguimos equilibra melhor o PV com o EV justamente porque conseguimos equilibrar melhor a quantidade de pontos a serem entregues (PRP) com o (PCP), entretanto ainda houve valor agreado deivido a tempo.
+
+ **Requisitos Relacionados as alterações ocorridas na Sprint 2**
+ 
+- **US's relacionadas:**  [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34),[US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44), [US36](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/69)
+
+- **Lista de issues feitas na sprint 1:** [Sprint1](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7136302&entity=milestones)
 
 **Sprint 3** - Já na sprint 3 temos um comportamento contrário ao que ocorreu nas sprints passadas, ou seja o EV foi menor que o Valor planejado, isto ocorre pois as entregas que foram feitas e planejadas para o escopo dessa sprint teve uma queda, e muitos pontos foram adicionados devido a dividas técnicas, ocorreu também nessa sprint um problema relacionado a tempo já que essa sprint foi maior devido a uma adpatação que o time fez para que pudessemos render mais no nosso trabalho, essa adaptação foi a mudança no dia do fechamento e planning da sprint.
 
 **Sprint 4** - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados.
 
-**CPI e SPI:** Na primeira release é possível notar através do CPI e do SPI que houveram atrasos no cronograma de custo e de escopo e não foram entregues todas as funcionalidades previstas.
+### CPI X SPI 
 
-**Release Major MVP**
+Na primeira release é possível notar através do CPI e do SPI que houveram atrasos no cronograma de custo e de escopo e não foram entregues todas as funcionalidades previstas.
+
+### CV X SV
+
+
+## **Release Major MVP**
 
 Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
 
 **CPI e SPI:** Na release do MVP todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
 
-**Release Major 1.0**
+## **Release Major 1.0**
 
 **Sprint 6** - Na sprint 6 houve um salto do PV para o EV devido a complexidade das features que foram entregadas, apesar de APC ter sido de 85%.gráficos
 
@@ -233,7 +252,7 @@ Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado fo
 
 **CPI e SPI:** Na release 1.0 todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
 
-**Release Major 2.0**
+## **Release Major 2.0**
 
 **Sprint 8 e 9** - Na sprint 8 e 9 nós basicamente temos o mesmo comportamento do gráfico PV x EV em ambos houve uma subida justamente pq precisamos adicionar pontos para melhorar e arredondar o produto, apesar do planejamento ser maior que o nosso escópo houveram problemas com a cliente por conta da definição do escopo e do MVP.
 
