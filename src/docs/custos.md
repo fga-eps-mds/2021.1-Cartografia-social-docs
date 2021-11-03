@@ -10,34 +10,12 @@
 
 ## Tabela Geral de Custos do Projeto
 
+Para o custo médio de desenvolvimento foi estimado a quantidade de horas de trabalho total por membro do projeto, por sprint, para um custeio embasado na obtenção dos dados de um salário médio de um desenvolvedor de software da graduação, como ainda não temos diploma o salário e a carga horária considerados foram a média de um estágiario que ganha 1500 reais por 60h mensais, isso da cerca de 18,75 reais a hora trabalhada.
+
 Para o planejamento de custos do Projeto, foi realizada uma análise de diversos fatores mercadológicos para a construção da seguinte tabela, sumarizando os diversos aspectos que geram custos para o projeto como um todo. A seguinte tabela se encontra [aqui](https://docs.google.com/spreadsheets/d/1tsxEeGRkSujDorQhbVZn12We2zhT1jF9ugV597QH_uk/edit?usp=sharing). Este planejamento foi o nosso planejamento e estimativas iniciais, uma tabela de evm mais detalhada será mostrada abaixo.
 
 <iframe src="https://docs.google.com/spreadsheets/d/1tsxEeGRkSujDorQhbVZn12We2zhT1jF9ugV597QH_uk/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Custos Por Categoria
-### Desenvolvimento
-
-Para o custo médio de desenvolvimento foi estimado a quantidade de horas de trabalho total por membro do projeto, por sprint, para um custeio embasado na obtenção dos [dados de um salário médio de um desenvolvedor](https://www.payscale.com/research/BR/Job=Software_Developer/Salary) em nível de experiência médio, adequado às experiências dos membros, permitindo dispor os dados conforme a seguinte tabela:
-
-| Sprints | Horas Por Membro | Total de Membros | Total de Horas | Custo Por Hora (R$) | Custo Total (R$) |
-| --- | --- | --- | --- | --- | --- |
-| 00 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 01 | 12 | 9 | 108 | 39,38 | 4.253,04 |
-| 02 | 12 | 9 | 108 | 39,38 | 4.253,04 |
-| 03 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 04 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 05 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 06 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 07 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 08 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 09 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 10 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 11 | 10 | 9 | 90 | 39,38 | 3.544,20 |
-| 12 | 12 | 9 | 108 | 39,38 | 4.253,04 |
-| 13 | 12 | 9 | 108 | 39,38 | 4.253,04 |
-| 14 | 14 | 9 | 126 | 39,38 | 4.961,88 |
-| 15 | 12 | 9 | 108 | 39,38 | 4.253,04 |
-| **Total** | **174** | **9** | **1566** | **39,38** | **61.669,08** |
 
 ### Aquisições
 
@@ -67,47 +45,35 @@ Tendo que a potência por Aparelho é de **0,06 KW** e que são 9 aparelhos no t
 
 | Sprint | Total de Horas | Potência Total da Sprint (KW) | Gasto da Sprint (R$) |
 | --- | --- | --- | --- |
-| 00 | 90 | 5,4 | 4,29 |
-| 01 | 108 | 6,48 | 5,14 |
-| 02 | 108 | 6,48 | 5,14 |
-| 03 | 90 | 5,4 | 4,29 |
-| 04 | 90 | 5,4 | 4,29 |
-| 05 | 90 | 5,4 | 4,29 |
-| 06 | 90 | 5,4 | 4,29 |
-| 07 | 90 | 5,4 | 4,29 |
-| 08 | 90 | 5,4 | 4,29 |
-| 09 | 90 | 5,4 | 4,29 |
-| 10 | 90 | 5,4 | 4,29 |
-| 11 | 90 | 5,4 | 4,29 |
-| 12 | 108 | 6,48 | 5,14 | 
-| 13 | 108 | 6,48 | 5,14 | 
-| 14 | 126 | 7,56 | 6,00 | 
-| 15 | 108 | 6,48 | 5,14 | 
-| **Total** | **1566** | **93,96** | **74,22** |
+| Semana 1 - Pré desenvolvimento | 90 | 5,4 | 4,29 |
+| Semana 2 - pré desenvolvimento | 90 | 5,4 | 4,29 |
+| Semana 3 - pré desenvolvimento | 108 | 6,48 | 5,14 | 
+| Semana 4 - pré desenvolvimento | 108 | 6,48 | 5,14 | 
+| Semana 5 - pré desenvolvimento | 126 | 7,56 | 6,00 | 
+| Semana 6 - pré desenvolvimento | 108 | 6,48 | 5,14 |
+| Sprint 01 | 108 | 6,48 | 5,14 |
+| Sprint 02 | 108 | 6,48 | 5,14 |
+| Sprint 03 | 90 | 5,4 | 4,29 |
+| Sprint 04 | 90 | 5,4 | 4,29 |
+| Sprint 05 | 90 | 5,4 | 4,29 |
+| Sprint 06 | 90 | 5,4 | 4,29 |
+| Sprint 07 | 90 | 5,4 | 4,29 |
+| Sprint 08 | 90 | 5,4 | 4,29 |
+| Sprint 09 | 90 | 5,4 | 4,29 |
 
-### Planejamento de Custos por Sprint
+
+### Planejamento de Custos do périodo pré-sprints
 
 Com os dados anteriores, foi possível mapear os gastos por Sprint conforme a seguinte tabela:
 
 | Sprint | Gastos de Aquisições (R$) | Gasto por Desenvolvimento (R$) | Gasto de Custeio (R$) | Gasto Total (R$) |
 | --- | --- | --- | --- | --- |
-| 00 | 38.509,20 | 3.544,20 | 4,29 | 42.057,69 |
-| 01 | - | 4.253,04 | 5,14 | 4.258,18 |
-| 02 | - | 4.253,04 | 5,14 | 4.258,18 |
-| 03 | - | 3.544,20 | 394,29 | 3.938,49 |
-| 04 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 05 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 06 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 07 | - | 3.544,20 | 394,29 | 3.938,49 |
-| 08 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 09 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 10 | - | 3.544,20 | 4,29 | 3.558,49 |
-| 11 | - | 3.544,20 | 394,29 | 3.938,49 |
-| 12 | - | 4.253,04 | 5,14 | 4.258,18 |
-| 13 | - | 4.253,04 | 5,14 | 4.258,18 |
-| 14 | - | 4.961,88 | 6,00 | 4.967,88 |
-| 15 | - | 4.253,04 | 395,14 | 4.648,18 |
-| **Total** | **38.509,20** | **61.669,08** | **74,22** | **103.446,72** |
+| Semana 1 | 38.509,20 | 3.544,20 | 4,29 | 42.057,69 |
+| Semana 2 | - | 4.253,04 | 5,14 | 4.258,18 |
+| Semana 3 | - | 4.253,04 | 5,14 | 4.258,18 |
+| Semana 4 | - | 3.544,20 | 394,29 | 3.938,49 |
+| Semana 5 | - | 3.544,20 | 4,29 | 3.558,49 |
+| Semana 6 | - | 3.544,20 | 4,29 | 3.558,49 |
 
 ## EVM (*Earned value management*)
 
