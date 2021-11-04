@@ -267,7 +267,7 @@ Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se
 
 **Sprint 3**: Na sprint 3 temos um comportamento diferente, tanto o SV quanto o CV retornaram valores negativos, ou seja isso indica um grande atraso no planejamento, como já explicamos os motivos em paragráfos acima não iremos retomá-los aqui, porém os motivos que causaram o atraso no cronograma sãos os mesmos do gráfico de SPI x CPI.
 
-**Sprint 4**: Na sprint quatro novamente ambas as métricas são negativas e são decorrentes da mudança de planejamento já citada que ocorreu na release 3 e impactou não só essa Sprint como algumas sprints seguintes, acarretando atraso de cronograma e alta variação de custo.
+**Sprint 4**: Na sprint quatro novamente ambas as métricas são negativas e são decorrentes da mudança de planejamento já citada que ocorreu na release 3 e impactou não só essa Sprint como algumas sprints seguintes, acarretando atraso de cronograma e alta variação de custo, entretanto ainda foi uma sprint bem produtiva.
 
 
 ## **Release Major MVP**
@@ -276,9 +276,9 @@ Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se
 
 **Requisitos Relacionados as alterações ocorridas na Sprint 5**
  
-- **US's relacionadas:**  
+- **US's relacionadas:** [US22](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/55), [US13](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/46), [US21](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/54), [US02](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/35)
 
-- **Lista de issues feitas na sprint 5:** [Sprint5]()
+- **Lista de issues feitas na sprint 5:** [Sprint5](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7213565&entity=milestones)
 
 ### CPI x SPI:
 
