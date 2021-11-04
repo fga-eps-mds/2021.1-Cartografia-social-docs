@@ -290,9 +290,15 @@ Na variação do cv é possível observar que o custo atual foi um pouco maior q
 
 ## **Release Major 1.0**
 
-**Sprint 6** - Na sprint 6 houve um salto do PV para o EV devido a complexidade das features que foram entregadas, apesar de APC ter sido de 85%.gráficos
+**Sprint 6** - Na sprint 6 houve um salto do PV para o EV em decorrêcia da qunatidade de trabalho feita e também da complexidade do que foi elaborado, além dos pontos planejados essa sprint ainda teve uma grande entrega de correções de funcionalidades.
 
-**Sprint 7** - Na sprint 7 todo o escopo planejado foi entregado e não houveram custos adicionais apesar da divida técnica, essa foi contabilizada na Sprint passada.gráficos
+**Requisitos Relacionados as alterações ocorridas na Sprint 6**
+ 
+- **US's relacionadas:** [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34) , [US22](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/54) , [US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44)
+
+- **Lista de issues feitas na sprint 6:** [Sprint6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7235646&entity=milestones)
+
+**Sprint 7** - Na sprint 7 houve queda nos gráficos de valor agregado pois poucos pontos foram entregues devido ao mapeamento feito pela cliente quanto aos erros encontrados no MVP que havia sido disponibilizado para a mesma, sendo assim foi necessário remapear tarefas, replanejar o escopo e acabamos por decidir que dessa sprint em diante não haveriam muito mais implementações de features novas, apenas improves e features que fossem de extrema importância para a cliente, isso foi o motivo que acarretou a queda dos pontos entregues nessa sprint.
 
 ### CPI X SPI
 
