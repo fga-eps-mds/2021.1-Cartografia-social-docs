@@ -320,15 +320,32 @@ Na variação do cv é possível observar que o custo atual foi um pouco maior q
 
 ## **Release Major 2.0**
 
-**Sprint 8 e 9** - Na sprint 8 e 9 nós basicamente temos o mesmo comportamento do gráfico PV x EV em ambos houve uma subida justamente pq precisamos adicionar pontos para melhorar e arredondar o produto, apesar do planejamento ser maior que o nosso escópo houveram problemas com a cliente por conta da definição do escopo e do MVP.
+**Sprint 8** - Na sprint 8 devido as definições feitas na sprint 7, tivemos basicamente issues de improve e de correção de bugs criticos, o que não necessáriamente é ruim porém fez o EV cair em relação ao PV, entretanto o custo da sprint se manteve próximo ao EV, pois ouve valor agregado ao produto mesmo que com improves e bugfix. 
+
+**Requisitos Relacionados as alterações ocorridas na Sprint 8**
+ 
+- **US's relacionadas:** [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34)
+
+- **Lista de issues feitas na sprint 8:** [Sprint8](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7282018&entity=milestones)
+
+**Sprint 9** - Na sprint 9 temos o encerramento da disciplina e uma produtividade, muitos pontos foram fechados e ainda conseguimos implementar features no backend como a exportação dos dados em KML, a adição de pontos no mapa via latitude e longitude, alguns improves que eram previstos. 
+
+- **US's relacionadas:** 
+
+- **Lista de issues feitas na sprint 9:** [Sprint9]()
 
 ### CPI x SPI
 
-Na release do 2.0 apesar de termos executado todo o cronograma planejado por nós até o momento os cálculos não condizem com a realidade e precisarão ser refeitos ao final da entrega do produto.
+**Sprint 8** - Na sprint 8 houveram quedas nas métricas de SPI e CPI que ficaram abaixo de 1, porém isso já era previsto tendo em vista as mundanças realizadas previamente, o tempo de matéria e o tamanho do nosso escopo.
+
+**Sprint 9** - Na sprint 8 houveram quedas nas métricas de SPI e CPI que ficaram abaixo de 1, porém isso já era previsto tendo em vista as mundanças realizadas previamente, o tempo de matéria e o tamanho do nosso escopo.
 
 ### CV X SV
 
-...
+**Sprint 8** - Na sprint 8 houveram também variações de custo e escopo mas como eu havia dito isso já era previsto tanto pelo time quanto pela cliente, além disso um fator de risco que também afetou as duas ultimas sprints foi o fim do semestre e as entregas relacionadas a outras matérias.
+
+**Sprint 9** - 
+
 ## Referências
 
 * [**Informações técnicas de** ***Notebooks Check***](https://www.notebookcheck.net/The-best-laptops-for-Q2-2021-80-laptops-in-review.549940.0.html)
