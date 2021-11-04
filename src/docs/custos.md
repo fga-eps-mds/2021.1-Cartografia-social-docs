@@ -243,7 +243,7 @@ Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se
 
 **Sprint 4** - Na sprint 4 também houve uma queda consideravel no EV devido as divídas técnicas e não finalização de pontos planejados. Entretanto muitos pontos foram entregues mesmo com os atrasos. Além das features relacionadas a US's 
 
- **Requisitos Relacionados as alterações ocorridas na Sprint 4**
+**Requisitos Relacionados as alterações ocorridas na Sprint 4**
  
 - **US's relacionadas:**  [US26](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/59) , [US07](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/40), [US13](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/46), [US31](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/64)
 
@@ -272,14 +272,21 @@ Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se
 
 ## **Release Major MVP**
 
-Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
+**Sprint 5** -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
+
+**Requisitos Relacionados as alterações ocorridas na Sprint 5**
+ 
+- **US's relacionadas:**  
+
+- **Lista de issues feitas na sprint 5:** [Sprint5]()
 
 ### CPI x SPI:
 
-Na release do MVP todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+Na release do MVP temos amabas as métricas menores que um, entretanto o escopo dessa release foi reduzido em detrimento do tempo que teriamos para a entrega do projeto e por conta de uma repriorização do que seria o nosso mvp, apesar dos atrasos o replanejamento foi necessário para que pudessemos entregar o MVP para a cliente. 
 
 ### CV X SV
-...
+
+Na variação do cv é possível observar que o custo atual foi um pouco maior que o EV, entretanto o SV negativo indica que o valor agregado foi menor que o valor palnejado, no caso dessa release isso não é necessáriamente um problema já que o replanejamento foi feito acordado por ambas as partes e também visando o contexto da disciplina.
 
 ## **Release Major 1.0**
 
@@ -289,10 +296,15 @@ Na release do MVP todas as funcionalidades previstas foram entregues, ou seja o 
 
 ### CPI X SPI
 
-Na release 1.0 todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+**Sprint 6** - Na release 1.0 é possível obeservar uma grande volta na produtividade de dsesenvolvimento durante a sprint 6, após os ajustes serem feitos e o replanejamento ter sido seguido ambas as métricas de SPI e CPI tornaram a ficar acima de um, isso se deve não só a resolução de pendências técnicas como também a uma maior produtividade por parte dos alunos durante essa sprint.
+
+**Sprint 7** - Já na sprint 7 novamente voltamos a ter problemas relacionados ao cronograma do produto devido ao lançamento do MVP, após lançarmos o MVP para a cliente validar o produto, tivemos vários problemas relatados na funcionalidade por parte da cliente, bugs críticos mapeados e uma constatação por parte da cliente que o que foi entregado não estava funcionando bem, novamente precisamos nos replanejar para realizar a correção desses bugs enquanto faziamos as features desesajas, isso levou a atrasos no cronograma e nos custos sendo essa sprint uma das piores em relação a essas métricas. 
 
 ### CV X SV
-...
+
+**Sprint 6** - Lógicamente que com o adiantamento das atividases ouve aumento de valor agregado e variações de custo e cronograma.
+
+**Sprint 7** - Os mesmos motivos citados na jutificação do SPI e do CPI acarretaram em variações negativas dessas métricas.
 
 ## **Release Major 2.0**
 
