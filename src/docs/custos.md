@@ -201,8 +201,14 @@ Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC,
 - Maior que 1: O projeto está acima do orçamento.
 - Menor que 1 : O projeto está abaixo do orçamento.
 - Igual a 1: O andamento do projeto dentro do orçamento.
+ 
+**CV (Variação de Custo):** 
 
+A diferença de valor agregado  EV e o custo para produzir uma determinada peça de trabalho durante um certo período de tempo AC.
 
+**SV (Variação de Cronograma):** 
+
+Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se o projeto está andando conforme o planejado e essa métrica nos ajuda a ajustar os recursos de tempo, mão de obra e recursos de desenvolvimento, com essa métrica podemos observar qualquer mudança desfavorável no projeto e podemos avaliar esses impactos no fim de cada ciclo. Esses valores podem ser positivos ou negativos. Esses valores representam a diferença monetária entre PV e o EV. 
 # Intepretando os gráficos 
 
 **Periodo pré-desenvolvimento** - Esta sprint não houve desenvolvimento, entretanto já estavamos trabalhando na elicitação de requisitos e no lean incepction, desenvolvento os artefatos necessários como documento de visão, documento de arquitetura, backlog do produto, etc. Nesse período o cálculo de custo foi feito a partir das horas trabalhadas.
@@ -255,12 +261,25 @@ Além do cálculo do BAC e do PV, realizamos o cálculo do PPC, do APC, RPC, SC,
 
 ### CV X SV
 
+**sprint 1**: Na sprint o SV e o EV são os mesmos, isso demonstra que não houveram diferenças o valor planejado AV e o custo atual dessa sprint, sendo assim tanto o cronograma quanto o custo dessa sprint tiveram um bom desempenho. 
+
+**Sprint 2**: Na sprint 2 houve pouca diferença entre o SV e o EV, porém isso indica que o cronograma PV e o valor atual AC foram modificados e como podemos ver observando os outros gráficos e dados isso se deve aos atrasos de entregas, muitas dividas técnicas, pontos adicionados etc.
+
+**Sprint 3**: Na sprint 3 temos um comportamento diferente, tanto o SV quanto o CV retornaram valores negativos, ou seja isso indica um grande atraso no planejamento, como já explicamos os motivos em paragráfos acima não iremos retomá-los aqui, porém os motivos que causaram o atraso no cronograma sãos os mesmos do gráfico de SPI x CPI.
+
+**Sprint 4**: Na sprint quatro novamente ambas as métricas são negativas e são decorrentes da mudança de planejamento já citada que ocorreu na release 3 e impactou não só essa Sprint como algumas sprints seguintes, acarretando atraso de cronograma e alta variação de custo.
+
 
 ## **Release Major MVP**
 
 Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
 
-**CPI e SPI:** Na release do MVP todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+### CPI x SPI:
+
+Na release do MVP todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+
+### CV X SV
+...
 
 ## **Release Major 1.0**
 
@@ -268,14 +287,24 @@ Sprint 5 -  A release de MVP teve apenas uma sprint e todo o escopo planejado fo
 
 **Sprint 7** - Na sprint 7 todo o escopo planejado foi entregado e não houveram custos adicionais apesar da divida técnica, essa foi contabilizada na Sprint passada.gráficos
 
-**CPI e SPI:** Na release 1.0 todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+### CPI X SPI
+
+Na release 1.0 todas as funcionalidades previstas foram entregues, ou seja o cronograma foi executado.
+
+### CV X SV
+...
 
 ## **Release Major 2.0**
 
 **Sprint 8 e 9** - Na sprint 8 e 9 nós basicamente temos o mesmo comportamento do gráfico PV x EV em ambos houve uma subida justamente pq precisamos adicionar pontos para melhorar e arredondar o produto, apesar do planejamento ser maior que o nosso escópo houveram problemas com a cliente por conta da definição do escopo e do MVP.
 
-**CPI e SPI:** Na release do 2.0 apesar de termos executado todo o cronograma planejado por nós até o momento os cálculos não condizem com a realidade e precisarão ser refeitos ao final da entrega do produto.
+### CPI x SPI
 
+Na release do 2.0 apesar de termos executado todo o cronograma planejado por nós até o momento os cálculos não condizem com a realidade e precisarão ser refeitos ao final da entrega do produto.
+
+### CV X SV
+
+...
 ## Referências
 
 * [**Informações técnicas de** ***Notebooks Check***](https://www.notebookcheck.net/The-best-laptops-for-Q2-2021-80-laptops-in-review.549940.0.html)
