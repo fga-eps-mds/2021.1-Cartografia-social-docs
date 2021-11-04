@@ -1,4 +1,4 @@
-m1,m2,m3,m4,m5,m6,repository,version,ncloc,code_quality,testing_status,maintainability,Reliability,total
+m1,m2,m3,m4,m5,m6,repository,version,ncloc,code_quality,testing_status,Maintainability,Reliability,total
 0.5238095238095238,0.0,1.0,1.0,1.0,1.0,Cartografia-social-api-comunidades,v0.0.1,336,0.5028571428571429,1.0,0.25142857142857145,0.5,0.7514285714285714
 0.625,0.0,1.0,1.0,1.0,1.0,Cartografia-social-api-comunidades,v0.0.3,161,0.53625,1.0,0.268125,0.5,0.768125
 0.6,0.0,1.0,1.0,1.0,1.0,Cartografia-social-api-comunidades,v0.0.4,196,0.528,1.0,0.264,0.5,0.764
