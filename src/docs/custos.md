@@ -272,7 +272,7 @@ Esta métrica indica o quão atrasado ou adiantado um projeto está, ela mede se
 
 ## **Release Major MVP**
 
-**Sprint 5** -  A release de MVP teve apenas uma sprint e todo o escopo planejado foi cumprido, sendo assim essa teve seu PV, igual ao EV.gráficos
+**Sprint 5** -  A sprint do MVP teve boa parte do que foi planejado cumprido porém o valor agregado ainda foi menor que o valor atual.
 
 **Requisitos Relacionados as alterações ocorridas na Sprint 5**
  
@@ -298,13 +298,19 @@ Na variação do cv é possível observar que o custo atual foi um pouco maior q
 
 - **Lista de issues feitas na sprint 6:** [Sprint6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7235646&entity=milestones)
 
-**Sprint 7** - Na sprint 7 houve queda nos gráficos de valor agregado pois poucos pontos foram entregues devido ao mapeamento feito pela cliente quanto aos erros encontrados no MVP que havia sido disponibilizado para a mesma, sendo assim foi necessário remapear tarefas, replanejar o escopo e acabamos por decidir que dessa sprint em diante não haveriam muito mais implementações de features novas, apenas improves e features que fossem de extrema importância para a cliente, isso foi o motivo que acarretou a queda dos pontos entregues nessa sprint.
+**Sprint 7** - Na sprint 7 houve queda nos gráficos de valor agregado pois poucos pontos foram entregues devido ao mapeamento feito pela cliente quanto aos erros encontrados no MVP que havia sido disponibilizado para a mesma, sendo assim foi necessário remapear tarefas, replanejar o escopo e acabamos por decidir que dessa sprint em diante não haveriam muito mais implementações de features novas, apenas improves e features que fossem de extrema importância para a cliente, isso foi o motivo que acarretou a queda dos pontos entregues nessa sprint. Nessa sprint também reduzimos ainda mais o escopo retirando algumaa funcionalidades relacionadas ao controle de dados, além disso previamente haviamos comunicado que dentro do tempo do semestre não seria possível fazer uma aplicação offline first.
+
+**Requisitos Relacionados as alterações ocorridas na Sprint 7**
+ 
+- **US's relacionadas:** [US03](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/36), [US37](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/70), [US26](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/59) 
+
+- **Lista de issues feitas na sprint 7:** [Sprint7](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7258084&entity=milestones)
 
 ### CPI X SPI
 
-**Sprint 6** - Na release 1.0 é possível obeservar uma grande volta na produtividade de dsesenvolvimento durante a sprint 6, após os ajustes serem feitos e o replanejamento ter sido seguido ambas as métricas de SPI e CPI tornaram a ficar acima de um, isso se deve não só a resolução de pendências técnicas como também a uma maior produtividade por parte dos alunos durante essa sprint.
+**Sprint 6** - Na release 1.0 é possível obeservar uma grande volta na produtividade de dsesenvolvimento durante a sprint 6, após os ajustes serem feitos e o replanejamento ter sido seguido ambas as métricas de SPI e CPI tornaram a ficar acima de um, isso se deve não só a resolução de pendências técnicas como também a uma maior produtividade por parte dos alunos durante essa sprint. 
 
-**Sprint 7** - Já na sprint 7 novamente voltamos a ter problemas relacionados ao cronograma do produto devido ao lançamento do MVP, após lançarmos o MVP para a cliente validar o produto, tivemos vários problemas relatados na funcionalidade por parte da cliente, bugs críticos mapeados e uma constatação por parte da cliente que o que foi entregado não estava funcionando bem, novamente precisamos nos replanejar para realizar a correção desses bugs enquanto faziamos as features desesajas, isso levou a atrasos no cronograma e nos custos sendo essa sprint uma das piores em relação a essas métricas. 
+**Sprint 7** - Já na sprint 7 novamente voltamos a ter problemas relacionados ao cronograma do produto devido ao lançamento do MVP, após lançarmos o MVP para a cliente validar o produto, tivemos vários problemas relatados na funcionalidade por parte da cliente, bugs críticos mapeados e uma constatação por parte da cliente que o que foi entregado não estava funcionando bem, novamente precisamos nos replanejar para realizar a correção desses bugs enquanto faziamos as features desesajas, isso levou a atrasos no cronograma e nos custos sendo essa sprint uma das piores em relação a essas métricas.
 
 ### CV X SV
 
