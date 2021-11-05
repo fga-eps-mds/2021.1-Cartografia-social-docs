@@ -132,7 +132,7 @@ module.exports = {
         {
           title: "Dados do Analytics",
           collapsable: false,
-          children: ["analytics/analytics", "analytics/comunidades"],
+          children: ["analytics"],
         },
       ],
     },
