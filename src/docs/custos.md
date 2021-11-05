@@ -328,23 +328,23 @@ Na variação do cv é possível observar que o custo atual foi um pouco maior q
 
 - **Lista de issues feitas na sprint 8:** [Sprint8](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7282018&entity=milestones)
 
-**Sprint 9** - Na sprint 9 temos o encerramento da disciplina e uma produtividade, muitos pontos foram fechados e ainda conseguimos implementar features no backend como a exportação dos dados em KML, a adição de pontos no mapa via latitude e longitude, alguns improves que eram previstos. 
+**Sprint 9** - Na sprint 9 temos o encerramento da disciplina e uma produtividade alta, muitos pontos foram fechados e ainda conseguimos implementar features no backend como a exportação dos dados em KML, a adição de pontos no mapa via latitude e longitude, alguns improves que eram previstos. 
 
-- **US's relacionadas:** 
+- **US's relacionadas:** [US01](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/34), [US11](https://github.com/fga-eps-mds/2021.1-cartografia-social-docs/issues/44)
 
-- **Lista de issues feitas na sprint 9:** [Sprint9]()
+- **Lista de issues feitas na sprint 9:** [Sprint9](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front#workspaces/20211-cartografia-social-612be6d060341500126ba800/reports/burndown?milestoneId=7307660&entity=milestones)
 
 ### CPI x SPI
 
 **Sprint 8** - Na sprint 8 houveram quedas nas métricas de SPI e CPI que ficaram abaixo de 1, porém isso já era previsto tendo em vista as mundanças realizadas previamente, o tempo de matéria e o tamanho do nosso escopo.
 
-**Sprint 9** - Na sprint 8 houveram quedas nas métricas de SPI e CPI que ficaram abaixo de 1, porém isso já era previsto tendo em vista as mundanças realizadas previamente, o tempo de matéria e o tamanho do nosso escopo.
+**Sprint 9** - Na sprint 9 o cronograma e o custo correram como o esperado e só não ficou em 1 devido a uma issue de documentação que não foi entregue devido a falta de inputs do formulário para a documentação do teste de aceitação, entretanto todas as issues de funcionalidades foram finalizadas e entregues.
 
 ### CV X SV
 
 **Sprint 8** - Na sprint 8 houveram também variações de custo e escopo mas como eu havia dito isso já era previsto tanto pelo time quanto pela cliente, além disso um fator de risco que também afetou as duas ultimas sprints foi o fim do semestre e as entregas relacionadas a outras matérias.
 
-**Sprint 9** - 
+**Sprint 9** - Na sprint 9 tivemos uma variação de custo positiva pois o custo da sprint foi menor que o esperado entretanto o cronograma ocorreu bem com quase todo ele finalizaod exceto por um documento de teste de aceitabilidade que não foi finalizado pq precisavamos do feedback do cliente e ainda não haviamos o coletado até o momento do fechamento dessa sprint. 
 
 ## Referências
 
@@ -359,3 +359,10 @@ Na variação do cv é possível observar que o custo atual foi um pouco maior q
 * [**EVM em Projetos de Desenvolvimento Ágil**](https://files.mtstatic.com/site_8189/60/0?Expires=1631658634&Signature=mo21Tk8w4GT2Chm5Am8JT-z~Jcj5gQVpX3h-p~j~JEFg1IbyRnqh3fRZq~jyD5u4-rfAhRp8p7r3lNLK6rav~tky4eZrvQZMsF8CWlpCR8DLAhzshZJ3Yq-TyQhZoqXJGxCywR-9OEOiLTG7O8xr-DmEwWcZtZqNsxXOCdtMLxA_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA)
 More
 * [**AgileEVM - Earnerd Value Management in Scrum Projects**](https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS/blob/master/Agil_material/AgileEVM_-_Earned_Value_Management_in_Scrum_Projects.pdf)
+
+## Versionamento de edições desta página
+---
+
+| Data       | Autor         | Descrição                | Versão |
+| ---------- | ------------- | ------------------------ | ------ |
+| 04/11/2021 | Lorrany Azevedo | Correções e adição do agileEVM    | 0.1 |
