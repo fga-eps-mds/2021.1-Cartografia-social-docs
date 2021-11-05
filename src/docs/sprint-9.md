@@ -1,34 +1,26 @@
-# Sprint 3
+# Sprint 1
 
 ## Planejamento
 
-__Início da sprint:__ 15/09/2021
+__Início da sprint:__ 29/10/2021
 
-__Término da sprint:__ 24/09/2021
+__Término da sprint:__ 05/11/2021
 
 A sprint 03 continua o trabalho na histórias de usuário. Com as seguintes issues planejadas:
 
-| Issue                                                                                     | Tipo   | Descrição                                                            | Responsáveis        |
-| ----------------------------------------------------------------------------------------- | ------ | -------------------------------------------------------------------- | ------------------- |
-| [#16](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/16) | Feat   | [US19] Adição de membro administrador                                | Arthur, Marco       |
-| [#17](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/17) | Feat   | [US37] Adicionar membros a comunidade, fazer o controle de membros   | Guy, Lorrayne       |
-| [#27](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/27)     | Feat   | [US19] Integrar gateway com serviços para definição de administrador | Arthur, Marco       |
-| [#28](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/28)     | Feat   | [US37] Expor endpoints para controle de membros da comunidade        | Guy, Lorrayne       |
-| [#31](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/10)       | Feat   | [US31] Persistir Audio                                               | Guy, Leo            |
-| [#84](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs/issues/84)            | Doc    | [DOCS] Documentar fechamento de sprint 2                             | Mikha               |
-| [#84](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs/issues/85)            | Doc    | [DOCS] Documentar Sprint 03                                          | Guy                 |
-| [#20](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/20)           | CI     | [DEVOPS] Arrumar testes do front                                     | Marco, Alexandre    |
-| [#21](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/21)           | Feat   | [US31] Tela de áudio                                                 | Mikha, Arthur       |
-| [#14](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/14) | Feat   | [US15] CRUD da comunidade                                            | Elias, Leo          |
-| [#12](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/12) | CI     | [DEVOPS] Corrigir CI/SonarCloud possa pegar as métricas de coverage  | Elias               |
-| [#23](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/23)     | CI     | [DEVOPS] Corrigir CI/SonarCloud possa pegar as métricas de coverage  | Elias               |
-| [#10](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-mapas/issues/10)       | CI     | [DEVOPS] Corrigir CI/SonarCloud possa pegar as métricas de coverage  | Elias               |
-| [#8](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/8)         | CI     | [DEVOPS] Corrigir CI/SonarCloud possa pegar as métricas de coverage  | Elias               |
-| [#9](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-users/issues/9)         | CI     | [DEVOPS] Corrigir CI/SonarCloud possa pegar as métricas de coverage  | Elias               |
-| [#24](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/24)     | Feat   | [US15] Integrar gateway com o serviço para criação de perfis         | Elias, Leo          |
-| [#25](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/25)           | Improv | Criar regras de navegação                                            | Deusdará, Alexandre |
-
-
+| Issue | Tipo | Descrição | Responsáveis |
+| --- | --- | --- | ---|
+| [#35](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/35) | Feat | Corrigir documentação de instalação | Marco e Leonardo |
+| [#56](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/56) | Feat | Corrigir documentação de instalação | Marco e Leonardo |
+| [#25](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-mapas/issues/25) | Feat | Corrigir documentação de instalação | Marco e Leonardo |
+| [#17](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-users/issues/17) | Feat | Corrigir documentação de instalação | Marco e Leonardo |
+| [#17](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/17) | Feat | Corrigir documentação de instalação | Marco e Leonardo |
+| [#95](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs/issues/95) | Feat | [DOCS] Documentação das métricas do SonarQube | Guilherme Guy, Lorrany e Alexandre |
+| [#101](https://github.com/fga-eps-mds/2021.1-Cartografia-social-docs/issues/101) | Feat | Criar documentação de testes de usabilidade | Guilherme Guy, Mikhaelle e Alexandre |
+| [#67](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/67) | Feat | [US01] Excluir ponto | Marco e Lorrany |
+| [#68](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/68) | Feat | [US11] Pegar pontos pela api | Arthur e Guilherme Deusdará |
+| [#77](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/77) | Feat | Corrigir documentação de instalação do front | Marco e Leonardo |
+| [#84](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/84) | Feat | [ADDITIONAL] Mostrar inputs para latitude e longitude na criação de ponto e área | Gulherme Deusdará |
 
 
 ## Dividas Técnicas da Sprint 02
