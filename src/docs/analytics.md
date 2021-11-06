@@ -31,14 +31,43 @@ Após colhermos os dados fizemos as seguintes análises para cada repositório.
 
 ### Frontend
 
-**Complexidade**
-![1](src/images/front/complexidade.png)
+![1](../images/front/complexidade.png)
 
-**Comentários**
-![2](src/images/front/comentarios.png)
+![2](../images/front/comentarios.png)
 
-**Duplicações**
-![3](src/images/front/duplicacoes.png)
+![3](../images/front/duplicacoes.png)
+
+### Gateway
+
+![1](../images/gateway/complexidade.png)
+
+![2](../images/gateway/comentarios.png)
+
+![3](../images/gateway/duplicacoes.png)
+
+### Midias
+
+![1](../images/midia/complexidade.png)
+
+![2](../images/midia/comentarios.png)
+
+![3](../images/midia/duplicacoes.png)
+
+### Users
+
+![1](../images/users/complexidade.png)
+
+![2](../images/users/comentarios.png)
+
+![3](../images/users/duplicacoes.png)
+
+### Mapas
+
+![1](../images/mapas/complexidade.png)
+
+![2](../images/mapas/comentarios.png)
+
+![3](../images/mapas/duplicacoes.png)
 
 ## Análise de estatistica descritiva (média, moda, mediana, desvio padrão, variância, mínimo, máximo )
 
