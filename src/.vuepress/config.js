@@ -129,6 +129,11 @@ module.exports = {
           collapsable: false,
           children: ["custos"],
         },
+        {
+          title: "Dados do Analytics",
+          collapsable: false,
+          children: ["analytics"],
+        },
       ],
     },
   },
