@@ -79,7 +79,7 @@ module.exports = {
         {
           title: "Backlog & Sprints",
           collapsable: false,
-          children: ["product-backlog", "sprint-1", "sprint-2", "sprint-5", "sprint-8"],
+          children: ["product-backlog", "sprint-1", "sprint-2", "sprint-3", "sprint-5", "sprint-8"],
         },
         {
           title: "Definições arquiteturais",
