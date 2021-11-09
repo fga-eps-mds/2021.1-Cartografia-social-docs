@@ -130,6 +130,11 @@ module.exports = {
           children: ["custos"],
         },
         {
+          title: "Testes de Aceitação",
+          collapsable: false,
+          children: ["teste-aceitacao"],
+        },
+        {
           title: "Dados do Analytics",
           collapsable: false,
           children: ["analytics"],
