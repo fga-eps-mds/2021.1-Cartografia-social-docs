@@ -63,6 +63,12 @@ A comunicação entre os serviços será realizada através da API Gateway, resp
 ### Diagrama de Arquitetura do React native
 ![](../../src/assets/arquitetura/react-native-archteture.png)
 
+## Modelo de dados
+
+O projeto utiliza um banco de dados não relacional - MongoDB, logo, não há MER ou DER. Contudo, a representação esquemática do Banco de dados pode ser vista conforme abaixo:
+
+![](../../src/assets/arquitetura/bd.png)
+
 __Referências:__
 
 * **EISENMAN**, Bonnie. Learning react native: Building native mobile apps with JavaScript. " O'Reilly Media, Inc.", 2015.
