@@ -51,7 +51,7 @@ A arquitetura de microsserviços é uma solução arquitetural distribuída que 
 - Usuário, serviço responsável por conter as lógicas de autenticação e armazenar as informações dos usuários.
 - Comunidade, serviço responsável por tratar toda a lógica que envolve uma comunidade e as permissões de acesso. Desenvolvido utilizando NestJS.
 - Mapa, serviço responsável por conter as informações a respeito dos mapas, pontos, áreas e relativos. Desenvolvido utilizando NEstJS.
-- Mídia, serviço responsável por gerênciar os arquivos de multimídia fornecidos pelos usuários da aplicação
+- Mídia, serviço responsável por gerenciar os arquivos de multimídia fornecidos pelos usuários da aplicação
 
 __Comunicação entre serviços:__
 
