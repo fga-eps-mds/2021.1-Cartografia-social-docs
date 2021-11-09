@@ -36,76 +36,62 @@ A sprint 04 continua o trabalho na histórias de usuário, sendo a primeira spri
 | [#21](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/21)           | Feat | [US31] Tela de áudio                                                       | Mikhaelle e Arthur             |
 | [#27](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/27)           | Feat | [US13] Enviar token do usuário ao backend                                  | Elias e Mikhaelle              |
 
-## Dividas Técnicas da Sprint 02
+## Dividas Técnicas da Sprint 03
 
-Da Sprint 02 ficaram as seguintes issues como divida técnica para a sprint 03.
+Da Sprint 03 ficaram as seguintes issues como divida técnica para a sprint 04, por conta da dificuldade de completar alguns fluxos no desenvolvimento:
 
 | Issue                                                                                   | Tipo | Descrição                                                            | Responsáveis        |
 | --------------------------------------------------------------------------------------- | ---- | -------------------------------------------------------------------- | ------------------- |
-| [#9](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/9) | Doc  | [US36] Definir as questões de criação de comunidade e criar no banco | Guy, Arthur         |
-| [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/6)       | Doc  | [US21] Persistir os dados de arquivos                                | Guy, Leo, Elias     |
-| [#6](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-midia/issues/6)       | Doc  | [US36] Formulário criação da comunidade dinâmico                     | Deusdará, Alexandre |
+| [#16](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-comunidades/issues/16) | Feat   | [US19] Adição de membro administrador                                | Arthur e Marco       |
+| [#27](https://github.com/fga-eps-mds/2021.1-Cartografia-social-api-gateway/issues/27)     | Feat   | [US19] Integrar gateway com serviços para definição de administrador | Arthur, Marco       |
+| [#20](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/20)           | CI     | [DEVOPS] Arrumar testes do front                                     | Marco, Alexandre    |
+| [#21](https://github.com/fga-eps-mds/2021.1-Cartografia-social-front/issues/21)           | Feat   | [US31] Tela de áudio                                                 | Mikha, Arthur       |
 
-As dividas técnicas da Sprint 02 foram concluídas.
+As dividas técnicas da Sprint 03 foram concluídas.
 
-### Papéis
+### **Papéis**
 
-Se deu sequencia a rotação do papel de scrum master. Lembrando que o scrum master irá rotacionar por sprint/semana, sendo que o SM anterior irá ajudar o novo, pareando e distribuindo o conhecimento dessa forma.
+Se deu sequência à rotação do papel de scrum master, com auxílio do scrum anterior para algumas orientações 
 
-**Scrum master:** Guilherme Guy
+**Scrum master:** Alexandre Miguel
 
-### Outros pontos abordados
+### **Outros pontos abordados**
 
 Outros pontos também foram abordados durante a reunião de planejamento, dentre eles:
 
-- Criar regras de navegação no frontend, definir isso como critério de aceitação para as tarefas. O trabalho inicial deste direcionamento foi transformado em uma issue
-- Foi decidido manter o menu hambúrguer no design do frontend
+- Realizar a verificação das questões acerca do deploy a ser realizado com a equipe da cartografia social
+- Marcar a reunião de acompanhamento dos aspectos gerais da disciplina
 
-## Fechamento
+## **Fechamento**
 
-Durante a reunião de fechamento foi visto que o momento de fechamento da sprint não condiz com o período produtivo da equipe, resultando na terceira sprint com dívidas técnicas. Foi feita a proposta de troca do fechamento/abertura de nova sprint para as sextas-feiras, de forma que a Sprint 03 será acrescentada de dois dias e a Sprint 04 começará sexta-feira dia 24/09 e irá até 01/10.
-
-Mesmo assim, algumas issues não foram fechadas até o horário limite, se tornando dívidas técnicas para a Sprint 04, entretanto a maioria o trabalho estava concluído, restando apenas revisar o pull request.
+Durante a reunião foi percebido que o grupo conseguiu concluir todos os pontos propostos, ainda que sentindo que o ritmo de trabalho foi mais intenso e acelerado, fazendo necessário reduzir a pontuação geral dos backlog para adequar melhor as próximas sprints à realidade do desenvolvimento do projeto.
 
 ### Burndown
 
-![](../assets/sprints/sprint_03_burndown.png)
+![](../assets/sprints/sprint_04_burndown.png)
 
-### Velocity
+### **Dívidas técnicas**
 
-![](../assets/sprints/sprint_03_velocity.png)
+Todas as issues foram realizadas nessa sprint, não gerando dívidas técnicas.
 
-> Nesta imagem devem ser ignorados os valores da Sprint 04 (ainda em progresso) e os valores registrados como "Sprint: September XX...", estes ultimos são gerados pela funcionalidade de sprints do ZenHub, que foi testada pela equipe mas substituida por milestones para realizar marcação das sprints.
+### **Quadro de pareamentos**
 
-### Dívidas técnicas
+<iframe width="800" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLHE3O8zIRwIz41POb4DXlbyhoVHY9R9vC0wSL-60NMeFVH0Fk0wqUV2v8AgRGTokYaZmwunInbF3m/pubhtml?gid=1870592004&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-As seguintes issues se tornaram dívidas técnicas para a Sprint 04:
-
-- [US19] Definição de membros administradores das comunidades
-  - [Back] Adicionar membro da comunidade como administrador [2] -> Marco, Arthur
-  - [Back - Gateway] Integrar com microsserviço [2] -> Marco, Arthur
-- Arrumar testes do front [5] -> Marco, Alexandre
-- [US31] Gravar áudio
-  - [Front] Tela de gravador de áudio [5] -> Mikha, Arthur
-
-### Quadro de pareamentos
-
-<iframe width="800" height="470" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTLHE3O8zIRwIz41POb4DXlbyhoVHY9R9vC0wSL-60NMeFVH0Fk0wqUV2v8AgRGTokYaZmwunInbF3m/pubhtml?gid=816613624&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-### Quadro de conhecimentos
+### **Quadro de conhecimentos**
 
 Conforme documento de [métricas de conhecimento](./metricas/quadro-de-conhecimentos)
 
-### Observações, comentários e melhorias possíveis
+### **Observações, comentários e melhorias possíveis**
 
 Conforme discutido no fechamento da sprint, foram feitas modificações na agenda de trabalho das sprints para melhor acomodar ao ritmo da equipe.
 
-## Versionamento de edições desta página
+## **Versionamento de edições desta página**
 
 ---
 
 | Data       | Autor         | Descrição                | Versão |
 | ---------- | ------------- | ------------------------ | ------ |
-| 21/09/2021 | Guilherme Guy | Criação do documento     | 0.1    |
-| 26/09/2021 | Guilherme Guy | Atualização do documento | 0.2    |
-| 01/10/2021 | Guilherme Guy | Finalização do documento | 1.0    |
+| 01/10/2021 | Alexandre Miguel | Criação do documento     | 0.1    |
+| 08/11/2021 | Alexandre Miguel | Atualização do documento com transcrição do registro inicial para Markdown | 0.2    |
+| 08/11/2021 | Alexandre Miguel | Finalização do documento | 1.0    |
