@@ -84,7 +84,7 @@ module.exports = {
         {
           title: "Definições arquiteturais",
           collapsable: false,
-          children: [""],
+          children: ["", 'cicd'],
         },
         {
           title: "Métricas",
