@@ -139,6 +139,11 @@ module.exports = {
           collapsable: false,
           children: ["analytics"],
         },
+        {
+          title: "Próximos Passos",
+          collapsable: false,
+          children: ["proximos-passos"],
+        },
       ],
     },
   },
