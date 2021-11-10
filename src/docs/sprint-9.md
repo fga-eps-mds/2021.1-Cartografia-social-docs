@@ -41,13 +41,13 @@ As dividas técnicas da Sprint 08 foram concluídas.
 
 ### Papéis
 
-Se deu sequencia a rotação do papel de scrum master. Lembrando que o scrum master irá rotacionar por sprint/semana, sendo que o SM anterior irá ajudar o novo, pareando e distribuindo o conhecimento dessa forma.
+Se deu sequencia a rotação do papel de scrum master.
 
 __Scrum master:__ Lorrany dos Santos
 
 ## Fechamento
 
-Durante a reunião de fechamento foi constatada finalização dos dados.
+Foi realizada uma análise do que foi implementado, sendo discutidos pontos de melhoria para futuras implementações e o levantamentos de erros e bugs conhecidos para posterior documentação.
 
 ### Burndown
 
